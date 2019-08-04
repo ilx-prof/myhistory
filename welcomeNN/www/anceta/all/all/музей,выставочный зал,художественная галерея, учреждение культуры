@@ -1,0 +1,70 @@
+<table align="center" cellspacing="2" cellpadding="2" style="border:1px solid grey;">
+<tr>
+	<td colspan="2">График работы предприятия</td>
+</tr>
+<tr>
+	<td align="right">Будни</td>
+	<td><input type="Text" name="работа в Будни"></td>
+</tr>
+<tr>
+	<td align="right">Выходные</td>
+	<td><input type="Text" name="работа в Выходные"></td>
+</tr>
+</table><br>
+
+<table width="100%" cellspacing="2" style="border:1px solid grey;">
+<tr>
+	<td colspan="2" align="center" bgcolor="#c0c0c0" >Основные характеристики предприятия</td>
+</tr>
+<tr>
+	<td align="right" width="29%">Количество залов</td>
+	<td><input type="Text" name="Количество залов"></td>
+</tr>
+<tr>
+	<td align="right">Тематика экспозиции</td>
+	<td><input type="Text" name="Тематика экспозиции"></td>
+</tr>
+<tr >
+	<td align="right" >Постоянная экспозиция</td>
+	<td><input type="Radio" name="Постоянная экспозиция" value="да" checked> да <br>
+		<input type="Radio" name="Постоянная экспозиция" value="нет"> нет </td>
+</tr>
+<tr >
+	<td align="right" >Проводятся ли выставки собраний и коллекций других музеев и галерей?</td>
+	<td><input type="Radio" name="выставки собраний и коллекций других музеев" value="да"> да <br>
+		<input type="Radio" name="выставки собраний и коллекций других музеев" value="нет" checked> нет </td>
+</tr>
+<tr >
+	<td align="right" >выставки собраний и коллекций других музеев</td>
+	<td><textarea name="выставки собраний и коллекций других музеев" rows="3" cols="40"> </textarea></td>
+</tr>
+</table><br>
+
+<table align="center" cellspacing="2" cellpadding="2"  style="border:1px solid grey;">
+<tr>
+	<td colspan="2" align="center">Стоимость входного билета</td>
+</tr>
+<tr>
+	<td align="right">Взрослый</td>
+	<td><input type="Text" name="Взрослый билет"></td>
+</tr>
+<tr>
+	<td align="right">Детский</td>
+	<td><input type="Text" name="Детский билет"></td>
+</tr>
+<tr>
+	<td align="right">Студенческий</td>
+	<td><input type="Text" name="Студенческий билет"></td>
+</tr>
+<tr>
+	<td align="right">Для иных льготных категорий</td>
+	<td><input type="Text" name="Билет Для иных льготных категорий"></td>
+</tr>
+<tr>
+	<td align="right">Если есть время беспдатного посешения</td>
+	<td><input type="Radio" name="Если есть время беспдатного посешения"  value="да"> Да<br>
+		<input type="Radio" name="Если есть время беспдатного посешения"  value="нет" checked> нет
+	</td>
+</tr>
+</table>
+<br>

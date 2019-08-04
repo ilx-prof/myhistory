@@ -1,0 +1,1 @@
+a:4:{s:4:"work";a:1:{i:0;a:1:{i:0;s:6:"ksdjlf";}}s:6:"rashod";a:0:{}s:6:"nedvig";a:0:{}s:6:"invest";a:0:{}}

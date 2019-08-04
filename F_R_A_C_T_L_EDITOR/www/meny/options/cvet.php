@@ -1,0 +1,1 @@
+<br>Множитель цветов<br><input type="TEXT" name="cvet" value="115400">

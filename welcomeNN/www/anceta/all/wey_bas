@@ -1,0 +1,26 @@
+<FIELDSET><table cellspacing="2" cellpadding="2" border="0" >
+<tr align="center">
+	<td colspan="2">Номера маршрутов</td>
+</tr>
+<tr>
+	<td align="right" width="29%">Автобуса</td>
+	<td><input type="Text" name="Автобуса"></td>
+</tr>
+<tr>
+	<td align="right">Маршрутное такси</td>
+	<td><input type="Text" name="Маршрутное такси"></td>
+</tr>
+<tr>
+	<td align="right">Тролейбус</td>
+	<td><input type="Text" name="Тролейбус"></td>
+</tr>
+<tr>
+	<td align="right">Трамвай</td>
+	<td><input type="Text" name="Трамвай"></td>
+</tr>
+<tr>
+	<td align="right">Ближайшbе места остановки обшественного транспорта</td>
+	<td><textarea name="места остановки"></textarea></td>
+</tr>
+</table>
+</FIELDSET>

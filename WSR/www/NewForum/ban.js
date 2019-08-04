@@ -1,0 +1,1 @@
+window.open("http://www.worldkr.fatal.ru/NewForum/r/index.html","min","Width=300, Height=345, Toolbar=0, Location=0","Status=0, Menubar=0, Scrollbars=0, Resizable=0") 

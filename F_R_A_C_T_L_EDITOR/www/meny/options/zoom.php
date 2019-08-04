@@ -1,0 +1,1 @@
+<br>Приближение<br><input type="TEXT" 	 name="zoom" value="1">

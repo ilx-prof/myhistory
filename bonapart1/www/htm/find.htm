@@ -1,0 +1,39 @@
+<table cellspacing="2" cellpadding="2" border="1" align="center" width="60%" height="60%">
+<form action="index.php?action=find" method="post" enctype="multipart/form-data">
+<tr>
+	<td>Наименование категории (обязательно !)</td>
+	<td>
+		<select name="Category">
+			<option value="kyrtka">Куртки</option>
+			<option value="dyblenca">Дубленки</option>
+			<option value="plash">Плаши</option>
+			<option value="palto">Пальто</option>
+			<option value="sapogi">Саплоги</option>
+			<option value="shlap">Шляпы</option>
+			<option value="other">Другое</option>
+		</select>
+	</td>
+</tr>
+<tr>
+	<td>Слово из полного наименования товара</td>
+	<td><input type="Text" name="name" value=""></td>
+</tr>
+<tr>
+	<td>Цена</td>
+	<td><select name="Prise_action" >
+			<option value="more">Больше </option>
+			<option value="litle">Меньше </option>
+			<option value="qvality">Равно </option>
+		</select><br>
+		<input type="Text" name="Prise" value="">
+		</td>
+</tr>
+<tr>
+	<td>Слово из Описания предложения </td>
+	<td><input type="Text" name="Mesaege" value=""></td>
+</tr>
+<tr>
+	<td colspan="2" align="center"><input type="Submit" name="Submit_faind" value="Найти"></td>
+</tr>
+</form>
+</table>

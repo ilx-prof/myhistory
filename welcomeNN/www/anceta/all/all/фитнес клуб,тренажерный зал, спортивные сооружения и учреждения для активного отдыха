@@ -1,0 +1,52 @@
+<table align="center" cellspacing="2" cellpadding="2" style="border:1px solid grey;">
+<tr>
+	<td colspan="2">График работы предприятия</td>
+</tr>
+<tr>
+	<td align="right">Будни</td>
+	<td><input type="Text" name="работа в Будни"></td>
+</tr>
+<tr>
+	<td align="right">Выходные</td>
+	<td><input type="Text" name="работа в Выходные"></td>
+</tr>
+</table>
+<br>
+
+<table width="100%" cellspacing="2" style="border:1px solid grey;">
+<tr>
+	<td colspan="2" align="center" bgcolor="#c0c0c0" >Основные характеристики предприятия</td>
+</tr>
+<tr>
+	<td align="right" width="29%">Количество залов для занятия спортом</td>
+	<td><input type="Text" name="Количество залов"></td>
+</tr>
+<tr>
+	<td align="right">Количество клиентов которое вы готовы обслуживать в сутки (примерно)</td>
+	<td><input type="Text" name="Количество клиентов за сутки"></td>
+</tr>
+<tr >
+	<td align="right" >Охраняемая стоянка</td>
+	<td><input type="Radio" name="Охраняемая стоянка" value="да"> да <br>
+		<input type="Radio" name="Охраняемая стоянка" value="нет" checked> нет </td>
+</tr>
+</table>
+<br>
+<table align="center" cellspacing="2" cellpadding="2"  style="border:1px solid grey;">
+<tr>
+	<td colspan="2" align="center">Стоимость обслуживания</td>
+</tr>
+<tr>
+	<td align="right">За месяц</td>
+	<td><input type="Text" name="стоимость обслуживания за месяц"></td>
+</tr>
+<tr>
+	<td align="right">За неделю</td>
+	<td><input type="Text" name="стоимсость обслуживания за неделю"></td>
+</tr>
+<tr>
+	<td align="right">Единовременно</td>
+	<td><input type="Text" name="стоимсость обслуживания единовременно"></td>
+</tr>
+</table>
+<br>

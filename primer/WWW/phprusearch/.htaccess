@@ -1,0 +1,5 @@
+AddDefaultCharset windows-1251
+<Files users.php>
+order allow,deny 
+deny from all 
+</Files>

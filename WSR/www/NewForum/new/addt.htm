@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!---------------------?
+$ip=getenv('REMOTE_ADDR');
+$from=getenv('HTTP_REFERER');
+$brouzer=getenv('HTTP_USER_AGENT');
+$all="$ip<br>$from<br>$brouzer\n";
+$fill=fopen("procm.txt","a+");
+fwrite($fill,$all);
+fclose($fill);
+
+
+if (($nick=="Fuzzy")&&($mail=="f")) $mail='fuzzy@worldkr.fatal.ru';
+$file=fopen("mess/$mat.txt","a+"); 
+$mes=htmlspecialchars($mes);
+$nick=htmlspecialchars($nick);
+$tema=htmlspecialchars($tema);
+$mail=htmlspecialchars($mail);
+$mail=strtolower($mail);
+$mail=ereg_replace(" ","",$mail);
+	$mes=str_replace("\&quot;","&q",$mes);
+	$mes=str_replace("\'","'",$mes);
+$tema=str_replace("\&quot;","&q",$tema);
+$tema=str_replace("\'","'",$tema);
+$dan="$tema|Fuz|$date&nbsp;&nbsp;$time|Fuz|$nick|Fuz|$mail"; 
+			$dan=str_replace("[r]","",$dan);$dan=str_replace("[/r]","",$dan);
+			$dan=str_replace("[y]","",$dan);$dan=str_replace("[/y]","",$dan);
+			$dan=str_replace("[w]","",$dan);$dan=str_replace("[/w]","",$dan);
+			$dan=str_replace("[url]","",$dan);$dan=str_replace("[/url]","",$dan);
+			$dan=str_replace("[смущ]","",$dan);
+			$dan=str_replace("[спок]","",$dan);
+			$dan=str_replace("[хммм]","",$dan);
+			$dan=str_replace("[хаха]","",$dan);
+			$dan=str_replace("[зло]","",$dan);
+			$dan=str_replace("[шок]","",$dan);
+			$dan=str_replace("[улыбка]","",$dan);
+			$dan=str_replace("[бебе]","",$dan);
+			$dan=str_replace("[миг]","",$dan);
+$dana="$dan|Fuz|$mes|Fuz|$ras";
+$dana=ereg_replace("\n","<br>",$dana);
+fwrite($file,"$dana\n");
+fclose($file);
+?---------------------->
+	<!--meta http-equiv="refresh" content="2; url=forum.php"--> 
+	<LINK href="Rengers.css" rel=STYLESHEET type=text/css>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+</head>
+<body bgcolor="#000000">
+<table align="center" cellspacing="0" cellpadding="0" border="0" style="filter: alpha(opacity=85);">
+<tr>
+    <td><img src="lvF.gif" width="10" height="10" border="0"></td>
+    <td background="bgF.gif"><img src="ne.gif" width="1" height="1" border="0"></td>
+    <td><img src="pvF.gif" width="10" height="10" border="0"></td>
+</tr>
+<tr>
+    <td background="bgF.gif"><img src="ne.gif" width="10" height="1" border="0"></td>
+    <td background="bgF.gif"><h1 class="Tim">Ваша тема добавлена!</h1>
+	<hr color="#77959F" size="1">
+	<div align="center"><em class="fuz">Подождите несколко секунд.<br> Страница автоматически перейдет на форум.</em></div>
+	<hr color="#77959F" size="1">
+	<p></p>
+<table align="center" cellspacing="10">
+	<tr>
+	<td><div align="center"><div class="text"><<<</div><div class="shadow" UNSELECTABLE="on"><<<</div></td>
+	<td><a href='<?php echo ("forum.php");?>'><em class="fuzzy">&nbsp;&nbsp;&nbsp;К списку тем&nbsp;&nbsp;&nbsp;</em></a></td>
+	<td><div class="text">>>></div><div class="shadow" UNSELECTABLE="on">>>></div></td>
+</tr>
+</table>
+</td>
+	<td background="bgF.gif"><img src="ne.gif" width="10" height="1" border="0"></td>
+</tr>
+<tr>
+    <td><img src="lnF.gif" width="10" height="10" border="0"></td>
+    <td background="bgF.gif"><img src="ne.gif" width="1" height="10" border="0"></td>
+    <td><img src="pnF.gif" width="10" height="10" border="0"></td>
+</tr>
+</table>
+</body>
+</html>

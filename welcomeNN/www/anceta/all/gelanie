@@ -1,0 +1,13 @@
+<table cellspacing="2" cellpadding="2" border="0" >
+<tr>
+	<td colspan="2">Имеется ли желание и возможность регулярного предоставления информации для бесплатного обновления информации на страницах www.welcomenn.ru?</td>
+</tr>
+<tr>
+	<td><input type="Radio" name="Имеется ли желание" value="нет" checked>нет<br>
+	    <input type="Radio"name="Имеется ли желание" value="Да">Да
+	</td>
+	<td>Если да то в каком виде и в каком объеме<br>
+	<TEXTAREA name="в каком виде и в каком объеме"  cols="60%" rows="3"></TEXTAREA>
+	</td>
+</tr>
+</table>

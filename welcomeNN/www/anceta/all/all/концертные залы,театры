@@ -1,0 +1,24 @@
+<table width="100%" cellspacing="2" style="border:1px solid grey;">
+<tr>
+	<td colspan="2" align="center" bgcolor="#c0c0c0" >Основные характеристики учреждения</td>
+</tr>
+<tr>
+	<td align="right" width="29%">Количество залов</td>
+	<td><input type="Text" name"Количество залов"></td>
+</tr>
+<tr>
+	<td align="right">Количество посадочных мест</td>
+	<td><input type="Text" name"Количество посадочных мест"></td>
+</tr>
+<tr >
+	<td colspan="2" align="center" style="border:1px solid grey;">Стоимость входного билета</td>
+</tr>
+<tr >
+	<td align="right" >Взрослый</td>
+	<td><input type="Text" name"Взрослый билет"></td>
+</tr>
+<tr>
+	<td align="right">Детский</td>
+	<td><input type="Text" name"Детский билет"></td>
+</tr>
+</table><br>

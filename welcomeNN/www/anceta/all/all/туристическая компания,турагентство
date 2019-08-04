@@ -1,0 +1,37 @@
+<table cellspacing="2" cellpadding="2" style="border:1px solid grey;">
+<tr>
+	<td colspan="2">График работы предприятия</td>
+</tr>
+<tr>
+	<td align="right">Будни</td>
+	<td><input type="Text" name="работа в Будни"></td>
+</tr>
+<tr>
+	<td align="right">Выходные</td>
+	<td><input type="Text" name="работа в Выходные"></td>
+</tr>
+</table>
+<br>
+<table width="100%" cellspacing="2" style="border:1px solid grey;">
+<tr>
+	<td colspan="2" align="center" bgcolor="#c0c0c0" >Основные характеристики предприятия</td>
+</tr>
+<tr>
+	<td align="center" width="29%">Год начала деятельности(полностью) <input type="Text" name="Год начала деятельности"></td>
+</tr>
+<tr valign="top">
+	<td align="center" >Предпочтения в направлениях туристического обслуживания<br>
+		(зарубежный туризм, внутренний туризм, въездной туризм,<br>
+	 шоп-туры, горнолыжные или иные виды активного туризма)</td>
+</tr>
+<tr valign="top">
+	<td align="center" colspan="2"><input type="Text" name="Предпочтения в направлениях туристического обслуживания"></td>
+</tr>
+<tr >
+	<td align="center" colspan="2" >Страны которым отдается предпочтение при формировании предложения клиентам:</td>
+</tr>
+<tr >
+	<td colspan="2" align="center"><textarea name="Страны которым отдается предпочтение" rows="3" cols="40"></textarea></td>
+</tr>
+</table>
+<br>

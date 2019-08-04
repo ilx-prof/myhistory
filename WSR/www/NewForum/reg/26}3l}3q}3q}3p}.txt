@@ -1,0 +1,8 @@
+nick      |Fuzzy|
+password  |1i}1l}1m}1l}1h}1i}1h}1g}1i}1k}1i}1g}1k}1o}1k}1g}1p}1m}1o}1h}1p}1i}|
+e-mail    |korneev2003@inbox.ru|
+avatar    |www.vpah.fatal.ru/worldkr.gif|
+site      |www.worldkr.fatal.ru|
+hobby     |Компьютеры, PHP, Спорт|
+podpis    |Cамый крутой на свете сайт Вы сейчас видите на своём экране. Всё очень круто, дамы и господа.|
+ICQ       |346165940|

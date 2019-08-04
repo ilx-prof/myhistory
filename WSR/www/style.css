@@ -1,0 +1,226 @@
+H1{
+ font-size: 17px;
+ font-weight: bold;
+ font-family: "Courier New", Courier, monospace;
+ color: #320c03;
+ text-align: center;
+}
+H2{
+ font-size: 16px;
+ font-weight: bold;
+ font-family: "Courier New", Courier, monospace;
+ color: #000062;
+}
+.porh2{
+ font-size: 16px;
+ font-weight: bold;
+ font-family: "Courier New", Courier, monospace;
+ color: #000062;
+ text-align: center;
+}
+hr{
+ color: #808080;
+ width: 100%;
+}
+body{
+ color: white;
+ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ background-color: #000000;
+ scrollbar-face-color: #708090;
+ scrollbar-base-color: #708090;
+ scrollbar-shadow-color: #003862;
+ scrollbar-highlight-color: #18afbd;
+ scrollbar-3dlight-color: #003862;
+ scrollbar-darkshadow-color: #18afbd;
+ scrollbar-track-color: #000000;
+ scrollbar-arrow-color: #000000;
+ margin-left: 0px;
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ position: absolute;
+ top: 0;
+ left: 0;
+ OVERFLOW-X: hidden;
+}
+table{
+ color: white;
+ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+.searchtext{
+	color: #ffffff;
+	background-color: transparent;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px #0503e3 solid;
+}
+.search{
+	border: 0px;
+	background-color: #737173;
+	font-size: 11px;
+	font-color: Black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	font-weight: bold;
+	width: 60px;
+	letter-spacing: 2px;
+}
+.golos{
+	border: 0px;;
+	background-image: url(/images/bgt.gif);
+	font-size: 12px;
+	font-color: Black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	font-weight: bold;
+	width: 200px;
+	letter-spacing: 1px;
+}
+#right_button_menu{
+	position: absolute; 
+	visibility: hidden;
+	background-image: url(/images/bgt.gif);
+	border: 1px dashed Black;
+	font: 8pt Tahoma;
+	padding: 0px;
+}
+#right_button_menu a{
+	padding-left: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 1px;
+	text-decoration: none;
+	cursor: pointer;
+	display: block; 
+	color: Black; 
+}
+#right_button_menu a:hover{
+	color: Black;
+	background-color: #b6b6b6;
+	width: 100%;
+}
+.inp{
+ width: 150px;
+ font-weight: bold;
+ color: Black;
+ letter-spacing: 2px;
+ cursor: pointer;
+}
+.prim{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;;
+}
+A:Link{
+ color: #C9FF73;
+ text-decoration: none;
+ font-size: 13px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+}
+A:Hover{
+ color: #ffffff;
+ text-decoration: underline;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ font-weight: bold;
+}
+A:Visited {
+ color: #C9FF73;
+ text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ font-weight: bold;
+}
+.bgpusk{
+	background-image: url(/images/bgpusk.gif);
+	background-repeat: repeat-x;
+	height: 26;
+}
+.bgperleft{
+	background-image: url(/images/per.gif);
+	background-repeat: repeat-y;
+	width:25;
+	height:100%;
+}
+.bgperight{
+	background-image: url(/images/per3.gif);
+	background-repeat: repeat-y;
+	width:25;
+	height:100%;
+}
+.parta{
+	vertical-align: middle;
+	width: 600;
+	align: center;
+	padding: 2px;
+}
+.leftparta{
+	vertical-align: middle;
+	padding: 2px;
+	width: 150;
+	align: center;
+}
+.rightparta{
+	vertical-align: middle;
+	padding: 2px;
+	width: 150;
+	align: center;
+}
+.nizbgper{
+	background-image: url(/images/nizbgper.gif);
+	background-repeat: repeat-x;
+}
+.verxbgper{
+	background-image: url(/images/verxbgper.gif);
+	background-repeat: repeat-x;
+}
+.but2{
+	background-image: url(/images/bgt.gif);
+	width: 100%;
+	border: 1px solid Gray;
+}
+.butt{
+	border: 1px dashed Gray;
+	padding-left: 10px;
+}
+.butt2{
+	border: 1px dashed Gray;
+	text-align: center;
+	color: Yellow;
+}
+h3.logo{
+	text-align: right;
+	font-size: 9px;
+	color: Red;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+em{
+	font-family: Arial, Helvetica, sans-serif;
+	color: Olive;
+}
+.small{
+ color : White;
+ font-family : Tahoma;
+ font-weight : bold;
+ text-align : center;
+ font-size : 10px;
+}
+DIV.shadow {
+	background-color: transparent;
+	font-size: 12px;
+	margin-top: -12px;
+	margin-left: 2px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+DIV.text {
+	font-size: 12px;
+	margin-bottom: -1px;
+	color: #FDF273;
+	position: relative;
+	font-weight: bold;
+}

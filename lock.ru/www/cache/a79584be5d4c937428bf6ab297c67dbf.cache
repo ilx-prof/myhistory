@@ -1,0 +1,881 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//RU">
+<html>
+<head>
+      <meta HTTP-EQUIV="Content-Type" Content="text-html; charset=windows-1251">
+      <title>.:.[ LOCK-TEAM ].:.[ Статьи ].:. Coding : PHP - Первые шаги</title>
+      <meta name="Description" content="Сетевая безопасность, Hack and Security">
+      <meta name="KeyWords" content="WSR,  .:.[ LOCK-TEAM ].:.[ Статьи ].:. Coding : PHP - Первые шаги, [, 0, ], {, Предисловие, }
+[, 1, ], {, Ведение, }
+[, 2, ], {, Первые, шаги, }
+[, 3, ], {, Заключение, }
+
+
+[, 0, ], {, Предисловие, }
+С, этой, статьи, я, решаю, начать, цикл, статей, той, же, направленности,, а, именно, помощи, новичкам, в, освоении, PHP.
+Это, связано, с, тем,, что, ко, мне, обращаются">
+      <meta name="Author" content="WSR">
+      <meta name="robots" content="index,all">
+      <meta name="revisit" content="10 days">
+      <link rel="stylesheet" type="text/css" href="/style/templates/lock-team/css/style.css">
+      <link rel="shortcut icon" href="/style/templates/lock-team/images/favicon.ico">
+      <!--http://lock-team.com.org.biz.int.pro.arpa.aero.coop.museum.name.info.edu.gov.mil.net.ru/-->
+</head>
+
+<script language="Javascript" type="text/javascript">
+///articles/coding/5.html
+defaultStatus = ".:.[ LOCK-TEAM ].:.";
+
+function imgFade ( object, destOp, rate, delta ) {
+         imgFadeObjects = new Object ( );
+         imgFadeTimers = new Object ( );
+         if ( !document.all ) return
+         if ( object != "[object]" ) {
+            setTimeout ( "imgFade("+object+","+destOp+","+rate+","+delta+")",0 );
+            return;
+         }
+
+         clearTimeout ( imgFadeTimers[object.sourceIndex] );
+
+         diff = destOp - object.filters.alpha.opacity;
+         direction = 1;
+         if  ( object.filters.alpha.opacity > destOp ) {
+            direction = -1;
+    }
+    delta = Math.min ( direction * diff, delta );
+    object.filters.alpha.opacity += direction * delta;
+
+    if ( object.filters.alpha.opacity != destOp ) {
+        imgFadeObjects[object.sourceIndex] = object;
+        imgFadeTimers[object.sourceIndex] = setTimeout ( "imgFade(imgFadeObjects["+object.sourceIndex+"],"+destOp+","+rate+","+delta+")",rate );
+    }
+}
+
+function mousein ( cart ) {
+         cart.style.backgroundColor = "#EAEAEA";
+}
+
+function mouseout ( cart ) {
+         cart.style.backgroundColor = "#FCFCFC";
+}
+
+</script>
+
+<body bottommargin="0" leftmargin="0" topmargin="0" rightmargin="0" marginheight="0" marginwidth="0" background="/style/templates/lock-team/images/bg.gif">
+<a name="top"></a>
+
+<table cellspacing="0" cellpadding="0" class="maintb" align="center" bgcolor="#ffffff" width="900">
+<tr>
+    <td>
+        <table cellspacing="0" cellpadding="0" width="100%" border="0" background="/style/templates/lock-team/images/2.jpg">
+        <tr>
+            <td align="right" style="padding-top : 25px;"><img src="/style/templates/lock-team/images/lock.gif" border="0"></td>
+            <td align="center" style="padding-left : 21px;"><a href="/" target="_parent" title="Lock-Team"><img src="/style/templates/lock-team/images/666_1.jpg" border="0" alt=".:.[ This Is Lock-Team Home Page ].:."></a></td>
+            <td align="left" style="padding-top : 25px;"><img src="/style/templates/lock-team/images/team.gif" border="0"></td>
+        </tr>
+        </table>
+        <table cellspacing="9" cellpadding="0" width="100%" border="0" height="100%">
+        <tr>
+            <td valign="top" width="150">
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Navigation ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="0" width="100%" border="0">
+                                
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/news.html" title="Новости"  >Новости</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/articles.html" title="Статьи" style="color:red" >Статьи</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/articles/modding.html" title="Modding"  >Modding</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/articles/mysql.html" title="MySQL"  >MySQL</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/articles/vb.html" title="VB"  >VB</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/articles/coding.html" title="Coding" style="color:red" >Coding</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/forum.html" title="Форум"  ><b class=date>Форум</b></a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/service.html" title="Услуги"  >Услуги</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/web_tools.html" title="Web-Tools"  >Web-Tools</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/my_archive.html" title="My Archive"  >My Archive</a>
+                                    </td>
+                                </tr>
+                                
+
+                                </table>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Friends ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="0" width="100%" border="0">
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="http://web-hack.ru/" title="Hack and Sequrity" target="_blank">Web-Hack</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="http://antichat.ru/" title="" target="_blank">AntiChat</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                </table>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ IRC ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                
+                          <center class=porr>Наш IRC канал :</center><br>
+                          <center class=por>irc.nn.ru : 6667<br>#lock-team</center>
+               
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                
+                <table bgcolor="#999999" border="0" cellpadding="0" cellspacing="1" width="150">
+                <tr>
+                    <td background="/style/templates/lock-team/images/001.gif" bgcolor="#fcfcfc" height="16" colspan="2"><center><b class=label>.:.[ Team ].:.</b></center></td>
+                </tr>
+                <tr>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=918318&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">918318</b></td>
+                                    <Td align="center"><a href="/team/members/1.html"><b class=porr>WSR</a></td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=334855&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">334855</b></td>
+                                    <Td align="center"><a href="/team/members/2.html"><b class=porr>Ra1n0</a></td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=755587&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">755587</b></td>
+                                    <Td align="center"><a href="/team/members/3.html"><b class=porr>Fragnatic</a></td>
+                                </tr>
+                                
+
+                                </table>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+
+                <br>
+
+                <table bgcolor="#999999" border="0" cellpadding="0" cellspacing="1" width="150">
+                <tr>
+                    <td background="/style/templates/lock-team/images/001.gif" bgcolor="#fcfcfc" height="16" colspan="2"><center><b class=label>.:.[ Your Info ].:.</b></center></td>
+                </tr>
+                <tr>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="3" border="0" width="100%">
+                                <tr>
+                                    <td><center class=porr>U-A</center></td>
+                                    <td class=por align="center">Mozilla FireFox</td>
+                                </tr>
+                                <tr>
+                                    <td><center class=porr>U-A-V</center></td>
+                                    <td><center class=por>1.5</center></td>
+                                </tr>
+                                <tr>
+                                    <td><center class=porr>GZIP</center></td>
+                                    <td><center class=por>On</center></td>
+                                </tr>
+                                <tr>
+                                    <td><center class=porr>IP</center></td>
+                                    <td><center class=por>127.0.0.1</center></td>
+                                </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+            </td>
+
+            <td width="100%" valign="top">
+                <TABLE cellSpacing="1" cellPadding="2" width="100%" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Content ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" style="padding : 10px;" >
+                        <center class="date">\x77\x77\x77<b class=date>\x2E</b>\x6C\x6F\x63\x6B<b class=date>\x2D</b>\x74\x65\x61\x6D<b class=date>\x2E</b>\x63\x6F\x6D</center>
+                        <center class="date">.:.[ Articles ].:.</center>
+                        <br><center class="porr">Раздел Coding -> <b class="por">PHP - Первые шаги</b></center>
+<center class="porr">Статья добавлена: <b class="por">2006-02-09</b></center>
+<center class="porr">Кем добавлена: <b class="por">wsr</b></center>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+
+<tr>
+    <td colspan="2" width="100%" class="date2" style="text-align : justify; color : #004040; "><bR><b class=date>[ <b class=porr>0</b> ] { <b class=por>Предисловие</b> }</b><br />
+<b class=date>[ <b class=porr>1</b> ] { <b class=por>Ведение</b> }</b><br />
+<b class=date>[ <b class=porr>2</b> ] { <b class=por>Первые шаги</b> }</b><br />
+<b class=date>[ <b class=porr>3</b> ] { <b class=por>Заключение</b> }</b><br />
+<br />
+<br />
+<b class=date>[ <b class=porr>0</b> ] { <b class=por>Предисловие</b> }</b><br />
+С этой статьи я решаю начать цикл статей той же направленности, а именно помощи новичкам в освоении PHP.<br />
+Это связано с тем, что ко мне обращаются люди, за помощью в исправлении каких либо проблем в их скриптах.<br />
+Зачастую в процессе общения с ними (конечно не со всеми) понимаешь, что им не хватает простых основ, которые должен знать каждый уважающий себя кодер на php.<br />
+Именно поэтому мной было принято решении написать цикл статей, которые помогут новичкам освоиться в мире кодинга на php.<br />
+Постараюсь мысленно вернуться в прошлое, во время, когда я начинал изучать php, и ответить на все свои вопросы.<br />
+Не судите строго, за написанные ниже текст, он может показаться вам слишком простым. Но собственно для кого-то может он и простой, а для новичков как раз самое то.<br />
+<br />
+<b class=date>[ <b class=porr>1</b> ] { <b class=por>Ведение</b> }</b><br />
+Что же такое это PHP?<br />
+Описание :<br />
+    "PHP: Hypertext Preprocessor" - это широко используемый язык программирования общего назначения с открытым исходным кодом.<br />
+    PHP сконструирован специально для ведения Web-разработок и может внедряться в HTML-код. #Взято из мануала<br />
+Надеюсь вы знаете язык разметки HTML. Ибо без знаний HTML вам придется туго в дальнейшем.<br />
+<br />
+Что же может PHP?<br />
+    PHP может все.<br />
+    Главным образом, область применения PHP сфокусирована на написание скриптов, работающих на стороне сервера; таким образом, PHP способен выполнять всё то, что выполняет любая другая программа CGI, например, обрабатывать данные форм, генерировать динамические страницы или отсылать и принимать cookies.<br />
+    Но PHP способен выполнять и множество других задач. #Взято из мануала<br />
+<br />
+<b class=date>[ <b class=porr>2</b> ] { <b class=por>Первые шаги</b> }</b><br />
+Файлы скриптов написанных на php должны иметь расширение *.php, *.phtml дабы успешно выполняться на сервере.<br />
+Как во всех языках программирования важно понять самые азы, и полностью разобраться с поступившими знаниями.<br />
+Для того, что бы PHP-парсер приступил к выполнению вашего скрипта, ему нужно обозначить данные которые он будет обрабатывать.<br />
+Делается это следующим образом:<br />
+<code><font color="#0000BB">&lt;?<br />
+<br />
+?&gt;</font></code><br />
+Именно <code><font color="#0000BB">&lt;? тут ?&gt;</font></code> будет находиться ваш программный код.<br />
+Вариаций для таких обозначений несколько :<br />
+<code><font color="#0000BB">&lt;?php<br />
+<br />
+?&gt;</font></code><br />
+или<br />
+<code><font color="#0000BB">&lt;script language="php"&gt;<br />
+<br />
+&lt;/script&gt;</font></code><br />
+или<br />
+<code><font color="#0000BB">&lt;%<br />
+<br />
+%&gt;</font></code><br />
+Возможность использовать то или иное описание зависит от конфигурации PHP.<br />
+Мы же будем использовать для своих скриптов только такое : <code><font color="#0000BB">&lt;?php ?&gt;</font></code> обозначению<br />
+<br />
+Приступим же к написанию нашего первого скрипта:<br />
+<code><font color="#0000BB">&lt;?php<br />
+</font><font color="#007700">print </font><font color="#DD0000">"Это мой первый скрипт"</font><font color="#007700">;<br />
+</font><font color="#0000BB">?&gt;</font></code><br />
+При выполнении этого скрипта на экране появится надпись "Это мой первый скрипт", только без кавычек.<br />
+Теперь рассмотрим что же это за команда такая print.<br />
+    Единственная функция этой команды, это вывод на экран данных.<br />
+    Существует несколько вариантов исполнения. Следующие записи аналогичны, и результат их работы будет одинаков:<br />
+          <code>print "Text";<br />
+          print ("Text" );<br />
+          print 'Text';<br />
+          print ( 'Text' );<br />
+          </code><br />
+Так же в php есть и аналог этой функции, который выполняет тоже самое, а называется эта функция echo. Т.е. так же данные можно выводить и с помощью <code>echo</code>.<br />
+Обращаю ваше внимание на то, что после каждой команды ( далее оператора ) обязательно должен стоять знак завершения работы оператора : ";" ( точка с запятой ) :))<br />
+Иначе просто на этапе компиляции интерпретатор выдаст ошибку, о неправильно написанном коде.<br />
+<br />
+Давайте теперь научимся работать с переменными.<br />
+Следующий код покажет вам, как обозначаются переменные :<br />
+<code><font color="#0000BB">&lt;?php<br />
+$text </font><font color="#007700">= </font><font color="#DD0000">"Привет"</font><font color="#007700">;<br />
+print </font><font color="#0000BB">$text</font><font color="#007700">;<br />
+</font><font color="#0000BB">?&gt;</font></code><br />
+Как видите, у нас появилась новая строчка : <code>$text = "Привет"</code>;<br />
+Переменные в php начинаются со знака доллара "$", где после знака следует имя переменной.<br />
+В нашем примере переменной <code>$text</code> будет присвоено значение "Привет".<br />
+А вот теперь для вас новое : print <code>$text</code>; Как видите существует возможность вывода на экран данных, которые содержат в себе переменные.<br />
+Результатом выполнения данного скрипта будет слово "Привет" на страничке.<br />
+<br />
+Надеюсь это усвоено.<br />
+Теперь давайте приступим к операциям с переменными.<br />
+<code><font color="#0000BB">&lt;?php<br />
+$a </font><font color="#007700">= </font><font color="#0000BB">1</font><font color="#007700">;<br />
+</font><font color="#0000BB">$b </font><font color="#007700">= </font><font color="#0000BB">2</font><font color="#007700">;<br />
+</font><font color="#0000BB">$c </font><font color="#007700">= </font><font color="#0000BB">3</font><font color="#007700">;<br />
+<br />
+</font><font color="#0000BB">$d </font><font color="#007700">= </font><font color="#0000BB">$a </font><font color="#007700">+ </font><font color="#0000BB">$b </font><font color="#007700">+ </font><font color="#0000BB">$c</font><font color="#007700">;<br />
+<br />
+print </font><font color="#0000BB">$d</font><font color="#007700">;<br />
+<br />
+</font><font color="#0000BB">?&gt;</font></code><br />
+Как видите у нас есть три переменных (<code>$a, $b, $c</code>), которые содержат в себе числа, и четвертая переменная ( <code>$d</code> ), которая содержит в себе результат произведенных операций, а именно сумму чисел расположенных в первых трех переменных.<br />
+Так же print $d; выведет на экран число 6. Заметьте, что интерпретатору не важно, какие данные ему дали, чтобы вывести на экран. Будь то строка или число, результат будет одинаковым.<br />
+Единственная разница, что при выводе числа, интерпретатору придется сначала преобразовать число в строку.<br />
+Следующим блоком будет описание комментариев в языке php<br />
+<code><font color="#0000BB">&lt;?php<br />
+<br />
+</font><font color="#FF8000">// Это однострочный комментарий<br />
+<br />
+# То же однострочный комментарий<br />
+<br />
+/* А вот это уже<br />
+   многострочный комментарий<br />
+*/<br />
+<br />
+</font><font color="#0000BB">?&gt;</font></code><br />
+Все данные, которые находятся в комментариях не воспринимаются интерпретатором, а используются лишь для описания производимых действий.<br />
+Поработаем теперь немного со строками.<br />
+<code><font color="#0000BB">&lt;?php<br />
+$first_half </font><font color="#007700">= </font><font color="#DD0000">"Я изучаю "</font><font color="#007700">;<br />
+</font><font color="#0000BB">$second_half </font><font color="#007700">= </font><font color="#DD0000">"php"</font><font color="#007700">;<br />
+<br />
+</font><font color="#0000BB">$r1 </font><font color="#007700">= </font><font color="#0000BB">$first_half </font><font color="#007700">. </font><font color="#0000BB">$second_half</font><font color="#007700">;<br />
+<br />
+</font><font color="#0000BB">$r2 </font><font color="#007700">= </font><font color="#0000BB">$first_half</font><font color="#007700">;<br />
+</font><font color="#0000BB">$r2 </font><font color="#007700">.= </font><font color="#0000BB">$second_half</font><font color="#007700">;<br />
+<br />
+print </font><font color="#0000BB">$r1</font><font color="#007700">; </font><font color="#FF8000"># выведет "Я изучаю php"<br />
+</font><font color="#007700">print </font><font color="#0000BB">$r2</font><font color="#007700">; </font><font color="#FF8000"># выведет "Я изучаю php"<br />
+</font><font color="#0000BB">?&gt;</font></code><br />
+<br />
+Как видите из примера, у нас есть две переменные( <code>$first_half, $second_half</code> ) содержащие строковые данные ( "Я изучаю ", "php" ) соответственно.<br />
+Теперь рассмотрим операцию "склеивания" двух строк. <code>$r1 = $first_half . $second_half;</code><br />
+Переменной $r1 будет присвоено значение двух "склеенных" строк. Операция присоединения ("склеивания") производится с помощью команды "."<br />
+Так же я привел второй пример, где в роли операции присоединения выступила команда ".="<br />
+Эта операция означает, что к переменной $r2 нужно присоединить переменную $second_half;<br />
+Обращаю ваше внимание на то, что до операции ".=" обязательно нужно описать переменную, к которой эта операция применяется.<br />
+Покажу на примере :<br />
+<code><font color="#0000BB">&lt;?php<br />
+$first_half </font><font color="#007700">= </font><font color="#DD0000">"Я изучаю "</font><font color="#007700">;<br />
+</font><font color="#0000BB">$second_half </font><font color="#007700">= </font><font color="#DD0000">"php"</font><font color="#007700">;<br />
+<br />
+</font><font color="#0000BB">$r2 </font><font color="#007700">.= </font><font color="#0000BB">$second_half</font><font color="#007700">;<br />
+</font><font color="#0000BB">?&gt;</font></code><br />
+Описанный код неправильно воспримется интерпретатором. Давай те взглянем на эту проблему со стороны памяти :))<br />
+<code>$first_half = "Я изучаю ";</code> - Этот код говорит препроцессору php выделить участок памяти под данные находящиеся в этой переменной. И возвращает адрес, по которому эти данные находятся в памяти.<br />
+А вот теперь наша проблемка с ".="<br />
+<code>$r2 .= $second_half;</code> - Как видно из кода выше этого участка мы не описывали переменную $r2 следовательно память под эту переменную нигде не выделена, и у нее нет адреса.<br />
+А что же мы делаем, мы пытаемся присоединить какие-то данные к несуществующему адресу в памяти, что естественно вызывает ошибку.<br />
+Исправить это положение очень просто. Нужно всего лишь до операции ".=" описать переменную $r2, к примеру так: $r2 = "";<br />
+Теперь у нас скрипт сработает нормально, и никаких ошибок он не выведет.<br />
+<br />
+Так же вернувшись к примеру с суммированием трех переменных, напишу его в стиле ".=", только в качестве оператора присоединения у нас будет выступать оператор сложения.<br />
+<code><font color="#0000BB">&lt;?php<br />
+$a </font><font color="#007700">= </font><font color="#0000BB">1</font><font color="#007700">;<br />
+</font><font color="#0000BB">$b </font><font color="#007700">= </font><font color="#0000BB">2</font><font color="#007700">;<br />
+</font><font color="#0000BB">$c </font><font color="#007700">= </font><font color="#0000BB">3</font><font color="#007700">;<br />
+<br />
+</font><font color="#0000BB">$d </font><font color="#007700">= </font><font color="#0000BB">0</font><font color="#007700">;<br />
+</font><font color="#0000BB">$d </font><font color="#007700">+= </font><font color="#0000BB">$a</font><font color="#007700">;<br />
+</font><font color="#0000BB">$d </font><font color="#007700">+= </font><font color="#0000BB">$b</font><font color="#007700">;<br />
+</font><font color="#0000BB">$d </font><font color="#007700">+= </font><font color="#0000BB">$c</font><font color="#007700">;<br />
+<br />
+print </font><font color="#0000BB">$d</font><font color="#007700">;<br />
+</font><font color="#0000BB">?&gt;</font></code><br />
+Результат тот же "6". Как видите все сделано по правилам: выделяем участок памяти под переменную <code>$d ("$d = 0")</code>, и дальше применяем операцию сложение "+=".<br />
+<br />
+По себе знаю, что в дальнейшем вам ну никак не обойтись без условий выполнения того или иного кода.<br />
+Я помогу вам в этом разобраться.<br />
+<code><font color="#0000BB">&lt;?php<br />
+$a </font><font color="#007700">= </font><font color="#0000BB">55</font><font color="#007700">;<br />
+<br />
+if ( </font><font color="#0000BB">$a </font><font color="#007700">== </font><font color="#0000BB">55 </font><font color="#007700">) {<br />
+   print </font><font color="#DD0000">"Пятьдесят пять"</font><font color="#007700">;<br />
+} else {<br />
+   print </font><font color="#0000BB">$a</font><font color="#007700">;<br />
+}<br />
+<br />
+</font><font color="#0000BB">?&gt;</font></code><br />
+После выполнения скрипта на экран выведется надпись "Пятьдесят пять".<br />
+Почему же это произошло? Все очень просто.<br />
+<code>if ( $a == 55 ) {<br />
+   print "Пятьдесят пять";<br />
+} else {<br />
+   print $a;<br />
+}</code><br />
+Вся загвоздка для вас в этом наверное. А на самом деле все очень просто.<br />
+Перепишу этот код на словах :<br />
+   если переменная $a равна 55, то выполняем вывод надписи "Пятьдесят пять",<br />
+   иначе выполняем вывод информации, которая содержится в переменной $a<br />
+Как видите все просто.<br />
+Как это выглядит с точки зрения выполнения.<br />
+Если выполняется условие стоящее в скобках <code>( $a == 55 )</code>, то будем выполнять все операции стоящие после "{", пока не достигнем "}".<br />
+Ну а если условие не выполняется, то будем выполнять операции находящиеся в пространстве между "{" и "}" оператора else.<br />
+Дамс, сложновато наверное для начала. Но все равно, надеюсь вы поняли суть, которую я хотел донести до вас.<br />
+Замечу, что операция сравнения по значению выглядит так "==", а операция присвоения выглядит так "=". Как видите, разница совсем небольшая, поэтому тщательнее проверяйте условия, а то может возникнуть ситуация, когда вроде бы все правильно, а действия не выполняются.<br />
+Существует еще и операция сравнения по значению + по типу. Т.е. мы будем сравнивать имеют ли переменные одинаковые значения и относятся ли переменные к одному и тому же типу данных. Эта операция "===".<br />
+Приведу очень простой, но наглядный пример.<br />
+<code><font color="#0000BB">&lt;?php<br />
+$a </font><font color="#007700">= </font><font color="#DD0000">"123"</font><font color="#007700">;<br />
+</font><font color="#0000BB">$b </font><font color="#007700">= </font><font color="#0000BB">123</font><font color="#007700">;<br />
+<br />
+if ( </font><font color="#0000BB">$a </font><font color="#007700">=== </font><font color="#0000BB">$b </font><font color="#007700">) {<br />
+   print </font><font color="#DD0000">"a равен b"</font><font color="#007700">;<br />
+} else {<br />
+   print </font><font color="#DD0000">"а не равен b"</font><font color="#007700">;<br />
+}<br />
+<br />
+</font><font color="#0000BB">?&gt;</font></code><br />
+Результатом выполнения скрипта будет надпись "а не равен b", так как переменная <code>$a = "123";</code> принадлежит к строковому типу данных, а переменная <code>$b = 123;</code> к целочисленному типу.<br />
+Если бы мы использовали операцию сравнения по значению ("=="), то на экране была бы надпись "a равен b";<br />
+<br />
+<b class=date>[ <b class=porr>3</b> ] { <b class=por>Заключение</b> }</b><br />
+Надеюсь в этой статье я ответил хотя бы на маленькую часть ваших вопросов.<br />
+Чем активнее вы будете задавать вопросы, тем больше ответов вы получите в следующих статьях.<br />
+Эта статья не претендует на полноту, ибо здесь описано лишь самое важное, что должен знать начинающий скрипто-писатель.<br />
+<br />
+Конец.</td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center"><br><b class=porr>Комментарии (<b class=por>нет</b>)</b><br><br></td>
+</tr>
+
+
+
+
+<tr>
+    <td colspan="2" align="center">
+        <br>
+        <b class=porr>
+           Для того что бы добавить комментарий вам нужно авторизироваться!<br>
+           Если вы не зарегистрированы, то <a href="/forum/register.php" target="_blank">зарегистрируйтесь</a>
+        </b>
+    </td>
+</tr>
+
+
+
+
+</table><br><br>
+                        <center class="date">.:.[ /Articles ].:.</center>
+                        <center class="date">\x77\x77\x77<b class=date>\x2E</b>\x6C\x6F\x63\x6B<b class=date>\x2D</b>\x74\x65\x61\x6D<b class=date>\x2E</b>\x63\x6F\x6D</center>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                <TABLE cellSpacing="1" cellPadding="2" width="100%" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Forums Posts ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" style="padding : 5px;">
+                        <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border : 1px solid #999999; border-bottom : 0;">
+<tr>
+    <td class="last_nazv"><font class="date">Название темы + описание</font></td>
+    <td class="last_otv"><font class="date">Ответов</font></td>
+    <td class="last_author"><font class="date">Автор темы</font></td>
+    <td class="last_author"><font class="date">Просмотров</font></td>
+    <td class="last_obn" align="center"><font class="date">Обновление</font></td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=4" target="_blank">asdfasdasdfasdf</a></td>
+    <td class="last_otv"><b class="por">0</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">0</b></td>
+    <td class="last_obn"><tt class=date>2006-02-09 18:41:13</tt><br>
+        <a href="/forum/showthread.php?t=4&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:40</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:32</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:24</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:16</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:08</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=1" target="_blank">First title</a></td>
+    <td class="last_otv"><b class="por">2</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">35</b></td>
+    <td class="last_obn"><tt class=date>2005-12-05 21:24:13</tt><br>
+        <a href="/forum/showthread.php?t=1&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=1" target="_blank">First title</a></td>
+    <td class="last_otv"><b class="por">2</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">35</b></td>
+    <td class="last_obn"><tt class=date>2005-12-05 21:24:06</tt><br>
+        <a href="/forum/showthread.php?t=1&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+
+</table>
+
+                    </TD>
+                </TR>
+                </TABLE>
+            </td>
+
+            <td valign="top" align="right">
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Search ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+
+                        
+                          <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                          <form action="/search.html" method="POST">
+                          <TR>
+                              <TD width=150 align="center">
+                                  <input type="TEXT" class="button" name="search_string" value="search" onmouseover="this.focus ( );" onblur="if ( value == '' ){value = 'search' }" onfocus="if ( value == 'search' ) { value ='' }"><br><br>
+                                  <input type="SUBMIT" class="button" value="Поиск">
+                              </TD>
+                          </TR>
+                          </form>
+                          </TABLE>
+               
+
+                    </TD>
+                </TR>
+                </TABLE>
+
+                <br>
+
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td>
+                        <table cellspacing="1" cellPadding="2" width="150" bgColor="#999999" border="0">
+                        <TR>
+                            <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Login ].:.</b></CENTER></TD>
+                        </TR>
+                        <TR>
+                            <TD bgColor="#fcfcfc">
+                                <TABLE cellSpacing="2" cellPadding="0" width="100%" border="0">
+                                <TR>
+                                    <TD>
+                                        <form action="/login.html" method="POST">
+<input type="hidden" name="action" value="login">
+<center class="porr">UserName</center>
+<center><input type="TEXT" class="button" name="username"></center>
+<center class="porr">Password</center>
+<center><input type="PASSWORD" class="button" name="password"></center>
+<br><center><input type="SUBMIT" class="button" name="submit" value="Войти"></center>
+</form>
+<center><a href="/forum/register.php" target="_blank">Регистрация</b></center>
+                                    </TD>
+                                </TR>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </td>
+                </tr>
+                </table>
+                
+                <br>
+                
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td>
+                        <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                        <TR>
+                            <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Sniffer ].:.</b></CENTER></TD>
+                        </TR>
+                        <TR>
+                            <TD bgColor="#fcfcfc">
+                                <TABLE cellSpacing="2" cellPadding="2" width="100%" border="0">
+                                <TR>
+                                    <TD>
+                                        <center><b class=date>Last sites in sniffer-logs : </b></center>
+                                        
+                                    </TD>
+                                </TR>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                        <tr>
+                            <td bgColor="#fcfcfc" align="center">
+                                <a href="/sniffer.html">On-Line Сниффер - <b class=porr>Log</b></a><br>
+                                <a href="/sniffer_info.html">On-Line Сниффер - <b class=porr>Info</b></a><bR>
+                            </td>
+                        </tr>
+                        </TABLE>
+                    </td>
+                </tr>
+                </table>
+                
+                <br>
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Counter ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                
+                       <center><img src="/style/templates/lock-team/images/counter.gif" class="fadethis" onMouseOut="imgFade(this,30,10,10)" onMouseOver="imgFade(this,100,30,10)"></center>
+               
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+
+                <br>
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Statistics ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150 align="center">
+                        <TABLE cellSpacing="2" cellPadding="2" width="150" border="0" align="center">
+                        <TR>
+                            <TD width=150 align="center">
+                                
+                           <table cellspacing="0" cellpadding="0" border="0" width="100%" align="center">
+                           <tr>
+                               <td colspan="2"><center class=porr>Сайт :</center></td>
+                           </tr>
+                           <tr>
+                               <td><b class=por>Новостей</b></td>
+                               <td><center class=date>2</center></td>
+                           <tr>
+                           <tr>
+                               <td><b class=por>Комментариев</b></td>
+                               <td><center class=date>0</center></td>
+                           <tr>
+                           <tr>
+                               <td colspan="2"><br></td>
+                           </tr>
+                           <tr>
+                               <td><b class=por>Статей</b></td>
+                               <td><center class=date>4</center></td>
+                           <tr>
+                           <tr>
+                               <td><b class=por>Комментариев</b></td>
+                               <td><center class=date>0</center></td>
+                           <tr>
+                           <tr>
+                               <td colspan="2"><br></td>
+                           </tr>
+                           <tr>
+                               <td colspan="2"><center class=porr>Форум :</center></td>
+                           </tr>
+                           <tr>
+                               <td><b class=por>Тем</b></td>
+                               <td><center class=date>4</center></td>
+                           <tr>
+                           <tr>
+                               <td><b class=por>Постов</b></td>
+                               <td><center class=date>11</center></td>
+                           <tr>
+                           </table>
+               
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <center><a href="/files/defaced.html" target="_blank"><b class=porr>Дефейсная страница</b></a></center>
+            </td>
+        </tr>
+        </table>
+
+        <TABLE cellSpacing="0" cellPadding="2" background="/style/templates/lock-team/images/2.jpg" width="100%" height="139" border="0">
+        <tr>
+            <td vAlign="top" align="center" colspan="3" height="100%"><Br><a href="#top">Вверх</a><br><b style="FONT-SIZE : 8pt;">.:.[ Copyright © <b class=porr>L0CK-TEAM</b>, 2005-2006 ].:.</b></td>
+        </tr>
+        <tr>
+            <td align="left" style="padding-bottom : 38px; padding-left : 6px;"><b class=porr>Generation time : <b class="por"> 0.70 сек.</b></b></td>
+            <td align="center" style="padding-bottom : 38px;" valign="bottom"></td>
+            <td align="right" style="padding-bottom : 38px; padding-right : 6px;"><b class=porr>Queries to MySQL used : <b class="por"> 14 </b></b></td>
+        </tr>
+        </TABLE>
+    </TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

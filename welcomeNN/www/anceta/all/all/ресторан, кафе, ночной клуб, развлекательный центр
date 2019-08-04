@@ -1,0 +1,55 @@
+<table cellspacing="2" cellpadding="2" style="border:1px solid grey;">
+<tr>
+	<td colspan="2">График работы предприятия</td>
+</tr>
+<tr>
+	<td align="right">Будни</td>
+	<td><input type="Text" name="работа в Будни"></td>
+</tr>
+<tr>
+	<td align="right">Выходные</td>
+	<td><input type="Text" name="работа в Выходные"></td>
+</tr>
+</table>
+<br>
+
+<table width="100%" cellspacing="2" style="border:1px solid grey;">
+<tr>
+	<td colspan="2" align="center" bgcolor="#c0c0c0" >Основные характеристики предприятия</td>
+</tr>
+<tr>
+	<td align="right" width="29%">Количество залов</td>
+	<td><input type="Text" name="Количество залов<"></td>
+</tr>
+<tr>
+	<td align="right">Количество посадочных мест</td>
+	<td><input type="Text" name="Количество посадочных мест"></td>
+</tr>
+<tr >
+	<td align="right" >Живая музыка</td>
+	<td><input type="Radio" name="Живая музыка" value="да"> да <br>
+		<input type="Radio" name="Живая музыка" value="нет" checked> нет </td>
+</tr>
+<tr >
+	<td align="right" >Танцпол</td>
+	<td><input type="Radio" name="Танцпол" value="да"> да <br>
+		<input type="Radio" name="Танцпол" value="нет" checked> нет </td>
+</tr>
+<tr valign="top">
+	<td align="right">Предпочтение кухне</td>
+	<td align="center">(среднеазиатская, кавказская, восточная, европейская, русская…)<br>	
+	<input type="Text" name="Предпочтение кухне"></td>
+</tr>
+<tr >
+	<td align="right" >Bxoд платный</td>
+	<td><input type="Radio" name="Bxoд платный" value="да"> да <br>
+		<input type="Radio" name="Bxoд платный" value="нет" checked> нет </td>
+</tr>
+<tr >
+	<td align="right" >Охраняемая стоянка</td>
+	<td><input type="Radio" name="Охраняемая стоянка" value="да"> да <br>
+		<input type="Radio" name="Охраняемая стоянка" value="нет" checked> нет </td>
+</tr>
+</table><br>
+
+

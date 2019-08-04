@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /NewForum/banners/
+Disallow: /NewForum/reg/
+Disallow: /NewForum/user/

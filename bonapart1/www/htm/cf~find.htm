@@ -1,0 +1,41 @@
+<table cellspacing="2" cellpadding="2" border="1" align="center" width="60%" height="60%">
+<form action="index.php?mod=Ed&" method="post" enctype="multipart/form-data">
+<tr>
+	<td>Наименование категории</td>
+	<td>
+		<input type="Hidden" name="id" value="">
+		<input type="Hidden" name="mod" value="Ed">
+		<select name="Category" >
+			<option value="kyrtka">Куртки</option>
+			<option value="dyblenca">Дубленки</option>
+			<option value="plash">Плаши</option>
+			<option value="palto">Пальто</option>
+			<option value="sapogi">Саплоги</option>
+			<option value="shlap">Шляпы</option>
+			<option value="other">Другое</option>
+		</select>
+	</td>
+</tr>
+<tr>
+	<td>Полное наименование товара</td>
+	<td><input type="Text" name="name" value=""></td>
+</tr>
+<tr>
+	<td>Цена</td>
+	<td><input type="Text" name="Prise" value=""></td>
+</tr>
+<tr>
+	<td>Описание предложения</td>
+	<td><textarea name="Mesaege" wrap="on" style="width:100% ; height:100%"></textarea></td>
+</tr>
+<tr>
+	<td>Загрузить картинки<br><h5>*примечание вы можете загружать до <? print $meny; ?> картинок не более 1024 кб каждая</h5>
+	</td>
+	<td id="one"  align="center">
+	</td>
+</tr>
+<tr>
+	<td colspan="2" align="center"><input type="Submit" name="Submit_new_mes" value="Оопубликовать объявление"></td>
+</tr>
+</form>
+</table>

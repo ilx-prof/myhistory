@@ -1,0 +1,382 @@
+Пишем joiner на VB (+интерфейс).
+
+<b class=porr>0x1 <b class=por>:[ Интра ]:</b>
+0x2 <b class=por>:[ Приборы и материалы ]:</b>
+0x3 <b class=por>:[ Пишем joiner ]:</b>
+0x4 <b class=por>:[ Пишем stub ]:</b>
+0x5 <b class=por>:[ Заключение ]:</b>
+</b>
+
+<b class=porr>[0x1]</b>
+Привет! Это моя первая статья так, что не судит строго. Эту тему я выбрал так как ничего похожего на VB я в и-нете не видел. Так что пришлось писать своё чудо :)
+
+<b class=porr>[0x2]</b>
+Компилятор: Micro$oft Visual Basic (я использовал версию 6.0)
+Немного ума и прямые руки )
+Цель: нужно сделать удобный joiner с интерфейсом, который будет склеивать N-ое количество файлов. Каждый файл будет распаковываться в свою папку. Вот и всё. Остаётся дело за малым :))
+
+<b class=porr>[0x3]</b>
+Итак начнём
+В общем нам понадобиться два проекта. Один будет с GUI интерфейсом, который склеивает файлы (назовём его Joiner). Второй будет переносчик файлов (назовём его Stub).
+
+Делаем первый проект.
+Тут нам понадобится форма, 2 buttons, 4 options box, 1 checkbox, listview, commondialog, textbox+всякие примочки (в общем см.рис1). Короче примерно размещаем и обзываем объекты как показано на рисунке:
+
+<center><img src="/files/images/terran/joiner.jpg"></center>
+
+Теперь начинаем писать код:
+<code>
+Option Explicit
+
+Private Const JoinerName "T3RR4N\"s JOINER"
+Private Const JoinerVersion "1.0"
+Private bGet As Boolean
+Private bSet As Boolean
+\"-------------------------
+Private Sub Form_Load()
+On Error Goto ErrorHandler \" Отлавливаем ошибки
+
+Dim StubSize as Long
+Dim StubPath as String
+
+\" Обрабатываем ListView
+ListView1.View = lvwReport
+With ListView1.ColumnHeaders
+.Add , , "Путь", 4000
+.Add , , "Имя", 1500
+.Add , , "Размер", 1500
+.Add , , "Запуск", 1500
+ 	.Add , , "Распаковка", 1500
+End With
+Me.ListView1.GridLines = True
+
+StubPath = App.Path & "\stub.exe"			\" Stub должен лежать в папке с joiner\"ом
+StubSize = FileLen(StubPath)			\" Размер Stub\"а в байтах
+
+With Me.ListView1.ListItems.Add(, , StubPath)
+        .SubItems(1) = "Stub.exe"
+        .SubItems(2) = FileLen(StubPath)
+        .SubItems(3) = "1"
+        .SubItems(4) = "A"
+End With
+
+\" Заголовок главного окна
+Me.Caption = JoinerName & "-v" & JoinerVersion & " Размер Stub\"a = " & StubSize
+
+Exit Sub
+ErrorHandler:
+MsgBox Err.Description, vbCritical + vbOKOnly, JoinerName & " VER:" & JoinerVersion
+Err.Clear
+End
+
+End Sub
+\"-------------------------
+\" Первая кнопка "Добавить файл" назовём её "CmdAddFile" и обрабатываем событие
+Private Sub CmdAddFile_Click()
+On Error GoTo AddFileError
+
+    CommonDialog.Flags = &H1000 + &H4 + &H8 + &H800
+    CommonDialog.DialogTitle = "Добавить для склейки"
+    CommonDialog.Filter = "Все файлы (*.*)|*.*"
+    CommonDialog.DefaultExt = Empty
+    CommonDialog.ShowOpen
+
+    Me.Enabled = False
+    Me.MousePointer = 11
+
+    With Me.ListView1.ListItems.Add(, , CommonDialog.FileName)
+        .SubItems(1) = CommonDialog.FileTitle
+        .SubItems(2) = FileLen(CommonDialog.FileName)
+        .SubItems(3) = "1"
+        .SubItems(4) = "T"
+    End With
+
+AddFileError:
+    Me.MousePointer = 0
+    Me.Enabled = True
+
+End Sub
+\"-------------------------
+ \" A - App.Path (Текущая директория)
+\" T - Temp (Временная директория)
+\" W - Windows (Windows директория)
+\" S - System (Windows/System(WIN9x) OR Windows/System32(Nt-Like))
+Private Sub SetSettings()
+Dim v1 As Integer
+
+    If bGet = True Then Exit Sub
+    bSet = True
+
+    v1 = Me.ListView1.SelectedItem.Index
+    Me.ListView1.ListItems.Item(v1).SubItems(1) = Me.Text1.Text
+
+    If Me.Check1.Value = 1 Then
+        Me.ListView1.ListItems.Item(v1).SubItems(3) = "1"
+    Else
+        Me.ListView1.ListItems.Item(v1).SubItems(3) = "0"
+    End If
+
+    If Me.Option4.Value = True Then Me.ListView1.ListItems.Item(v1).SubItems(4) = "A"
+    If Me.Option3.Value = True Then Me.ListView1.ListItems.Item(v1).SubItems(4) = "T"
+    If Me.Option2.Value = True Then Me.ListView1.ListItems.Item(v1).SubItems(4) = "W"
+    If Me.Option1.Value = True Then Me.ListView1.ListItems.Item(v1).SubItems(4) = "S"
+
+    bSet = False
+
+End Sub
+\"-------------------------
+\" Определение настроек каждого файла отдельно!!!
+Private Sub GetSettings()
+
+    If bSet = True Then Exit Sub
+    bGet = True
+
+    Me.Text1.Text = Me.ListView1.SelectedItem.SubItems(1)
+
+    If Me.ListView1.SelectedItem.SubItems(3) = "1" Then
+        Me.Check1.Value = 1
+    Else
+        Me.Check1.Value = 0
+    End If
+
+    If UCase(Me.ListView1.SelectedItem.SubItems(4)) = "A" Then Me.Option4.Value = True
+    If UCase(Me.ListView1.SelectedItem.SubItems(4)) = "T" Then Me.Option3.Value = True
+    If UCase(Me.ListView1.SelectedItem.SubItems(4)) = "W" Then Me.Option2.Value = True
+    If UCase(Me.ListView1.SelectedItem.SubItems(4)) = "S" Then Me.Option1.Value = True
+
+    bGet = False
+
+End Sub
+\"-------------------------
+\" Вторая кнопка
+Private Sub CmdBind_Click()
+On Error GoTo BindError
+Dim v1 As Long
+
+    CommonDialog.Flags = &H400 + &H4 + &H8 + &H2 + &H800
+    CommonDialog.DialogTitle = "Сохранить склеинный файл"
+    CommonDialog.Filter = "Exe File (*.exe)|*.exe"
+    CommonDialog.DefaultExt = ".exe"
+    CommonDialog.ShowSave
+
+    If (CommonDialog.FileName = Empty) Then
+        Exit Sub
+    End If
+
+    If FileExist(CommonDialog.FileName) = True Then Kill CommonDialog.FileName
+
+    Call BindFiles(CommonDialog.FileName)
+
+    MsgBox CommonDialog.FileName & vbCrLf & "склеен!!!", vbOKOnly + vbInformation, "Респект!"
+Exit Sub
+BindError:
+MsgBox Err.Description, vbCritical + vbOKOnly, JoinerName & " VER:" & JoinerVersion
+Err.Clear
+End
+End Sub
+\"-------------------------
+\" Процедура склеивания
+Private Sub BindFiles(BindFile As String)
+Dim v1 As Long
+Dim v2 As Long
+Dim v3 As Long
+Dim Str1 As String
+Dim Data() As Byte
+
+    v2 = 1
+
+    For v1 = 1 To Me.ListView1.ListItems.Count
+
+        v3 = FileLen(Me.ListView1.ListItems.Item(v1))
+
+        ReDim Data(v3 - 1)
+
+        Open Me.ListView1.ListItems.Item(v1) For Binary Access Read As #1
+            Get #1, , Data()
+        Close #1
+
+        Open BindFile For Binary As #1
+            Put #1, v2, Data()
+        Close #1
+
+        v2 = v2 + v3
+        DoEvents
+
+    Next v1
+
+    For v1 = 1 To Me.ListView1.ListItems.Count
+        Str1 = Str1 & Me.ListView1.ListItems.Item(v1).SubItems(1) & "|" & Me.ListView1.ListItems.Item(v1).SubItems(2) & "|" & Me.ListView1.ListItems.Item(v1).SubItems(3) & "|" & Me.ListView1.ListItems.Item(v1).SubItems(4) & "|Џ"
+    Next v1
+
+    Open BindFile For Binary As #3
+        Put #3, LOF(3) + 1, "<Ќ>" & Str1 & "</Ќ>"
+    Close #3
+
+
+End Sub
+
+Private Sub ListView1_Click()
+    Call GetSettings
+End Sub
+\"-------------------------
+\" Остальные подпрограммы
+Private Function FileExist(FileName As String) As Boolean
+
+    If Dir(FileName) <> Empty Then
+        FileExist = True
+    Else
+        FileExist = False
+    End If
+
+End Function
+
+Private Sub Option1_Click()
+    Call SetSettings
+End Sub
+
+Private Sub Option2_Click()
+    Call SetSettings
+End Sub
+
+Private Sub Option3_Click()
+    Call SetSettings
+End Sub
+
+Private Sub Option4_Click()
+    Call SetSettings
+End Sub
+
+Private Sub Check1_Click()
+    Call SetSettings
+End Sub
+
+Private Sub Text1_Change()
+    Call SetSettings
+End Sub
+
+\" ***********************
+\" Закончили писать joiner
+\" ***********************
+</code>
+
+<b class=porr>[0x5]</b>
+
+<code>
+\" *****************
+\" Теперь пишем Stub
+\" *****************
+
+Тут еам не понадобиться никакая форма так что убираем всё. Добавляем модуль. Далее привожу текст модуля.
+
+Option Explicit
+
+\" Объявляем WinAPI
+\" ShellExecuteA - командная сторка
+\" GetTempPathA - возвращает значение временной директории
+\" GetWindowsDirectoryA - папка винды
+\" GetSystemDirectoryA - системная папка
+\"-------------------------
+Private Declare Function ShellExecuteA Lib "shell32.dll" (ByVal hWnd As Long, ByVal lpOperation As String, ByVal lpFile As String, ByVal lpParameters As String, ByVal lpDirectory As String, ByVal nShowCmd As Long) As Long
+Private Declare Function GetTempPathA Lib "kernel32" (ByVal nBufferLength As Long, ByVal lpBuffer As String) As Long
+Private Declare Function GetWindowsDirectoryA Lib "kernel32" (ByVal lpBuffer As String, ByVal nSize As Long) As Long
+Private Declare Function GetSystemDirectoryA Lib "kernel32" (ByVal lpBuffer As String, ByVal nSize As Long) As Long
+
+Public Sub Main()
+On Error Resume Next
+
+    Dim Str1    As String
+    Dim Str2    As String
+    Dim Str3    As String
+    Dim Str4    As String
+
+    Dim Var1()  As String
+    Dim Var2()  As String
+
+    Dim v1      As Long
+    Dim v2      As Long
+    Dim v3      As Long
+    Dim v4      As Long
+
+    Str1 = App.Path & "\" & App.EXEName & ".exe"
+
+    Open Str1 For Binary As #1
+        Str4 = Space(LOF(1))
+        Get #1, , Str4
+    Close #1
+
+    v1 = InStr(1, Str4, "<Ќ>", vbBinaryCompare)
+    v2 = InStr(1, Str4, "</Ќ>", vbBinaryCompare)
+
+    If v1 > 0 And v2 > 0 Then
+
+        Str4 = Mid(Str4, v1 + 3, v2 - v1 - 3)
+        Var1 = Split(Str4, "Џ", , vbBinaryCompare)
+        Str4 = Empty
+
+        Open Str1 For Binary As #3
+            Str3 = Space(LOF(3))
+            Get #3, , Str3
+        Close #3
+
+        Var2 = Split(Var1(0), "|", , vbBinaryCompare)
+
+        v4 = Val(Var2(1))
+
+        For v3 = 1 To UBound(Var1) - 1
+
+            Var2 = Split(Var1(v3), "|", , vbBinaryCompare)
+
+            Str2 = GetInstallPath(Var2(3)) & "\" & Var2(0)
+
+            Str4 = Mid(Str3, v4 + 1, Val(Var2(1)))
+
+            Open Str2 For Binary Access Write As #2
+                Put #2, , Str4
+            Close #2
+            DoEvents
+
+            If Var2(2) = 1 Then Call ShellExecuteA(0, "Open", Str2, "", App.Path, 1)
+
+            v4 = v4 + Val(Var2(1))
+
+        Next v3
+
+    End If
+
+End Sub
+\"-------------------------
+Private Function GetInstallPath(Data As String) As String
+Dim lpBuffer As String
+lpBuffer = Space(260)
+
+Select Case LCase(Data)
+
+    Case "s"
+        GetInstallPath = Left$(lpBuffer, GetSystemDirectoryA(lpBuffer, 260))
+
+    Case "w"
+        GetInstallPath = Left$(lpBuffer, GetWindowsDirectoryA(lpBuffer, 260))
+
+    Case "t"
+        GetInstallPath = Left$(lpBuffer, GetTempPathA(260, lpBuffer))
+
+    Case "a"
+        GetInstallPath = App.Path
+
+End Select
+
+
+End Function
+
+\"********************
+\" Закончили писать stub
+\"********************
+</code>
+
+<b class=porr>[0x6]</b>
+
+Компилируем Stub, Joiner, кидаем в папку с joiner\"ом файл stub\"a и радуемся жизни :)))
+В дополнении хотелось бы сказать что тут можно сделать много каких фишек. Например шифрование. Но это будет уже следующая статья :))
+
+EOF
+

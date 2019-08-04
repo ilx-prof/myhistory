@@ -1,0 +1,18 @@
+<!--- <table cellspacing="2" cellpadding="2" border="1" bordercolor="#c0c0c0" width="100%" height="100%">
+<tr>
+	<td rowspan="2" width="40%" >
+		<table border="1" width="100%">
+		<tr>
+			<td>{News_Main}</td>
+		</tr>
+		<tr>
+			<td>{Ran_string}</td>
+		</tr>
+		</table>
+	</td>
+	<td height="10%">{Navigator}</td>
+</tr>
+<tr >
+	<td >{Data}</td>
+</tr>
+</table> --->

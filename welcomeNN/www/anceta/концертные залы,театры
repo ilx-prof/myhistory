@@ -1,0 +1,5 @@
+<? include ("all/form_reg") ?>
+<? include ("all/contacts") ?>
+<? include ("all/all/".$_POST['type']) ?>
+<? include ("all/wey_bas") ?>
+<? include ("all/gelanie") ?>

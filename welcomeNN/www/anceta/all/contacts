@@ -1,0 +1,22 @@
+<br>
+<table width="100%" cellspacing="2" cellpadding="2"  style="border:1px solid grey;">
+<tr>
+	<td colspan="2" >Контактные данные представителя предприятия для возможного уточнения информации:</td>
+</tr>
+<tr>
+	<td align="right">ФИО</td>
+	<td><input type="Text" name="ФИО" style="width: 100% "></td>
+</tr>
+<tr>
+	<td align="right">Должность</td>
+	<td><input type="Text" name="Должность" style="width: 200px "></td>
+</tr>
+<tr>
+	<td align="right">тел./факс</td>
+	<td><input type="Text" name="тел./факс" style="width: 100% "></td>
+</tr>
+<tr>
+	<td align="right">e-mail</td>
+	<td><input type="Text" name="e-mail" style="width: 100% "></td>
+</tr>
+</table><br>

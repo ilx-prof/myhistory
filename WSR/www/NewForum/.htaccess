@@ -1,0 +1,7 @@
+DirectoryIndex Forum.php
+
+
+<Files ban>
+order allow,deny
+deny from all
+</Files>

@@ -1,0 +1,33 @@
+ErrorDocument 400 /index.php?input[razdel_url]=error_pages&error=400
+ErrorDocument 401 /index.php?input[razdel_url]=error_pages&error=401
+ErrorDocument 403 /index.php?input[razdel_url]=error_pages&error=403
+ErrorDocument 404 /index.php?input[razdel_url]=error_pages&error=404
+ErrorDocument 405 /index.php?input[razdel_url]=error_pages&error=405
+ErrorDocument 408 /index.php?input[razdel_url]=error_pages&error=408
+ErrorDocument 410 /index.php?input[razdel_url]=error_pages&error=410
+ErrorDocument 411 /index.php?input[razdel_url]=error_pages&error=411
+ErrorDocument 412 /index.php?input[razdel_url]=error_pages&error=412
+ErrorDocument 413 /index.php?input[razdel_url]=error_pages&error=413
+ErrorDocument 414 /index.php?input[razdel_url]=error_pages&error=414
+ErrorDocument 415 /index.php?input[razdel_url]=error_pages&error=415
+ErrorDocument 500 /index.php?input[razdel_url]=error_pages&error=500
+ErrorDocument 501 /index.php?input[razdel_url]=error_pages&error=501
+ErrorDocument 502 /index.php?input[razdel_url]=error_pages&error=502
+ErrorDocument 503 /index.php?input[razdel_url]=error_pages&error=503
+ErrorDocument 506 /index.php?input[razdel_url]=error_pages&error=506
+
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.htaccess$ - [F]
+RewriteRule ^config.php$ - [F]
+RewriteRule ^files/defaced.html$ files/wsr/defaced.html
+RewriteRule ^style/templates/lock-team/images/counter.gif$ counter/index.php
+
+RewriteRule ^([a-zA-Z_]{1,})\.html$ index.php?input[razdel_url]=$1
+RewriteRule ^([a-zA-Z_]{1,})/([a-zA-Z0-9_]{1,})\.html$ index.php?input[razdel_url]=$1&input[kategoria_url]=$2
+RewriteRule ^([a-zA-Z_]{1,})/([a-zA-Z0-9_]{1,})\.html\+([1-9]{1,})$ index.php?input[razdel_url]=$1&input[kategoria_url]=$2&input[page]=$3
+RewriteRule ^([a-zA-Z_]{1,})/([a-zA-Z0-9_]{1,})/([0-9]{1,})\.html$ index.php?input[razdel_url]=$1&input[kategoria_url]=$2&input[element_id]=$3
+RewriteRule ^([a-zA-Z0-9_]{1,})\.jpg$ global_sniffer/index.php

@@ -1,0 +1,663 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//RU">
+<html>
+<head>
+      <meta HTTP-EQUIV="Content-Type" Content="text-html; charset=windows-1251">
+      <title>.:.[ LOCK-TEAM ].:.[ Web-Tools ].:.  Генерирование паролей ( Цыфры, Кирилица, Латиница, Специальные символы, Своя строка )</title>
+      <meta name="Description" content="Сетевая безопасность, Hack and Security">
+      <meta name="KeyWords" content="WSR,  .:.[ LOCK-TEAM ].:.[ Web-Tools ].:.  Генерирование паролей ( Цыфры, Кирилица, Латиница, Специальные символы, Своя строка )">
+      <meta name="Author" content="WSR">
+      <meta name="robots" content="index,all">
+      <meta name="revisit" content="10 days">
+      <link rel="stylesheet" type="text/css" href="/style/templates/lock-team/css/style.css">
+      <link rel="shortcut icon" href="/style/templates/lock-team/images/favicon.ico">
+      <!--http://lock-team.com.org.biz.int.pro.arpa.aero.coop.museum.name.info.edu.gov.mil.net.ru/-->
+</head>
+
+<script language="Javascript" type="text/javascript">
+///web_tools/password_generator.html
+defaultStatus = ".:.[ LOCK-TEAM ].:.";
+
+function imgFade ( object, destOp, rate, delta ) {
+         imgFadeObjects = new Object ( );
+         imgFadeTimers = new Object ( );
+         if ( !document.all ) return
+         if ( object != "[object]" ) {
+            setTimeout ( "imgFade("+object+","+destOp+","+rate+","+delta+")",0 );
+            return;
+         }
+
+         clearTimeout ( imgFadeTimers[object.sourceIndex] );
+
+         diff = destOp - object.filters.alpha.opacity;
+         direction = 1;
+         if  ( object.filters.alpha.opacity > destOp ) {
+            direction = -1;
+    }
+    delta = Math.min ( direction * diff, delta );
+    object.filters.alpha.opacity += direction * delta;
+
+    if ( object.filters.alpha.opacity != destOp ) {
+        imgFadeObjects[object.sourceIndex] = object;
+        imgFadeTimers[object.sourceIndex] = setTimeout ( "imgFade(imgFadeObjects["+object.sourceIndex+"],"+destOp+","+rate+","+delta+")",rate );
+    }
+}
+
+function mousein ( cart ) {
+         cart.style.backgroundColor = "#EAEAEA";
+}
+
+function mouseout ( cart ) {
+         cart.style.backgroundColor = "#FCFCFC";
+}
+
+</script>
+
+<body bottommargin="0" leftmargin="0" topmargin="0" rightmargin="0" marginheight="0" marginwidth="0" background="/style/templates/lock-team/images/bg.gif">
+<a name="top"></a>
+
+<table cellspacing="0" cellpadding="0" class="maintb" align="center" bgcolor="#ffffff" width="900">
+<tr>
+    <td>
+        <table cellspacing="0" cellpadding="0" width="100%" border="0" background="/style/templates/lock-team/images/2.jpg">
+        <tr>
+            <td align="right" style="padding-top : 25px;"><img src="/style/templates/lock-team/images/lock.gif" border="0"></td>
+            <td align="center" style="padding-left : 21px;"><a href="/" target="_parent" title="Lock-Team"><img src="/style/templates/lock-team/images/666_1.jpg" border="0" alt=".:.[ This Is Lock-Team Home Page ].:."></a></td>
+            <td align="left" style="padding-top : 25px;"><img src="/style/templates/lock-team/images/team.gif" border="0"></td>
+        </tr>
+        </table>
+        <table cellspacing="9" cellpadding="0" width="100%" border="0" height="100%">
+        <tr>
+            <td valign="top" width="150">
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Navigation ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="0" width="100%" border="0">
+                                
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/news.html" title="Новости"  >Новости</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/articles.html" title="Статьи"  >Статьи</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/forum.html" title="Форум"  ><b class=date>Форум</b></a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/service.html" title="Услуги"  >Услуги</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/web_tools.html" title="Web-Tools" style="color:red" >Web-Tools</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/web_tools/crypt.html" title="Шифрование"  >Шифрование</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/web_tools/password_generator.html" title="Генератор паролей" style="color:red" >Генератор паролей</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/my_archive.html" title="My Archive"  >My Archive</a>
+                                    </td>
+                                </tr>
+                                
+
+                                </table>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Friends ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="0" width="100%" border="0">
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="http://web-hack.ru/" title="Hack and Sequrity" target="_blank">Web-Hack</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="http://antichat.ru/" title="" target="_blank">AntiChat</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                </table>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ IRC ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                
+                          <center class=porr>Наш IRC канал :</center><br>
+                          <center class=por>irc.nn.ru : 6667<br>#lock-team</center>
+               
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                
+                <table bgcolor="#999999" border="0" cellpadding="0" cellspacing="1" width="150">
+                <tr>
+                    <td background="/style/templates/lock-team/images/001.gif" bgcolor="#fcfcfc" height="16" colspan="2"><center><b class=label>.:.[ Team ].:.</b></center></td>
+                </tr>
+                <tr>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=918318&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">918318</b></td>
+                                    <Td align="center"><a href="/team/members/1.html"><b class=porr>WSR</a></td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=334855&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">334855</b></td>
+                                    <Td align="center"><a href="/team/members/2.html"><b class=porr>Ra1n0</a></td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=755587&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">755587</b></td>
+                                    <Td align="center"><a href="/team/members/3.html"><b class=porr>Fragnatic</a></td>
+                                </tr>
+                                
+
+                                </table>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+
+                <br>
+
+                <table bgcolor="#999999" border="0" cellpadding="0" cellspacing="1" width="150">
+                <tr>
+                    <td background="/style/templates/lock-team/images/001.gif" bgcolor="#fcfcfc" height="16" colspan="2"><center><b class=label>.:.[ Your Info ].:.</b></center></td>
+                </tr>
+                <tr>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="3" border="0" width="100%">
+                                <tr>
+                                    <td><center class=porr>U-A</center></td>
+                                    <td class=por align="center">Mozilla FireFox</td>
+                                </tr>
+                                <tr>
+                                    <td><center class=porr>U-A-V</center></td>
+                                    <td><center class=por>1.5</center></td>
+                                </tr>
+                                <tr>
+                                    <td><center class=porr>GZIP</center></td>
+                                    <td><center class=por>On</center></td>
+                                </tr>
+                                <tr>
+                                    <td><center class=porr>IP</center></td>
+                                    <td><center class=por>127.0.0.1</center></td>
+                                </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+            </td>
+
+            <td width="100%" valign="top">
+                <TABLE cellSpacing="1" cellPadding="2" width="100%" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Content ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" style="padding : 10px;" >
+                        <center class="date">\x77\x77\x77<b class=date>\x2E</b>\x6C\x6F\x63\x6B<b class=date>\x2D</b>\x74\x65\x61\x6D<b class=date>\x2E</b>\x63\x6F\x6D</center>
+                        <center class="date">.:.[ Web_tools ].:.</center>
+                        <br><center class=porr>Генератор паролей : </center>
+                           <b class=date>Выбирите составляющие пароля!</b>
+                           <table cellspacing="0" cellpadding="0" border="0" width="100%" align="center">
+                           <form method="POST">
+                           <input type="HIDDEN" name="action" value="generate">
+                           <tr>
+                               <td width="50" align="right"><input type="CHECKBOX" name="allnum" ></td>
+                               <td width="150"><b class=por>Цыфры (0-9)</b></td>
+                               <td width="50" align="right"><input type="CHECKBOX" name="allspec" ></td>
+                               <td width="150"><b class=por>Спецсимволы (./?+ и др.)</b></td>
+                           </tr>
+                           <tr>
+                               <td width="50" align="right"><input type="CHECKBOX" name="alllatinmin" ></td>
+                               <td width="150"><b class=por>Латиница (a-z)</b></td>
+                               <td width="50" align="right"><input type="CHECKBOX" name="allkirilmin" ></td>
+                               <td width="150"><b class=por>Кирилица (а-я)</b></td>
+                           </tr>
+                           <tr>
+                               <td width="50" align="right"><input type="CHECKBOX" name="alllatinmax" ></td>
+                               <td width="150"><b class=por>Латиница (A-Z)</b></td>
+                               <td width="50" align="right"><input type="CHECKBOX" name="allkirilmax" ></td>
+                               <td width="150"><b class=por>Кирилица (А-Я)</b></td>
+                           </tr>
+                           <tr>
+                               <td colspan="2" align="center" style="padding-left : 24px;"><input type="TEXT" class="button" name="my_string" value=""><b class=porr> Своя строка</b></td>
+                               <td width="50" align="right"><input type="CHECKBOX" name="with_selected" ></td>
+                               <td width="150"><b class=porr>+ к выбранным</b></td>
+                           </tr>
+                           <tr>
+                               <td colspa="4"><br></td>
+                           </tr>
+                           <tr>
+                               <td width="50" align="right" style="padding-right : 3px;"><input type="TEXT" class="button" name="password_length" style="width : 24px;" value="24" maxlength="3"></td>
+                               <td><b class=por>Длинна пароля</b></td>
+                               <td width="50" align="right" style="padding-right : 3px;"><input type="TEXT" class="button" name="password_count" style="width : 18px;" value="1" maxlength="2"></td>
+                               <td><b class=por>Количество паролей</b></td>
+                           </tr>
+                           <tr>
+                               <td colspan="4" align="center"><br><input type="SUBMIT" class="button" style="width : 150px;" value="Генерировать"></td>
+                           </tr>
+                           </form>
+                           </table>
+                           <br>
+               <br>
+                        <center class="date">.:.[ /Web_tools ].:.</center>
+                        <center class="date">\x77\x77\x77<b class=date>\x2E</b>\x6C\x6F\x63\x6B<b class=date>\x2D</b>\x74\x65\x61\x6D<b class=date>\x2E</b>\x63\x6F\x6D</center>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                <TABLE cellSpacing="1" cellPadding="2" width="100%" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Forums Posts ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" style="padding : 5px;">
+                        <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border : 1px solid #999999; border-bottom : 0;">
+<tr>
+    <td class="last_nazv"><font class="date">Название темы + описание</font></td>
+    <td class="last_otv"><font class="date">Ответов</font></td>
+    <td class="last_author"><font class="date">Автор темы</font></td>
+    <td class="last_author"><font class="date">Просмотров</font></td>
+    <td class="last_obn" align="center"><font class="date">Обновление</font></td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=4" target="_blank">asdfasdasdfasdf</a></td>
+    <td class="last_otv"><b class="por">0</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">0</b></td>
+    <td class="last_obn"><tt class=date>2006-02-09 18:41:13</tt><br>
+        <a href="/forum/showthread.php?t=4&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:40</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:32</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:24</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:16</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:08</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=1" target="_blank">First title</a></td>
+    <td class="last_otv"><b class="por">2</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">35</b></td>
+    <td class="last_obn"><tt class=date>2005-12-05 21:24:13</tt><br>
+        <a href="/forum/showthread.php?t=1&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=1" target="_blank">First title</a></td>
+    <td class="last_otv"><b class="por">2</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">35</b></td>
+    <td class="last_obn"><tt class=date>2005-12-05 21:24:06</tt><br>
+        <a href="/forum/showthread.php?t=1&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+
+</table>
+
+                    </TD>
+                </TR>
+                </TABLE>
+            </td>
+
+            <td valign="top" align="right">
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Search ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+
+                        
+                          <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                          <form action="/search.html" method="POST">
+                          <TR>
+                              <TD width=150 align="center">
+                                  <input type="TEXT" class="button" name="search_string" value="search" onmouseover="this.focus ( );" onblur="if ( value == '' ){value = 'search' }" onfocus="if ( value == 'search' ) { value ='' }"><br><br>
+                                  <input type="SUBMIT" class="button" value="Поиск">
+                              </TD>
+                          </TR>
+                          </form>
+                          </TABLE>
+               
+
+                    </TD>
+                </TR>
+                </TABLE>
+
+                <br>
+
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td>
+                        <table cellspacing="1" cellPadding="2" width="150" bgColor="#999999" border="0">
+                        <TR>
+                            <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Login ].:.</b></CENTER></TD>
+                        </TR>
+                        <TR>
+                            <TD bgColor="#fcfcfc">
+                                <TABLE cellSpacing="2" cellPadding="0" width="100%" border="0">
+                                <TR>
+                                    <TD>
+                                        <form action="/login.html" method="POST">
+<input type="hidden" name="action" value="login">
+<center class="porr">UserName</center>
+<center><input type="TEXT" class="button" name="username"></center>
+<center class="porr">Password</center>
+<center><input type="PASSWORD" class="button" name="password"></center>
+<br><center><input type="SUBMIT" class="button" name="submit" value="Войти"></center>
+</form>
+<center><a href="/forum/register.php" target="_blank">Регистрация</b></center>
+                                    </TD>
+                                </TR>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </td>
+                </tr>
+                </table>
+                
+                <br>
+                
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td>
+                        <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                        <TR>
+                            <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Sniffer ].:.</b></CENTER></TD>
+                        </TR>
+                        <TR>
+                            <TD bgColor="#fcfcfc">
+                                <TABLE cellSpacing="2" cellPadding="2" width="100%" border="0">
+                                <TR>
+                                    <TD>
+                                        <center><b class=date>Last sites in sniffer-logs : </b></center>
+                                        
+                                    </TD>
+                                </TR>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                        <tr>
+                            <td bgColor="#fcfcfc" align="center">
+                                <a href="/sniffer.html">On-Line Сниффер - <b class=porr>Log</b></a><br>
+                                <a href="/sniffer_info.html">On-Line Сниффер - <b class=porr>Info</b></a><bR>
+                            </td>
+                        </tr>
+                        </TABLE>
+                    </td>
+                </tr>
+                </table>
+                
+                <br>
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Counter ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                
+                       <center><img src="/style/templates/lock-team/images/counter.gif" class="fadethis" onMouseOut="imgFade(this,30,10,10)" onMouseOver="imgFade(this,100,30,10)"></center>
+               
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+
+                <br>
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Statistics ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150 align="center">
+                        <TABLE cellSpacing="2" cellPadding="2" width="150" border="0" align="center">
+                        <TR>
+                            <TD width=150 align="center">
+                                
+                           <table cellspacing="0" cellpadding="0" border="0" width="100%" align="center">
+                           <tr>
+                               <td colspan="2"><center class=porr>Сайт :</center></td>
+                           </tr>
+                           <tr>
+                               <td><b class=por>Новостей</b></td>
+                               <td><center class=date>2</center></td>
+                           <tr>
+                           <tr>
+                               <td><b class=por>Комментариев</b></td>
+                               <td><center class=date>0</center></td>
+                           <tr>
+                           <tr>
+                               <td colspan="2"><br></td>
+                           </tr>
+                           <tr>
+                               <td><b class=por>Статей</b></td>
+                               <td><center class=date>4</center></td>
+                           <tr>
+                           <tr>
+                               <td><b class=por>Комментариев</b></td>
+                               <td><center class=date>0</center></td>
+                           <tr>
+                           <tr>
+                               <td colspan="2"><br></td>
+                           </tr>
+                           <tr>
+                               <td colspan="2"><center class=porr>Форум :</center></td>
+                           </tr>
+                           <tr>
+                               <td><b class=por>Тем</b></td>
+                               <td><center class=date>4</center></td>
+                           <tr>
+                           <tr>
+                               <td><b class=por>Постов</b></td>
+                               <td><center class=date>11</center></td>
+                           <tr>
+                           </table>
+               
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <center><a href="/files/defaced.html" target="_blank"><b class=porr>Дефейсная страница</b></a></center>
+            </td>
+        </tr>
+        </table>
+
+        <TABLE cellSpacing="0" cellPadding="2" background="/style/templates/lock-team/images/2.jpg" width="100%" height="139" border="0">
+        <tr>
+            <td vAlign="top" align="center" colspan="3" height="100%"><Br><a href="#top">Вверх</a><br><b style="FONT-SIZE : 8pt;">.:.[ Copyright © <b class=porr>L0CK-TEAM</b>, 2005-2006 ].:.</b></td>
+        </tr>
+        <tr>
+            <td align="left" style="padding-bottom : 38px; padding-left : 6px;"><b class=porr>Generation time : <b class="por"> 0.06 сек.</b></b></td>
+            <td align="center" style="padding-bottom : 38px;" valign="bottom"></td>
+            <td align="right" style="padding-bottom : 38px; padding-right : 6px;"><b class=porr>Queries to MySQL used : <b class="por"> 9 </b></b></td>
+        </tr>
+        </TABLE>
+    </TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

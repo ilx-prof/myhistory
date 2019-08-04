@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset = windows-1251">
+      <title>Lock-Team Defaced Page!</title>
+</head>
+
+<script language=Javascript>
+
+var tl = new Array (
+"|                       .:.[ Defaced by Lock-Team ].:.                        |\r\n",
+"|                                                                             |\r\n",
+"| Team members :                                                              |\r\n",
+"|= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =|\r\n",
+"|   .:.[ WSR ].:.      E-mail :  wsr@lock-team.com        |  ICQ :  918-318   |\r\n",
+"|  .:.[ Rain0 ].:.     E-mail :  rain0@lock-team.com      |  ICQ :  334-855   |\r\n",
+"|  .:.[ 1$@sS ].:.     E-mail :  1$@sS@lock-team.com      |  ICQ :  904-908   |\r\n",
+"|  .:.[ T3rr4n ].:.    E-mail :  t3rr4n@lock-team.com     |  ICQ :  466-434   |\r\n",
+"| .:.[ Fragnatic ].:.  E-mail :  fragnatic@lock-team.com  |  ICQ :  755-587   |\r\n",
+"|= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =|\r\n",
+"|                                                                             |\r\n",
+"| Team info :                                                                 |\r\n",
+"|= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =|\r\n",
+"| IRC Server  :  /server irc.nn.ru                                            |\r\n",
+"| IRC Channel :  #lock-team                                                   |\r\n",
+"|= = = = = = = = = = = = = =  www.lock-team.com  = = = = = = = = = = = = = = =|\r\n",
+"|-----------------------------------------------------------------------------|\r\n",
+"|                                                                             |\r\n",
+"| 2 Admin this site :                                                         |\r\n",
+"|         Software it is necessary to change and keep a check on him!         |\r\n",
+"|= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =|\r\n",
+"|                       .......NO DATA WAS DELETED......                      |\r\n",
+"|                                                                             |\r\n",
+"|. . . . . . . . . . . . . S Y S T E M   F A I L U R E . . . . . . . . . . . .|\r\n"
+);
+
+var speed = 0;
+var index = 0;
+var text_pos = 0;
+var str_length = tl[0].length;
+var contents, row;
+
+function type_text ( ) {
+
+         contents = '';
+         row = Math.max ( 0, index-25 );
+         while ( row < index ) {
+               contents += tl[row++];
+         }
+         document.forms[0].elements[0].value = contents + tl[index].substring ( 0, text_pos ) + "|";
+         if ( text_pos++ == str_length ) {
+            text_pos = 0;
+            index++;
+            if ( index != tl.length ) {
+               str_length = tl[index].length;
+               setTimeout ( "type_text()", speed );
+            }
+         } else {
+            setTimeout( "type_text()", speed );
+         }
+
+}
+
+</script>
+
+<style>
+
+body {
+     SCROLLBAR-FACE-COLOR: #000000;
+     SCROLLBAR-HIGHLIGHT-COLOR: #000000;
+     SCROLLBAR-SHADOW-COLOR: #000000;
+     SCROLLBAR-BASE-COLOR: #000000;
+     background-color : #000000;
+     OverFlow : hidden;
+     vertical-align : middle;
+}
+
+textarea {
+         border : 1px dashed #00ff00;
+         background-color : #000000;
+         font : 12px Courier New;
+         color : #00ff00;
+         OverFlow : hidden;
+         text-align : center;
+}
+
+</style>
+
+<body onload="type_text()">
+
+<center>
+        <form>
+              <textarea rows="24" cols="79" readonly></textarea>
+        </form>
+</center>
+
+</doby>
+</html>

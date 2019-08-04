@@ -1,0 +1,36 @@
+<input type="Hidden" name="type" value="<? print $_POST["type"]?>">
+<table cellspacing="2" cellpadding="2" border="0" align="center">
+<tr>
+	<td>Каиегория конкретно</td>
+	<td><input type="Text" name="Категория" style="width:100%"></td>
+</tr>
+<tr>
+	<td>Полное название организации</td>
+	<td><input type="Text" name="Полное название организации" style="width:100%"></td>
+</tr>
+<tr>
+	<td>Почтовый адрес</td>
+	<td>
+		<table cellspacing="2" cellpadding="2" border="0">
+		<tr align="center">
+			<td>Район</td>
+			<td>Улица</td>
+			<td>№ дома/корпуса</td>
+			<td>№ офиса</td>
+		</tr>
+		<tr align="center">
+			<td><input type="Text" name="Район"></td>
+			<td><input type="Text" name="Улица"></td>
+			<td><input type="Text" name="№ дома/корпуса" style="width:50"></td>
+			<td><input type="Text" name="№ офиса" ="" style="width:50"></td>
+		</tr>
+		</table>
+</td>
+</tr>
+<tr>
+	<td>Адрес Интернет-сайта</td>
+	<td><input type="Text" name="Адрес Интернет-сайта" style="width:100%"></td>
+</tr>
+</table><br>
+
+

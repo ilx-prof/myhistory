@@ -1,0 +1,64 @@
+<form action="Analitic.php" method="post">
+<table align="center" cellspacing="2" cellpadding="2" style="border:1px solid grey;">
+<tr>
+	<td colspan="2" bgcolor="#EAEAEA" > <H2>Улучьшение распознавания</H2>Какие элементы распознования следует исключить из списка распознования</td>
+</tr>
+<tr>
+	<td>ЦЫФРЫ 48-57 </td>
+	<td align="left"><input type="Checkbox" name="Del[0]" value="48-57"></td>
+</tr>
+<tr>
+	<td bgcolor="#F5F5F5">ВЕРХНИЙ РЕГИСТР АНГЛИССКИЕ 65-90</td>
+	<td align="left"bgcolor="#F5F5F5"><input type="Checkbox" name="Del[1]" value="65-90"></td>
+</tr>
+<tr>
+	<td>нижний регистр англицкие 97-122</td>
+	<td align="left"><input type="Checkbox" name="Del[2]" value="97-122" checked></td>
+</tr>
+<tr>
+	<td bgcolor="#F5F5F5">ВЕРХНИЙ РЕГИСТР РУССКИЕ 192-223</td>
+	<td align="left" bgcolor="#F5F5F5"><input type="Checkbox" name="Del[3]" value="192-223" checked></td>
+</tr>
+<tr>
+	<td>нижний регистр русские 224-255</td>
+	<td><input type="Checkbox" name="Del[4]" value="224-255" checked></td>
+</tr>
+<tr>
+	<td bgcolor="#F5F5F5">Группу символов 33-47 ! " # $ % & ' ( ) * + , - . / </td>
+	<td bgcolor="#F5F5F5"><input type="Checkbox" name="Del[5]" value="33-47" checked></td>
+</tr>
+<tr>
+	<td>Группу символов 58-64 : ; < = > ? @ </td>
+	<td><input type="Checkbox" name="Del[6]" value="58-64" checked></td>
+</tr>
+<tr>
+	<td bgcolor="#F5F5F5">Группу символов 91-96 [ \ ] ^ _ `</td>
+	<td bgcolor="#F5F5F5"><input type="Checkbox" name="Del[7]" value="91-96" checked></td>
+</tr>
+<tr>
+	<td>Группу символов 123-126 { | } ~ </td>
+	<td><input type="Checkbox" name="Del[8]" value="123-126" checked></td>
+</tr>
+<tr>
+	<td bgcolor="#F5F5F5">Неиспользуемыого типа 0-32  </td>
+	<td bgcolor="#F5F5F5"><input type="Checkbox" name="Del[9]" value="0-32" checked></td>
+</tr>
+<tr>
+	<td>Неиспользуемыого типа 126-191  </td>
+	<td><input type="Checkbox" name="Del[10]" value="126-191" checked ></td>
+</tr>
+<tr>
+	<td colspan="2" style="background-color: #F5F5F5">Любые перечислять через запяпую например 255,12,13,14<br>
+	<input type="Text" name="Del_string" value="" style="width: 100%" style="background-color: #F5F5F5"></td>
+</tr>
+<tr>
+	<td colspan="2" ><input type="Submit" name="GO" value="Сохранить настройки и запустить обработку" style="width: 100%;"></td>
+</tr>
+<tr align="center">
+	<td colspan="2" >
+	<a href="http://ilx_home/sumvol_table/www/">Таблица символов</a>
+	<a href="image_Prepar.php">Подготовка изображения</a>
+	</td>
+</tr>
+</table>
+</form>

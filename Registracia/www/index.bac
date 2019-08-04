@@ -1,0 +1,83 @@
+<html>
+
+<body bgproperties="50%" bgcolor="ffffff" >
+
+<table align="center" >
+<tr>
+  
+	<td><a href="index.php"  title="from den"><img src="center.gif" width="762"    ></a></td>
+  
+</tr>
+<tr>
+	<td height="3" colspan="5"></td>
+</tr>
+</table>
+
+<table align="center" cellspacing="0" cellpadding="0"   >
+<tr >
+	<td ><a href=""><img src="buttion.gif" alt="руками не трогать" ></a></td>
+	<td ><a href="derse.php"><img src="buttion.gif" alt="руками не трогать"  "”далить фаил"></a></td>
+	<td ><a href=""><img src="buttion.gif" alt="руками не трогать" ></a></td>
+</tr>
+</table>
+
+ <table align="center" cellspacing="-10" cellpadding="0" width="100%">
+<tr >
+	<td width="42" ><img src="boca-l.gif"></td>
+	<td background="topp.gif" width="100%"></td>
+	<td width="42"><img src="boca-r.gif"></td>
+</tr>
+</table>
+
+
+<table  align="center"  cellspacing="0" cellpadding="0" width="800">
+
+<tr >
+ 	<td valign="top"  width="30" height="42"><img src="boca-t.gif" height="42"></td>
+	 <td rowspan="3"  bgcolor="#EAF2F2" >
+
+		<table border="3" bordercolor="#59636A"  width="800" height="500">
+		<tr>
+			<td rowspan="3"  bgcolor="#EAF2F2"  valign="top">
+		<p align="center"><font face="Comic Sans MS" color="#453573"  point-size="8">Ќа этом сайте зарегистрировались <font> <br>
+<p align="center"><font face="Comic Sans MS" color="#453573"  point-size="8">
+<?php
+$s = file("Infuser.ini");
+for ($i = 0; $i < count($s) ; $i++)
+{
+print "<a>".$s[$i] . "</a>, ";
+}
+?>
+</font></p>
+<p align="center"><font face="Comic Sans MS" color="#453573"  point-size="8">∆елаеш пополнить р€ды зарегистрируйс€ тут <a href="reg.php">–егистраци€</a> <font> <br>
+
+<p align="center"><font face="Comic Sans MS" color="#453573"  point-size="8">ј может ты уже увидел свой ник в списке и просто хочеш зайти на сайт по насто€шему <font> <br>
+</td></tr>
+</table>
+	<td valign="top" width="30" height="42"><img src="boca-t.gif"></td>
+</tr>
+<tr bordercolor="#000000"  >
+	<td background="boca.gif" higit="1"</td>
+	<td background="boca.gif" ></td>
+</tr>
+
+<tr>
+	<td valign="bottom" width="30" height="42"><img src="boca-d.gif" ></td>
+	<td valign="bottom" width="30" height="42"><img src="boca-d.gif" ></td>
+</tr>
+
+</table>
+ <table align="center" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+	<td width="42" ><img src="boca-l.gif"></td>
+	<td background="topp.gif" width="100%">
+</td>
+	<td width="42"  ><img src="boca-r.gif"></td>
+</tr>
+</table>
+<table  align="center" >
+</table>
+
+
+</body>
+</html>

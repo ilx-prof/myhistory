@@ -1,0 +1,30 @@
+<table align="center" border="0" width="100%" height="100%">
+<tr>
+    <td align="center" style="border-bottom:1px dashed black;"><img src="/files/images/wsr/wsr110x110.gif" width="110" height="110" border="0" alt="_..::-Просто хороший человек-::.._" title="_..::-Просто хороший человек-::.._"></td>
+    <td valign="middle" align="center" style="border-bottom:1px dashed black; border-left:1px dashed black;"><b class="porr" style="font-size:34px;">WSR</b></td>
+</tr>
+<tr>
+    <td align="center" style="border-bottom:1px dashed black;"><b class="porr">ICQ : </b></td>
+    <td align="center" style="border-bottom:1px dashed black; border-left:1px dashed black;"><IMG src="http://web.icq.com/whitepages/online?icq=918318&img=5" border="0" width="16" height="16"> <b class="por">918-318</b></td>
+</tr>
+<tr>
+    <td align="center" style="border-bottom:1px dashed black;"><b class="porr">E-mail : </b></td>
+    <td align="center" style="border-bottom:1px dashed black; border-left:1px dashed black;"><a href="mailto:wsr[dog]xaker.ru" target="_top" title="Написать письмо">wsr[dog]xaker.ru</a></td>
+</tr>
+<tr>
+    <td align="center" style="border-bottom:1px dashed black;"><b class="porr">Ru-Pay : </b></td>
+    <td align="center" style="border-bottom:1px dashed black; border-left:1px dashed black;"><b class="por">RU76871031</b></td>
+</tr>
+<tr>
+    <td align="center" style="border-bottom:1px dashed black;"><b class="porr">E-Gold : </b></td>
+    <td align="center" style="border-bottom:1px dashed black; border-left:1px dashed black;"><b class="por">2089804</b></td>
+</tr>
+<tr>
+    <td align="center" style="border-bottom:1px dashed black;" colspan="2"><b class="porr">Немного о себе : </b></td>
+</tr>
+<tr>
+    <td align="center" style="border-bottom:1px dashed black; text-align:justify;" colspan="2"><b class="por">Увлекаюсь кодингом, в частности PHP/Delphi... Как уже наверное заметили, этот движек написан полностью мной. Могу и ой как хочу делать сайты на заказ!
+Люблю экстремальное катание на горном велосипеде! Вообще люблю все экстремальное! Скоро займусь коддингом на Си++...</b></td>
+</tr>
+</table>
+

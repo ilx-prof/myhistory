@@ -1,0 +1,141 @@
+a:link {
+	cursor: url('main.ani');
+	BACKGROUND-COLOR: transparent;
+	COLOR: Yellow;
+	FONT-FAMILY: Tahoma, Verdana, sans-serif;
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none
+	
+}
+a:hover{
+	color: Red;
+	TEXT-DECORATION: underline;
+	}
+A:visited {
+	cursor: url('main.ani');
+	BACKGROUND-COLOR: transparent;
+	COLOR: Yellow;
+	FONT-FAMILY: Tahoma, Verdana, sans-serif;
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+A:active {
+	cursor: url('main.ani');
+	BACKGROUND-COLOR: transparent;
+	COLOR: Red;
+	FONT-FAMILY: Tahoma, Verdana, sans-serif;
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+.hand{ 
+	cursor: url('down.ani');
+ }
+body
+{
+	cursor: url('main.ani');
+	font-size: .8em;
+	font-family: Arial, Helvetica, sans-serif;
+	scrollbar-shadow-color : #FAFFE6;
+	scrollbar-highlight-color : #FAFFE6;
+	scrollbar-face-color : #7b8fcc;
+	scrollbar-dark-shadow-color : #FEFFD9;
+	scrollbar-base-color : #7b8fcc;
+	scrollbar-arrow-color : #4B711C;
+	scrollbar-3d-light-color : #FAFFE6;
+	background-color : #000000;
+}
+.forum{
+	width: auto;
+	color : #355E68;
+	TEXT-DECORATION: none;
+	font-size : 12px;
+	font-family : Arial, Helvetica, sans-serif;
+	font-style : normal;
+	font-weight : bold;
+}
+DIV.shadow {
+	BACKGROUND-COLOR: transparent;
+	FONT-SIZE: 12px;
+	MARGIN-TOP: -12px;
+	MARGIN-LEFT: 2px;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+	COLOR: #000000;
+}
+DIV.text {
+	FONT-SIZE: 12px;
+	MARGIN-BOTTOM: -1px;
+	COLOR: #FDF273;
+	POSITION: relative;
+	FONT-WEIGHT: bold ;
+}
+.fuzzy {
+	background-color : #4982BA;
+	border : 1px dotted Black;
+	color : Yellow;
+	font-weight : bold;
+	text-align : center;
+	font : 15px;
+}
+.fuz {
+	font-family : Arial;
+	font : 100 14px;
+	color : White;
+
+}
+.forma {
+	background : #4F7FBF;
+	border-bottom : 1px solid White;
+	border-left : 1px solid Black;
+	border-right : 0px none White;
+	border-top : 1px solid Black;
+	color : Yellow;
+}
+.otvet {
+	background : #4F7FBF;
+	border-bottom : 1px solid #9AB9E7;
+	border-left : 1px solid Black;
+	border-right : 1px solid #9AB9E7;
+	border-top : 1px solid Black;
+	color : White;
+	font-family : Tahoma;
+	font-variant : small-caps;
+	font-size : 12px;
+	vertical-align : top;
+}
+.Tema {
+	background : #8FAFC0;
+	border-bottom : 1px solid #9AB9E7;
+	border-left : 1px solid Black;
+	border-right : 1px solid #9AB9E7;
+	border-top : 1px solid Black;
+	color : White;
+	font-family : Tahoma;
+	font-variant : small-caps;
+	font-size : 12px;
+	vertical-align : top;
+}
+.small{
+	color : White;
+	font-family : Tahoma;
+	font-weight : bold;
+	text-align : center;
+	font-size : 10px;
+}
+.Tim{
+	text-align : center;
+	color : #FDFFB0;
+	FONT-FAMILY: Tahoma;
+	font-style : italic;
+	font-size : 20px;
+	font-weight : bolder;
+}
+.spisock{
+	text-align : center;
+	border-right : 1px solid #77959F;
+	border-bottom : 1px solid #77959F;
+}
+

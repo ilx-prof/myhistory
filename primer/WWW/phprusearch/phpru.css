@@ -1,0 +1,111 @@
+P	{
+	MARGIN:0px;
+}
+BODY, TD, STRONG	{
+	FONT-FAMILY: Verdana, Arial,  Sans-Serif;
+	FONT-SIZE: 9pt; MARGIN:0; COLOR: #F2F2F2; FONT-WEIGHT: NORMAL;
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #3C5067; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #3C5067; 
+	SCROLLBAR-SHADOW-COLOR: #3047AA; 
+	SCROLLBAR-3DLIGHT-COLOR: white; 
+	SCROLLBAR-ARROW-COLOR: #FFCC66; 
+	SCROLLBAR-TRACK-COLOR: #444444; 
+	SCROLLBAR-DARKSHADOW-COLOR: #FFFFCC
+}
+LI	{
+	TEXT-INDENT: 15px;
+}
+H1	{
+	FONT-FAMILY: Verdana, Arial, Sans-Serif; FONT-SIZE: 9pt;
+	COLOR: #CC9933; FONT-WEIGHT: BOLD; MARGIN: 0px;
+}
+FORM	{
+	MARGIN:0;
+}
+.HR	{
+	WIDTH: 100%; HEIGHT: 1px; COLOR: #FFFFCC;
+}
+.foot {
+	FONT-FAMILY: Verdana, Arial, Sans-Serif; font-size: 11px;
+	COLOR: #CCCCCC; border-top-color: #CC9933; border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.hmenu	{
+	border-top-color: #CCCCCC; border-top-style: solid;	border-top-width: 1px; 
+	border-bottom-color: #CCCCCC; border-bottom-style: solid; border-bottom-width: 1px;
+	COLOR: #000000; TEXT-DECORATION: none; FONT-WEIGHT: BOLD; 
+}
+a.menu_0	{
+	COLOR: #CCCCCC; FONT-FAMILY: Verdana, Arial,  Sans-Serif;
+	FONT-SIZE: 11px; TEXT-DECORATION: none;
+}
+a.menu_0:hover	{
+	COLOR: #CC9933; FONT-FAMILY: Verdana, Arial,  Sans-Serif;
+	FONT-SIZE: 11px; TEXT-DECORATION: none;
+}
+a.menu_1	{
+	COLOR: #CC9933; FONT-FAMILY: Verdana, Arial,  Sans-Serif;
+	FONT-SIZE: 11px; TEXT-DECORATION: none;
+}
+
+.split	{
+	FONT-WEIGHT: BOLD; COLOR: #CC9933;
+}
+.news_date	{
+	COLOR: #CC9933; FONT-WEIGHT: BOLD; 
+	
+}
+.news_header	{
+	COLOR: #CCCCCC;
+}
+a,a.news_link	{
+	COLOR: #7894B1;
+}
+a:hover,a.news_link:hover	{
+	COLOR: #7894B1; TEXT-DECORATION: none;
+}
+
+.line	{
+	BACKGROUND: url(img/menu_bg.gif) WIDTH:100%;
+	border-top-color: #CCCCCC; border-top-style: solid;
+	border-top-width: 1px; border-bottom-color: #CCCCCC; border-bottom-style: solid;
+	border-bottom-width: 1px; COLOR: #CC9933; FONT-WEIGHT: BOLD;
+}
+.auth	{
+	BORDER-COLOR:#444444; BORDER-STYLE:solid; BORDER-WIDTH:1px; 
+	FONT-FAMILY: Verdana, Arial, sans-serif; WIDTH:100px; HEIGHT: 18px; 
+	COLOR:WHITE; FONT-WEIGHT: BOLD; FONT-SIZE:11px; BACKGROUND-COLOR:#333333;
+}
+.submenu	{
+	border-top-color: #CCCCCC; border-top-style: solid;
+	border-top-width: 1px; border-bottom-color: #CCCCCC; border-bottom-style: solid;
+	border-bottom-width: 1px; COLOR: #CCCCCC; FONT-WEIGHT: BOLD; 
+}
+a.submenu:link	{
+	COLOR: #CCCCCC; TEXT-DECORATION: none;
+}
+a.submenu:hover, a.submenu:visited	{
+	COLOR: #CCCCCC; TEXT-DECORATION: none;
+}
+.p	{
+	FONT-FAMILY: Verdana, Arial,  Sans-Serif;
+	FONT-SIZE: 9pt; MARGIN:0; COLOR: BLUE; FONT-WEIGHT: NORMAL;
+}
+.k	{
+	FONT-FAMILY: Verdana, Arial,  Sans-Serif;
+	FONT-SIZE: 9pt; MARGIN:0; COLOR: GREEN; FONT-WEIGHT: NORMAL;
+}
+.e	{
+	FONT-FAMILY: Verdana, Arial,  Sans-Serif;
+	FONT-SIZE: 9pt; MARGIN:0; COLOR: #660000; FONT-WEIGHT: BOLD;
+}
+.t	{
+	FONT-FAMILY: Verdana, Arial,  Sans-Serif;
+	FONT-SIZE: 9pt; MARGIN:0; COLOR: #CC9933; FONT-WEIGHT: BOLD;
+}
+.code	{
+	BORDER-COLOR:SILVER; BORDER-STYLE:solid; BORDER-WIDTH:1px; WIDTH:100%;
+}

@@ -1,0 +1,307 @@
+Priv all;
+В этой статье я расскажи и покажу простейшие примеры работы с MySQL.
+Для новичков я предлагаю использовать простейший вариант: скачать с сайта <a href="http://www.denwer.ru" target="_blank">Denwer.ru</a> последнюю версию базового комплекта (кстати, он на русском), и установить у себя на компе. В комплект входят все необходимые модули: php, mysql, perl, сервер Apache.
+После установки запустите виртуальный сервер Apache.
+Если все это сделано, то можем приступать...
+Многим пользователям, как и мне, в начале обучения не хватает всего одного момента
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">);
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+Давайте теперь разберем этот код построчно:
+<span style="color: #0000BB">$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;</span> - собственно все уже наверное знакомы с основами PHP, и объяснять что происходит в этих строках никому не надо.
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;</span>
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;</span>
+<b class=date>localhost</b> - это сервер на котором запушена база данных Mysql.
+<b class=date>root</b> - это имя пользователя для доступа к серверу баз данных.
+Поле </span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;</span> сознательно оставлено пустым, так как в Денвере по стандартным настройкам пароль на доступ к БД не стоит и можно обойтись без него.
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">);</span> В этой строке собственно происходит соединение с сервером localhost на котором расположена БД.
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();</span> этой строчкой происходит закрытие активного соединения. В случае, если по каким либо причинам эту строку забыли добавть в скрипт, не произойдет ничего страшного. После выполнения скрипта закрытие соединения произойдет автоматически.
+Для подключения можно было использовать только одну строчку, куда сразу можно было вписать все данные. Но у меня, да и не только у меня стиль программирования не такой простой.
+Вот так бы выглядел кусок кода (2 строки):
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+mysql_connect</span><span style="color: #007700">(</span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">, </span><span style="color: #DD0000">"root"</span><span style="color: #007700">, </span><span style="color: #DD0000">""</span><span style="color: #007700">);
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+А если немного расширить этот код, то можно будет узнавать успешно или неуспешно установили соединение.
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">);
+if ( !</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">( ) ) {
+    print </span><span style="color: #DD0000">"Соединение с сервером {$mysql_host} успешно установлено!"</span><span style="color: #007700">;
+} else {
+    print </span><span style="color: #DD0000">"Не могу установить соединение с сервером {$mysql_host}. Проверьте правильность ввода данных!"</span><span style="color: #007700">;
+}
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+Можно конечно и по другому:
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die( </span><span style="color: #0000BB">mysql_error</span><span style="color: #007700"> ( ) );
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+В случае неудачного коннекта скрипт выведет причину неудачи [<span style="color: #007700">or die( </span><span style="color: #0000BB">mysql_error</span><span style="color: #007700"> ( ) );</span>] и завершит свою работу.
+<b class=date>die</b> эквивалентно <b class=date>exit</b>
+К серверу мы законнектились, теперь нам нужно посмотреть какие же базы расположены на сервере.
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">$a </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #DD0000">"SHOW DATABASES"</span><span style="color: #007700">);
+if ( </span><span style="color: #0000BB">mysql_num_rows</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">) &gt; </span><span style="color: #0000BB">0 </span><span style="color: #007700">){
+    print </span><span style="color: #DD0000">"Существующие базы данных:"</span><span style="color: #007700">;
+    while ( </span><span style="color: #0000BB">$c </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_fetch_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">) ):
+          print </span><span style="color: #0000BB">$c</span><span style="color: #007700">[</span><span style="color: #DD0000">"0"</span><span style="color: #007700">];
+    endwhile;
+    </span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+}else{
+    </span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+    print </span><span style="color: #DD0000">"Баз данных не существует! Соединение закрыто!"</span><span style="color: #007700">;
+}
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+Как вы уже заметили, в этом куске кода появилось много чего нового.
+</span><span style="color: #0000BB">$a </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #DD0000">"SHOW DATABASES"</span><span style="color: #007700">);</span> в этой строке выполняется ЗАПРОС к mysql с тем, чтобы узнать какие же базы есть там.
+!!!Кстати говоря!!! Если в запросе присутствует динамическая информация передаваемая из вне, то обязательно надо отфильтровывать одинарную и двойную кавычку, и еще точку с запятой (;) и двойное тире --. Так как эти спец-символы могут нарушить запрос в случае чего вы получите уйму ошибок и лишние неприятности.
+Все это можно сдлать с помощью следующих функций : <span style="color: #0000BB">mysql_escape_string</span><span style="color: #007700"> ( ) </span> - для строк, и <span style="color: #0000BB">intval</span><span style="color: #007700"> ( ) </span> - для чисел.
+<span style="color: #0000BB">mysql_num_rows</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">)</span> с помощью этой команды можно легко узнать сколько строк получила переменная $a в результате запроса.
+Собственно если их больше нуля, то скрипт выводит их названия на экран, ну а если их нет, то выдается соответствующее сообщение!
+
+Давайте теперь выведем все таблицы которые есть в определенной базе.
+Замысел тот же. Единственная разница: это запрос. Он будет немного другим.
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">$a </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #DD0000">"SHOW TABLES IN `test`"</span><span style="color: #007700">);
+if ( </span><span style="color: #0000BB">mysql_num_rows</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">) &gt; </span><span style="color: #0000BB">0 </span><span style="color: #007700">){
+    print </span><span style="color: #DD0000">"Существующие таблицы:"</span><span style="color: #007700">;
+    while ( </span><span style="color: #0000BB">$c </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_fetch_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">) ):
+          print </span><span style="color: #0000BB">$c</span><span style="color: #007700">[</span><span style="color: #DD0000">"0"</span><span style="color: #007700">];
+    endwhile;
+    </span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+}else{
+    </span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+    print </span><span style="color: #DD0000">"Таблиц не существует! Соединение закрыто!"</span><span style="color: #007700">;
+}
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+</span><span style="color: #0000BB">$a </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #DD0000">"SHOW TABLES IN `test`"</span><span style="color: #007700">);</span> - собственно вот все изменения по сравнению с предыдущим блоком кода.
+В результате этого запроса переменная $a получит имена всех таблиц которые есть в базе "test".
+Если объединить эти два блока кода, то можно с легкостью вывести древо данных. Ну это вы сделаете сами, надо же вам с чего-то начинать.
+
+Давайте теперь приступим к созданию новых баз и таблиц.
+Собственно опять нам придется менять только поле запроса.
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+mysql_connect</span><span style="color: #007700">(</span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">, </span><span style="color: #DD0000">"root"</span><span style="color: #007700">, </span><span style="color: #DD0000">""</span><span style="color: #007700">);
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #DD0000">"CREATE DATABASE `other`"</span><span style="color: #007700">);
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+Вот видите как просто бывает иногда создать новую БД.
+Да кстати и запросы в Mysql больше похожи просто на разговорную американскую речь. По этому если вы хоть немного знаете Английский, будет немного легче понять суть запросов.
+
+А вот теперь я вам покажу пример как можно выбрать определенную базу для дальнейшей работы именно с ней.
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+Как вы видите все опять очень просто: <b class=date>mysql_select_db($mysql_db);</b> да и название самой функции говорит о выборе БД.
+В результате выполнения этого кода будет выбрана база "test".
+Теперь можно и поработать с этой базой. Для начала нам нужно создать там нужную нам таблицу. Так давайте же сделаем это!!!
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"CREATE TABLE `addressbook` (
+                 `id` INT DEFAULT NULL AUTO_INCREMENT,
+                 `telefon` INT,
+                 `address` TEXT,
+                 `name` TEXT,
+                 UNIQUE (`id`)
+         )
+"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+После удачного соединения происходит выборка базы с которой дальше будет продолжаться работа.
+Давайте разберем тело запроса:
+<span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"CREATE TABLE `addressbook` ( </span>#команда для создания новой таблицы, где "addressbook" имя таблицы.</span>
+<span style="color: #DD0000">                 `id` INT DEFAULT NULL AUTO_INCREMENT, </span># В таблице будет присутствовать поле "id", которому автоматически будут присваиваться номера от 0 и до... INT - это указание типа данных которые будут в этом поле располагаться
+<span style="color: #DD0000">                 `telefon` INT,
+                 `address` TEXT,
+                 `name` TEXT,
+                 UNIQUE (`id`) </span># Обозначив "id" как уникальный элемент, можно будет быть всегда уверенным, что в этом поле не будет одинаковых номеров.
+<span style="color: #DD0000">         )</span>
+Если вы изучали когда ни будь Паскаль или др. язык программирования в котором тоже приходилось обозначать к какому типу принадлежит переменная, то вам будет не сложно провести аналогию.
+Собственно таблица не должна быть пустой. Спрашивается зачем же мы ее тогда создавали. Не хорошо.
+На до ее чем ни то наполнить. <span style="color: #000000">
+
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"INSERT INTO `addressbook` VALUES(
+                 ``,
+                 `582573`,
+                 `Park Lenina 21-55`,
+                 `Marina Larina`,
+         )
+"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+Первое поле сознательно было оставлено пустым. Каждой записи(строке) в таблице значение поля "id" будет присвоено автоматически.
+Вот таким кусочком кода мы легко добавим новую запись в нашу таблицу.
+Если добавлять данные мы надеюсь уже научились, то пришел черед вывести их к нам на экран.
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"SELECT * FROM `addressbook`"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$a </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">);
+while (</span><span style="color: #0000BB">$arr </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_fetch_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">)):
+      print </span><span style="color: #DD0000">"Имя: "</span><span style="color: #007700">.</span><span style="color: #0000BB">$arr</span><span style="color: #007700">[</span><span style="color: #DD0000">"name"</span><span style="color: #007700">].</span><span style="color: #DD0000">"Адрес: "</span><span style="color: #007700">.</span><span style="color: #0000BB">$arr</span><span style="color: #007700">[</span><span style="color: #DD0000">"address"</span><span style="color: #007700">].</span><span style="color: #DD0000">"Телефон: "</span><span style="color: #007700">.</span><span style="color: #0000BB">$arr</span><span style="color: #007700">[</span><span style="color: #DD0000">"telefon"</span><span style="color: #007700">].</span><span style="color: #DD0000">"ID: "</span><span style="color: #007700">.</span><span style="color: #0000BB">$arr</span><span style="color: #007700">[</span><span style="color: #DD0000">"id"</span><span style="color: #007700">];
+endwhile;
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+В результате выполнения этого кода будет выведен весь список записей таблицы(нашей телефонной книги).
+Давайте я вам покажу какие еще можно добавить фишки к своему запросу:
+<span style="color: #DD0000">SELECT `name`, `telefon` FROM `addressbook`</span> #Из таблицы будут выбраны только поля "name" и "telefon".
+<span style="color: #DD0000">SELECT * FROM `addressbook` WHERE `id` = 1</span> #Будет выбрана запись, в которой значение поля "id" будет равно 1
+<span style="color: #DD0000">SELECT * FROM `addressbook` WHERE `name` = 'Marina Larina'</span> #Будут выбраны записи, в которых значение поля "name" будет равно 'Marina Larina'
+<span style="color: #DD0000">SELECT * FROM `addressbook` ORDER BY `id` DESC</span> #Будут выбраны все записи таблицы, но они будут расположены в обратном порядке.
+<span style="color: #DD0000">SELECT * FROM `addressbook` LIMIT 0, 30</span> #Будут выбраны только первые 30 элементов таблицы.
+<span style="color: #DD0000">SELECT * FROM `addressbook` LIMIT 0, 30 ORDER BY `id` DESC </span>#Будут выбраны только 30 элементов таблицы начиная с конца.
+Собственно пока вам этого за глаза хватит.
+
+Опа... При добавлении новой записи указали не то имя... что же теперь делать?
+Все очень просто. Нужно воспользоваться выводом всех данных, узнать "id" номер записи и воспользоваться следующим кодом:
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"UPDATE `addressbook` SET `name` = 'Inna Larina' WHERE `id` = 1 LIMIT 1"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+Вот и хорошо. Обновлять записи мы научились.
+Кстати заметьте, что мы обновили только необходимое нам поле, а остальные данные (телефон+адрес) остались прежними.
+
+Ну а уж если и вовсе захотелось удалить определенную запись, то флаг вам в руки и вперед смотреть следующий кусок кода:
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"DELETE FROM `addressbook` WHERE `id` = 1 LIMIT 1"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+В результате запроса будет удалена вся строка (имя+адрес+телефон+id)!!!
+Ну а уж если вы хотите ОЧИСТИТЬ всю таблицу от данных, тогда вперед...
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"TRUNCATE TABLE `addressbook`"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+
+Ну а если вы поняли что такая таблица вам и вовсе не нужна, то давайте сделаем следующее:
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"DROP TABLE `addressbook`"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+
+А если вам совсем все надоело, да и имя у базы вам никак не подходит :) то можно приступить и к уничтожению всей базы.
+<span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;
+
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"DROP DATABASE `$mysql_db`"</span><span style="color: #007700">;
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();
+</span><span style="color: #0000BB">?&gt;</span>
+</span>
+Заметьте, что <span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);</span> здесь не нужно, потому что после выборки базы, её удалить будет нельзя!
+
+
+Вот собственно и все что я хотел вам рассказать в этой статье!
+Я конечно понимаю, что это не все и, что еще много всего о чем я ни сказал. Но во-первых я писал статью для новичков, а во-вторых по сути дела большее никого и не интересует, либо относится не этому контексту.
+В следующей статье я затрону совсем другие вопросы, да и статья будет никак ни для новичков. Так что ждем-с.

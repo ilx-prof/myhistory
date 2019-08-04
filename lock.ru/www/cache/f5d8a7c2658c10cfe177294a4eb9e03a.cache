@@ -1,0 +1,917 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//RU">
+<html>
+<head>
+      <meta HTTP-EQUIV="Content-Type" Content="text-html; charset=windows-1251">
+      <title>.:.[ LOCK-TEAM ].:.[ Статьи ].:. MySQL : Освоение MySQL для новичков</title>
+      <meta name="Description" content="Сетевая безопасность, Hack and Security">
+      <meta name="KeyWords" content="WSR,  .:.[ LOCK-TEAM ].:.[ Статьи ].:. MySQL : Освоение MySQL для новичков, Priv, all;
+В, этой, статье, я, расскажи, и, покажу, простейшие, примеры, работы, с, MySQL.
+Для, новичков, я, предлагаю, использовать, простейший, вариант:, скачать, с, сайта, Danwer.ru, последнюю, версию, базового, комплекта, (кстати,, он, на, русском),, и, установить, у, себя, на, компе., В, комплект, входят, все, необходимые, модули:, ph">
+      <meta name="Author" content="WSR">
+      <meta name="robots" content="index,all">
+      <meta name="revisit" content="10 days">
+      <link rel="stylesheet" type="text/css" href="/style/templates/lock-team/css/style.css">
+      <link rel="shortcut icon" href="/style/templates/lock-team/images/favicon.ico">
+      <!--http://lock-team.com.org.biz.int.pro.arpa.aero.coop.museum.name.info.edu.gov.mil.net.ru/-->
+</head>
+
+<script language="Javascript" type="text/javascript">
+///articles/mysql/2.html
+defaultStatus = ".:.[ LOCK-TEAM ].:.";
+
+function imgFade ( object, destOp, rate, delta ) {
+         imgFadeObjects = new Object ( );
+         imgFadeTimers = new Object ( );
+         if ( !document.all ) return
+         if ( object != "[object]" ) {
+            setTimeout ( "imgFade("+object+","+destOp+","+rate+","+delta+")",0 );
+            return;
+         }
+
+         clearTimeout ( imgFadeTimers[object.sourceIndex] );
+
+         diff = destOp - object.filters.alpha.opacity;
+         direction = 1;
+         if  ( object.filters.alpha.opacity > destOp ) {
+            direction = -1;
+    }
+    delta = Math.min ( direction * diff, delta );
+    object.filters.alpha.opacity += direction * delta;
+
+    if ( object.filters.alpha.opacity != destOp ) {
+        imgFadeObjects[object.sourceIndex] = object;
+        imgFadeTimers[object.sourceIndex] = setTimeout ( "imgFade(imgFadeObjects["+object.sourceIndex+"],"+destOp+","+rate+","+delta+")",rate );
+    }
+}
+
+function mousein ( cart ) {
+         cart.style.backgroundColor = "#EAEAEA";
+}
+
+function mouseout ( cart ) {
+         cart.style.backgroundColor = "#FCFCFC";
+}
+
+</script>
+
+<body bottommargin="0" leftmargin="0" topmargin="0" rightmargin="0" marginheight="0" marginwidth="0" background="/style/templates/lock-team/images/bg.gif">
+<a name="top"></a>
+
+<table cellspacing="0" cellpadding="0" class="maintb" align="center" bgcolor="#ffffff" width="900">
+<tr>
+    <td>
+        <table cellspacing="0" cellpadding="0" width="100%" border="0" background="/style/templates/lock-team/images/2.jpg">
+        <tr>
+            <td align="right" style="padding-top : 25px;"><img src="/style/templates/lock-team/images/lock.gif" border="0"></td>
+            <td align="center" style="padding-left : 21px;"><a href="/" target="_parent" title="Lock-Team"><img src="/style/templates/lock-team/images/666_1.jpg" border="0" alt=".:.[ This Is Lock-Team Home Page ].:."></a></td>
+            <td align="left" style="padding-top : 25px;"><img src="/style/templates/lock-team/images/team.gif" border="0"></td>
+        </tr>
+        </table>
+        <table cellspacing="9" cellpadding="0" width="100%" border="0" height="100%">
+        <tr>
+            <td valign="top" width="150">
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Navigation ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="0" width="100%" border="0">
+                                
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/news.html" title="Новости"  >Новости</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/articles.html" title="Статьи" style="color:red" >Статьи</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/articles/modding.html" title="Modding"  >Modding</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/articles/mysql.html" title="MySQL" style="color:red" >MySQL</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/articles/vb.html" title="VB"  >VB</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 15px;">
+                                        <img src="/style/templates/lock-team/images/menu3.gif" width="12" height="8" border="0">
+                                        <a href="/articles/coding.html" title="Coding"  >Coding</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/forum.html" title="Форум"  ><b class=date>Форум</b></a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/service.html" title="Услуги"  >Услуги</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/web_tools.html" title="Web-Tools"  >Web-Tools</a>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="/my_archive.html" title="My Archive"  >My Archive</a>
+                                    </td>
+                                </tr>
+                                
+
+                                </table>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Friends ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="0" width="100%" border="0">
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="http://web-hack.ru/" title="Hack and Sequrity" target="_blank">Web-Hack</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;">
+                                        <img src="/style/templates/lock-team/images/menu2.gif" width="12" height="8" border="0">
+                                        <a href="http://antichat.ru/" title="" target="_blank">AntiChat</a><br>
+                                    </td>
+                                </tr>
+                                
+
+                                </table>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ IRC ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                
+                          <center class=porr>Наш IRC канал :</center><br>
+                          <center class=por>irc.nn.ru : 6667<br>#lock-team</center>
+               
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                
+                <table bgcolor="#999999" border="0" cellpadding="0" cellspacing="1" width="150">
+                <tr>
+                    <td background="/style/templates/lock-team/images/001.gif" bgcolor="#fcfcfc" height="16" colspan="2"><center><b class=label>.:.[ Team ].:.</b></center></td>
+                </tr>
+                <tr>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=918318&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">918318</b></td>
+                                    <Td align="center"><a href="/team/members/1.html"><b class=porr>WSR</a></td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=334855&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">334855</b></td>
+                                    <Td align="center"><a href="/team/members/2.html"><b class=porr>Ra1n0</a></td>
+                                </tr>
+                                
+
+                                <tr onmouseover="mousein(this);" onmouseout="mouseout(this);">
+                                    <td style="padding-left : 5px;" align="center" valign="middle" width="16"><IMG src="http://web.icq.com/whitepages/online?icq=755587&img=5" border="0" width="16" height="16"></td>
+                                    <td align="center"><b class="por">755587</b></td>
+                                    <Td align="center"><a href="/team/members/3.html"><b class=porr>Fragnatic</a></td>
+                                </tr>
+                                
+
+                                </table>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+
+                <br>
+
+                <table bgcolor="#999999" border="0" cellpadding="0" cellspacing="1" width="150">
+                <tr>
+                    <td background="/style/templates/lock-team/images/001.gif" bgcolor="#fcfcfc" height="16" colspan="2"><center><b class=label>.:.[ Your Info ].:.</b></center></td>
+                </tr>
+                <tr>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="0" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                <TABLE cellSpacing="0" cellPadding="3" border="0" width="100%">
+                                <tr>
+                                    <td><center class=porr>U-A</center></td>
+                                    <td class=por align="center">Mozilla FireFox</td>
+                                </tr>
+                                <tr>
+                                    <td><center class=porr>U-A-V</center></td>
+                                    <td><center class=por>1.5</center></td>
+                                </tr>
+                                <tr>
+                                    <td><center class=porr>GZIP</center></td>
+                                    <td><center class=por>On</center></td>
+                                </tr>
+                                <tr>
+                                    <td><center class=porr>IP</center></td>
+                                    <td><center class=por>127.0.0.1</center></td>
+                                </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+            </td>
+
+            <td width="100%" valign="top">
+                <TABLE cellSpacing="1" cellPadding="2" width="100%" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Content ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" style="padding : 10px;" >
+                        <center class="date">\x77\x77\x77<b class=date>\x2E</b>\x6C\x6F\x63\x6B<b class=date>\x2D</b>\x74\x65\x61\x6D<b class=date>\x2E</b>\x63\x6F\x6D</center>
+                        <center class="date">.:.[ Articles ].:.</center>
+                        <br><center class="porr">Раздел MySQL -> <b class="por">Освоение MySQL для новичков</b></center>
+<center class="porr">Статья добавлена: <b class="por">2006-02-04</b></center>
+<center class="porr">Кем добавлена: <b class="por">wsr</b></center>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+
+<tr>
+    <td colspan="2" width="100%" class="date2" style="text-align : justify; color : #004040; "><bR>Priv all;<br />
+В этой статье я расскажи и покажу простейшие примеры работы с MySQL.<br />
+Для новичков я предлагаю использовать простейший вариант: скачать с сайта <a href="http://www.danwer.ru">Danwer.ru</a> последнюю версию базового комплекта (кстати, он на русском), и установить у себя на компе. В комплект входят все необходимые модули: php, mysql, perl, сервер Apache.<br />
+После установки запустите виртуальный сервер Apache.<br />
+Если все это сделано, то можем приступать...<br />
+Многим пользователям, как и мне, в начале обучения не хватает всего одного момента<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+Давайте теперь разберем этот код построчно:<br />
+<span style="color: #0000BB">$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;</span> - собственно все уже наверное знакомы с основами PHP, и объяснять что происходит в этих строках никому не надо.<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;</span><br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;</span><br />
+<b class=date>localhost</b> - это сервер на котором запушена база данных Mysql.<br />
+<b class=date>root</b> - это имя пользователя для доступа к серверу баз данных.<br />
+Поле </span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;</span> сознательно оставлено пустым, так как в Денвере по стандартным настройкам пароль на доступ к БД не стоит и можно обойтись без него.<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">);</span> В этой строке собственно происходит соединение с сервером localhost на котором расположена БД.<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();</span> этой строчкой происходит закрытие активного соединения. В случае, если по каким либо причинам эту строку забыли добавть в скрипт, не произойдет ничего страшного. После выполнения скрипта закрытие соединения произойдет автоматически.<br />
+Для подключения можно было использовать только одну строчку, куда сразу можно было вписать все данные. Но у меня, да и не только у меня стиль программирования не такой простой.<br />
+Вот так бы выглядел кусок кода (2 строки):<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+mysql_connect</span><span style="color: #007700">(</span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">, </span><span style="color: #DD0000">"root"</span><span style="color: #007700">, </span><span style="color: #DD0000">""</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+А если немного расширить этот код, то можно будет узнавать успешно или неуспешно установили соединение.<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">);<br />
+if ( !</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">( ) ) {<br />
+    print </span><span style="color: #DD0000">"Соединение с сервером {$mysql_host} успешно установлено!"</span><span style="color: #007700">;<br />
+} else {<br />
+    print </span><span style="color: #DD0000">"Не могу установить соединение с сервером {$mysql_host}. Проверьте правильность ввода данных!"</span><span style="color: #007700">;<br />
+}<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+Можно конечно и по другому:<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die( </span><span style="color: #0000BB">mysql_error</span><span style="color: #007700"> ( ) );<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+В случае неудачного коннекта скрипт выведет причину неудачи [<span style="color: #007700">or die( </span><span style="color: #0000BB">mysql_error</span><span style="color: #007700"> ( ) );</span>] и завершит свою работу.<br />
+<b class=date>die</b> эквивалентно <b class=date>exit</b><br />
+К серверу мы законнектились, теперь нам нужно посмотреть какие же базы расположены на сервере.<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">$a </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #DD0000">"SHOW DATABASES"</span><span style="color: #007700">);<br />
+if ( </span><span style="color: #0000BB">mysql_num_rows</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">) &gt; </span><span style="color: #0000BB">0 </span><span style="color: #007700">){<br />
+    print </span><span style="color: #DD0000">"Существующие базы данных:"</span><span style="color: #007700">;<br />
+    while ( </span><span style="color: #0000BB">$c </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_fetch_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">) ):<br />
+          print </span><span style="color: #0000BB">$c</span><span style="color: #007700">[</span><span style="color: #DD0000">"0"</span><span style="color: #007700">];<br />
+    endwhile;<br />
+    </span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+}else{<br />
+    </span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+    print </span><span style="color: #DD0000">"Баз данных не существует! Соединение закрыто!"</span><span style="color: #007700">;<br />
+}<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+Как вы уже заметили, в этом куске кода появилось много чего нового.<br />
+</span><span style="color: #0000BB">$a </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #DD0000">"SHOW DATABASES"</span><span style="color: #007700">);</span> в этой строке выполняется ЗАПРОС к mysql с тем, чтобы узнать какие же базы есть там.<br />
+!!!Кстати говоря!!! Если в запросе присутствует динамическая информация передаваемая из вне, то обязательно надо отфильтровывать одинарную и двойную кавычку, и еще точку с запятой (;) и двойное тире --. Так как эти спец-символы могут нарушить запрос в случае чего вы получите уйму ошибок и лишние неприятности.<br />
+Все это можно сдлать с помощью следующих функций : <span style="color: #0000BB">mysql_escape_string</span><span style="color: #007700"> ( ) </span> - для строк, и <span style="color: #0000BB">intval</span><span style="color: #007700"> ( ) </span> - для чисел.<br />
+<span style="color: #0000BB">mysql_num_rows</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">)</span> с помощью этой команды можно легко узнать сколько строк получила переменная $a в результате запроса.<br />
+Собственно если их больше нуля, то скрипт выводит их названия на экран, ну а если их нет, то выдается соответствующее сообщение!<br />
+<br />
+Давайте теперь выведем все таблицы которые есть в определенной базе.<br />
+Замысел тот же. Единственная разница: это запрос. Он будет немного другим.<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">$a </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #DD0000">"SHOW TABLES IN `test`"</span><span style="color: #007700">);<br />
+if ( </span><span style="color: #0000BB">mysql_num_rows</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">) &gt; </span><span style="color: #0000BB">0 </span><span style="color: #007700">){<br />
+    print </span><span style="color: #DD0000">"Существующие таблицы:"</span><span style="color: #007700">;<br />
+    while ( </span><span style="color: #0000BB">$c </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_fetch_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">) ):<br />
+          print </span><span style="color: #0000BB">$c</span><span style="color: #007700">[</span><span style="color: #DD0000">"0"</span><span style="color: #007700">];<br />
+    endwhile;<br />
+    </span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+}else{<br />
+    </span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+    print </span><span style="color: #DD0000">"Таблиц не существует! Соединение закрыто!"</span><span style="color: #007700">;<br />
+}<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+</span><span style="color: #0000BB">$a </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #DD0000">"SHOW TABLES IN `test`"</span><span style="color: #007700">);</span> - собственно вот все изменения по сравнению с предыдущим блоком кода.<br />
+В результате этого запроса переменная $a получит имена всех таблиц которые есть в базе "test".<br />
+Если объединить эти два блока кода, то можно с легкостью вывести древо данных. Ну это вы сделаете сами, надо же вам с чего-то начинать.<br />
+<br />
+Давайте теперь приступим к созданию новых баз и таблиц.<br />
+Собственно опять нам придется менять только поле запроса.<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+mysql_connect</span><span style="color: #007700">(</span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">, </span><span style="color: #DD0000">"root"</span><span style="color: #007700">, </span><span style="color: #DD0000">""</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #DD0000">"CREATE DATABASE `other`"</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+Вот видите как просто бывает иногда создать новую БД.<br />
+Да кстати и запросы в Mysql больше похожи просто на разговорную американскую речь. По этому если вы хоть немного знаете Английский, будет немного легче понять суть запросов.<br />
+<br />
+А вот теперь я вам покажу пример как можно выбрать определенную базу для дальнейшей работы именно с ней.<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+Как вы видите все опять очень просто: <b class=date>mysql_select_db($mysql_db);</b> да и название самой функции говорит о выборе БД.<br />
+В результате выполнения этого кода будет выбрана база "test".<br />
+Теперь можно и поработать с этой базой. Для начала нам нужно создать там нужную нам таблицу. Так давайте же сделаем это!!!<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"CREATE TABLE `addressbook` (<br />
+                 `id` INT DEFAULT NULL AUTO_INCREMENT,<br />
+                 `telefon` INT,<br />
+                 `address` TEXT,<br />
+                 `name` TEXT,<br />
+                 UNIQUE (`id`)<br />
+         )<br />
+"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+После удачного соединения происходит выборка базы с которой дальше будет продолжаться работа.<br />
+Давайте разберем тело запроса:<br />
+<span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"CREATE TABLE `addressbook` ( </span>#команда для создания новой таблицы, где "addressbook" имя таблицы.</span><br />
+<span style="color: #DD0000">                 `id` INT DEFAULT NULL AUTO_INCREMENT, </span># В таблице будет присутствовать поле "id", которому автоматически будут присваиваться номера от 0 и до... INT - это указание типа данных которые будут в этом поле располагаться<br />
+<span style="color: #DD0000">                 `telefon` INT,<br />
+                 `address` TEXT,<br />
+                 `name` TEXT,<br />
+                 UNIQUE (`id`) </span># Обозначив "id" как уникальный элемент, можно будет быть всегда уверенным, что в этом поле не будет одинаковых номеров.<br />
+<span style="color: #DD0000">         )</span><br />
+Если вы изучали когда ни будь Паскаль или др. язык программирования в котором тоже приходилось обозначать к какому типу принадлежит переменная, то вам будет не сложно провести аналогию.<br />
+Собственно таблица не должна быть пустой. Спрашивается зачем же мы ее тогда создавали. Не хорошо.<br />
+На до ее чем ни то наполнить. <span style="color: #000000"><br />
+<br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"INSERT INTO `addressbook` VALUES(<br />
+                 ``,<br />
+                 `582573`,<br />
+                 `Park Lenina 21-55`,<br />
+                 `Marina Larina`,<br />
+         )<br />
+"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+Первое поле сознательно было оставлено пустым. Каждой записи(строке) в таблице значение поля "id" будет присвоено автоматически.<br />
+Вот таким кусочком кода мы легко добавим новую запись в нашу таблицу.<br />
+Если добавлять данные мы надеюсь уже научились, то пришел черед вывести их к нам на экран.<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"SELECT * FROM `addressbook`"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$a </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">);<br />
+while (</span><span style="color: #0000BB">$arr </span><span style="color: #007700">= </span><span style="color: #0000BB">mysql_fetch_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">)):<br />
+      print </span><span style="color: #DD0000">"Имя: "</span><span style="color: #007700">.</span><span style="color: #0000BB">$arr</span><span style="color: #007700">[</span><span style="color: #DD0000">"name"</span><span style="color: #007700">].</span><span style="color: #DD0000">"Адрес: "</span><span style="color: #007700">.</span><span style="color: #0000BB">$arr</span><span style="color: #007700">[</span><span style="color: #DD0000">"address"</span><span style="color: #007700">].</span><span style="color: #DD0000">"Телефон: "</span><span style="color: #007700">.</span><span style="color: #0000BB">$arr</span><span style="color: #007700">[</span><span style="color: #DD0000">"telefon"</span><span style="color: #007700">].</span><span style="color: #DD0000">"ID: "</span><span style="color: #007700">.</span><span style="color: #0000BB">$arr</span><span style="color: #007700">[</span><span style="color: #DD0000">"id"</span><span style="color: #007700">];<br />
+endwhile;<br />
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+В результате выполнения этого кода будет выведен весь список записей таблицы(нашей телефонной книги).<br />
+Давайте я вам покажу какие еще можно добавить фишки к своему запросу:<br />
+<span style="color: #DD0000">SELECT `name`, `telefon` FROM `addressbook`</span> #Из таблицы будут выбраны только поля "name" и "telefon".<br />
+<span style="color: #DD0000">SELECT * FROM `addressbook` WHERE `id` = 1</span> #Будет выбрана запись, в которой значение поля "id" будет равно 1<br />
+<span style="color: #DD0000">SELECT * FROM `addressbook` WHERE `name` = 'Marina Larina'</span> #Будут выбраны записи, в которых значение поля "name" будет равно 'Marina Larina'<br />
+<span style="color: #DD0000">SELECT * FROM `addressbook` ORDER BY `id` DESC</span> #Будут выбраны все записи таблицы, но они будут расположены в обратном порядке.<br />
+<span style="color: #DD0000">SELECT * FROM `addressbook` LIMIT 0, 30</span> #Будут выбраны только первые 30 элементов таблицы.<br />
+<span style="color: #DD0000">SELECT * FROM `addressbook` LIMIT 0, 30 ORDER BY `id` DESC </span>#Будут выбраны только 30 элементов таблицы начиная с конца.<br />
+Собственно пока вам этого за глаза хватит.<br />
+<br />
+Опа... При добавлении новой записи указали не то имя... что же теперь делать?<br />
+Все очень просто. Нужно воспользоваться выводом всех данных, узнать "id" номер записи и воспользоваться следующим кодом:<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"UPDATE `addressbook` SET `name` = 'Inna Larina' WHERE `id` = 1 LIMIT 1"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+Вот и хорошо. Обновлять записи мы научились.<br />
+Кстати заметьте, что мы обновили только необходимое нам поле, а остальные данные (телефон+адрес) остались прежними.<br />
+<br />
+Ну а уж если и вовсе захотелось удалить определенную запись, то флаг вам в руки и вперед смотреть следующий кусок кода:<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"DELETE FROM `addressbook` WHERE `id` = 1 LIMIT 1"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+В результате запроса будет удалена вся строка (имя+адрес+телефон+id)!!!<br />
+Ну а уж если вы хотите ОЧИСТИТЬ всю таблицу от данных, тогда вперед...<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"TRUNCATE TABLE `addressbook`"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+<br />
+Ну а если вы поняли что такая таблица вам и вовсе не нужна, то давайте сделаем следующее:<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);<br />
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"DROP TABLE `addressbook`"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+<br />
+А если вам совсем все надоело, да и имя у базы вам никак не подходит :) то можно приступить и к уничтожению всей базы.<br />
+<span style="color: #000000"><br />
+<span style="color: #0000BB">&lt;?php<br />
+$mysql_host </span><span style="color: #007700">= </span><span style="color: #DD0000">"localhost"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_user </span><span style="color: #007700">= </span><span style="color: #DD0000">"root"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_pass </span><span style="color: #007700">= </span><span style="color: #DD0000">""</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">$mysql_db   </span><span style="color: #007700">= </span><span style="color: #DD0000">"test"</span><span style="color: #007700">;<br />
+<br />
+</span><span style="color: #0000BB">mysql_connect</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_host</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_user</span><span style="color: #007700">, </span><span style="color: #0000BB">$mysql_pass</span><span style="color: #007700">) or die(</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">$query </span><span style="color: #007700">= </span><span style="color: #DD0000">"DROP DATABASE `$mysql_db`"</span><span style="color: #007700">;<br />
+</span><span style="color: #0000BB">mysql_query</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">) or die (</span><span style="color: #0000BB">mysql_error</span><span style="color: #007700">());<br />
+</span><span style="color: #0000BB">mysql_close</span><span style="color: #007700">();<br />
+</span><span style="color: #0000BB">?&gt;</span><br />
+</span><br />
+Заметьте, что <span style="color: #0000BB">mysql_select_db</span><span style="color: #007700">(</span><span style="color: #0000BB">$mysql_db</span><span style="color: #007700">);</span> здесь не нужно, потому что после выборки базы, её удалить будет нельзя!<br />
+<br />
+<br />
+Вот собственно и все что я хотел вам рассказать в этой статье!<br />
+Я конечно понимаю, что это не все и, что еще много всего о чем я ни сказал. Но во-первых я писал статью для новичков, а во-вторых по сути дела большее никого и не интересует, либо относится не этому контексту.<br />
+В следующей статье я затрону совсем другие вопросы, да и статья будет никак ни для новичков. Так что ждем-с.<br />
+</td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center"><br><b class=porr>Комментарии (<b class=por>нет</b>)</b><br><br></td>
+</tr>
+
+
+
+
+<tr>
+    <form method="POST">
+    <input type="HIDDEN" name="action" value="add_new_comment">
+    <td colspan="2">
+        <br>
+        <center>
+                <b class=porr>Добавление нового комментария</b><br>
+                <textarea class="button" style="background : white; width : 100%; height : 55px;" name="content"></textarea><br>
+                <input type="SUBMIT" class="button" value="Добавить">
+        </center>
+    </td>
+    </form>
+</tr>
+
+
+
+
+</table><br><br>
+                        <center class="date">.:.[ /Articles ].:.</center>
+                        <center class="date">\x77\x77\x77<b class=date>\x2E</b>\x6C\x6F\x63\x6B<b class=date>\x2D</b>\x74\x65\x61\x6D<b class=date>\x2E</b>\x63\x6F\x6D</center>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <br>
+                <TABLE cellSpacing="1" cellPadding="2" width="100%" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Forums Posts ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" style="padding : 5px;">
+                        <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border : 1px solid #999999; border-bottom : 0;">
+<tr>
+    <td class="last_nazv"><font class="date">Название темы + описание</font></td>
+    <td class="last_otv"><font class="date">Ответов</font></td>
+    <td class="last_author"><font class="date">Автор темы</font></td>
+    <td class="last_author"><font class="date">Просмотров</font></td>
+    <td class="last_obn" align="center"><font class="date">Обновление</font></td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=4" target="_blank">asdfasdasdfasdf</a></td>
+    <td class="last_otv"><b class="por">0</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">0</b></td>
+    <td class="last_obn"><tt class=date>2006-02-09 18:41:13</tt><br>
+        <a href="/forum/showthread.php?t=4&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:40</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:32</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:24</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:16</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=2" target="_blank">Second title</a></td>
+    <td class="last_otv"><b class="por">5</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">1</b></td>
+    <td class="last_obn"><tt class=date>2006-01-28 22:16:08</tt><br>
+        <a href="/forum/showthread.php?t=2&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=1" target="_blank">First title</a></td>
+    <td class="last_otv"><b class="por">2</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">35</b></td>
+    <td class="last_obn"><tt class=date>2005-12-05 21:24:13</tt><br>
+        <a href="/forum/showthread.php?t=1&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td class="last_nazv"><a href="/forum/showthread.php?t=1" target="_blank">First title</a></td>
+    <td class="last_otv"><b class="por">2</b></td>
+    <td class="last_author"><a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a></td>
+    <td class="last_author"><b class="por">35</b></td>
+    <td class="last_obn"><tt class=date>2005-12-05 21:24:06</tt><br>
+        <a href="/forum/showthread.php?t=1&goto=newpost" target="_blank"><b class=date>Last message:</b></a>
+        <a href="/forum/member.php?u=1" target="_blank"><b class=porr>wsr</b></a>
+    </td>
+</tr>
+
+
+
+</table>
+
+                    </TD>
+                </TR>
+                </TABLE>
+            </td>
+
+            <td valign="top" align="right">
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Search ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+
+                        
+                          <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                          <form action="/search.html" method="POST">
+                          <TR>
+                              <TD width=150 align="center">
+                                  <input type="TEXT" class="button" name="search_string" value="search" onmouseover="this.focus ( );" onblur="if ( value == '' ){value = 'search' }" onfocus="if ( value == 'search' ) { value ='' }"><br><br>
+                                  <input type="SUBMIT" class="button" value="Поиск">
+                              </TD>
+                          </TR>
+                          </form>
+                          </TABLE>
+               
+
+                    </TD>
+                </TR>
+                </TABLE>
+
+                <br>
+
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td>
+                        <table cellspacing="1" cellPadding="2" width="150" bgColor="#999999" border="0">
+                        <TR>
+                            <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Login ].:.</b></CENTER></TD>
+                        </TR>
+                        <TR>
+                            <TD bgColor="#fcfcfc">
+                                <TABLE cellSpacing="2" cellPadding="0" width="100%" border="0">
+                                <TR>
+                                    <TD>
+                                        <center class="porr">Добро пожаловать </center>
+<center class="por">wsr</center>
+<br><center><a href="/adminka/index.php" target="_blank">..::[ Админка ]::..</a></center>
+<center><a href="/local_logs.html">.:.[ Логи сайта ].:.</a></center>
+<br><center><a href="/logout.html"><b class=porr>.:. Выход .:.</b></a></center>
+                                    </TD>
+                                </TR>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </td>
+                </tr>
+                </table>
+                
+                <br>
+                
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td>
+                        <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                        <TR>
+                            <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Sniffer ].:.</b></CENTER></TD>
+                        </TR>
+                        <TR>
+                            <TD bgColor="#fcfcfc">
+                                <TABLE cellSpacing="2" cellPadding="2" width="100%" border="0">
+                                <TR>
+                                    <TD>
+                                        <center><b class=date>Last sites in sniffer-logs : </b></center>
+                                        
+                                    </TD>
+                                </TR>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                        <tr>
+                            <td bgColor="#fcfcfc" align="center">
+                                <a href="/sniffer.html">On-Line Сниффер - <b class=porr>Log</b></a><br>
+                                <a href="/sniffer_info.html">On-Line Сниффер - <b class=porr>Info</b></a><bR>
+                            </td>
+                        </tr>
+                        </TABLE>
+                    </td>
+                </tr>
+                </table>
+                
+                <br>
+
+                <table cellspacing="1" cellPadding="0" width="150" bgColor="#999999" border="0">
+                <TR>
+                    <TD background="/style/templates/lock-team/images/001.gif" bgColor="#fcfcfc" height="16"><CENTER><b class=label>.:.[ Counter ].:.</b></CENTER></TD>
+                </TR>
+                <TR>
+                    <TD bgColor="#fcfcfc" width=150>
+                        <TABLE cellSpacing="2" cellPadding="2" width="150" border="0">
+                        <TR>
+                            <TD width=150>
+                                
+                       <center><img src="/style/templates/lock-team/images/counter.gif" class="fadethis" onMouseOut="imgFade(this,30,10,10)" onMouseOver="imgFade(this,100,30,10)"></center>
+               
+                            </TD>
+                        </TR>
+                        </TABLE>
+                    </TD>
+                </TR>
+                </TABLE>
+                
+                <center><a href="/files/defaced.html" target="_blank"><b class=porr>Дефейсная страница</b></a></center>
+            </td>
+        </tr>
+        </table>
+
+        <TABLE cellSpacing="0" cellPadding="2" background="/style/templates/lock-team/images/2.jpg" width="100%" height="139" border="0">
+        <tr>
+            <td vAlign="top" align="center" colspan="3" height="100%"><Br><a href="#top">Вверх</a><br><b style="FONT-SIZE : 8pt;">.:.[ Copyright © <b class=porr>L0CK-TEAM</b>, 2005-2006 ].:.</b></td>
+        </tr>
+        <tr>
+            <td align="left" style="padding-bottom : 38px; padding-left : 6px;"><b class=porr>Generation time : <b class="por"> 0.49 сек.</b></b></td>
+            <td align="center" style="padding-bottom : 38px;" valign="bottom"></td>
+            <td align="right" style="padding-bottom : 38px; padding-right : 6px;"><b class=porr>Queries to MySQL used : <b class="por"> 15 </b></b></td>
+        </tr>
+        </TABLE>
+    </TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

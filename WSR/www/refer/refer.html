@@ -1,0 +1,92 @@
+<h1>Ссылки на наших друзей и партнеров</h1>
+<script language="JavaScript">
+function showhint(Tim,cho)
+{
+if (Tim == 1)
+{
+document.all('ILX').innerHTML ="<table class='but2' style='filter: alpha(opacity=80);' width=200><tr><td><marquee truespeed loop=\"-1\">"+cho+"</marquee></td></tr></table>";
+document.all('ILX').style.visibility = "visible";
+}
+else{
+document.all('ILX').style.visibility = "hidden";}
+}
+function movehint()
+{
+Fuzzy = document.body.scrollLeft + event.clientX + 12;
+WD = document.body.scrollTop + event.clientY;
+document.all('ILX').style.posLeft = Fuzzy;
+document.all('ILX').style.posTop = WD;
+}
+</script>
+
+<table align="center" cellpadding="3" cellspacing="0" width="100%" class="but2"> 
+<tr>
+	<td class="butt2" width="200">URL</td>
+	<td class="butt2">Кнопка</td>
+	<td class="butt2">Name</td>
+</tr>
+<tr><td height="5" colspan="3"><img src="../ne.gif" width="100%" height="100%" alt=""></td></tr>
+<tr>
+	<td class="butt2" width="200"><a href="http://www.soft-pc.h15.ru/" target="_blank">http://www.soft-pc.h15.ru</a></td>
+	<td class="butt2"><img src="refer/softpc.gif" width="87" height="41" alt="" border="0" onmousemove="movehint()" onmouseover="showhint(1,'самый полезный софт, множество программ для взлома и учебники по хакингу, интернет, веб-дизайн, всё для лучших игр, GTA:San Andreas.')" onmouseout="showhint(0,'')"></td>
+	<td class="butt">самый полезный софт, множество программ для взлома и учебники по хакингу, интернет, веб-дизайн, всё для лучших игр, <b style="color:maroon;">GTA:San Andreas</b>.</td>
+</tr>
+<tr>
+	<td class="butt2" width="200"><a href="http://www.sr2.invaders.ru/" target="_blank">http://www.sr2.invaders.ru</a></td>
+	<td class="butt2"></td>
+	<td class="butt">Информационный центр рейнджеров</td>
+</tr>
+<tr>
+	<td class="butt2"><a href="http://www.hotcd.ru/cgi-bin/index.pl?0==0==0==morfeus" target="_blank">http://www.hotcd.ru</a></td>
+	<td class="butt2">
+		<!--Rating@HotPortal.ru COUNTER-->
+		<script>
+		function getCookie2(name) {
+		var prefix = name + "="
+		var cookieStartIndex = document.cookie.indexOf(prefix)
+		if (cookieStartIndex == -1)
+		return null
+		var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length)
+		if (cookieEndIndex == -1)
+		cookieEndIndex = document.cookie.length
+		return unescape(document.cookie.substring(cookieStartIndex + prefix.length, cookieEndIndex))
+		}
+		var old=getCookie2('id_count_morfeus');
+		function setCookie2(name, value, expires, path, domain, secure) {
+		var expires = new Date ();
+		expires.setTime(expires.getTime() + (24 * 3600 * 1000));
+		var path="/";
+		var curCookie = name + "=" + escape(value) +
+		((expires) ? "; expires=" + expires.toGMTString() : "") +
+		((path) ? "; path=" + path : "") +
+		((domain) ? "; domain=" + domain : "") +
+		((secure) ? "; secure" : "")
+		document.cookie = curCookie
+		}
+		if (old!=1)
+		{
+		setCookie2('id_count_morfeus','1');
+		var old=0;
+		}
+		var RndNoCash = Math.round(Math.random() * 1000000000);
+		document.write('<a href="http://www.hotcd.ru/cgi-bin/index.pl?0==0==0==morfeus"><img src="http://www.hotcd.ru/cgi-bin/ncounter.cgi?morfeus==0=='+old+'=='+RndNoCash+'" width=88 height=31 border=0 alt="Партнерская программа. 10% с продаж, 20% от заработка новых привлеченных партнеров!"></a>');</script>
+		<!--EndRating@HotPortal.ru COUNTER-->
+	</td>
+	<td class="butt">Наверное один из лучших интернет магазинов в сети. Большой ассортимент, а главное цены по 45руб. за 1 диск.</td>
+</tr>
+<tr>
+	<td class="butt2"><a href="http://rangersworld.jino-net.ru">http://rangersworld.jino-net.ru</a></td>
+	<td class="butt2"><img src="http://dideas.jino-net.ru/images/sr.gif" alt="RangersWorld Project - Все о Космических Рейнджерах!" border="0" height="31" width="88"></td>
+	<td class="butt">Здесь вы сможете найти актуальную и точную информацию о мире Космических<Br>Рейнджеров, полезные программы, которые пригодятся и при игре, и при ее<Br>модификации, и многое, многое другое!<br>Теперь жду твою кнопку с описанием.</td>
+</tr>
+<!--
+<tr>
+	<td class="butt2"></td>
+	<td class="butt2"></td>
+	<td class="butt"></td>
+</tr>
+-->
+
+</table>
+<DIV id=ILX style="Z-INDEX: 7; LEFT: 0px; VISIBILITY: hidden; POSITION: absolute; TOP: 0px"></DIV>
+<h3 class="logo">by Fuzzy</h3>

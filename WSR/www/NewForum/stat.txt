@@ -1,0 +1,612 @@
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::12.02.2005 @ 16:47:17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::12.02.2005 @ 17:25:40
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::12.02.2005 @ 17:59:50
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::12.02.2005 @ 20:10:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::13.02.2005 @ 15:04:48
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::13.02.2005 @ 16:21:40
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::13.02.2005 @ 16:53:53
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::82.208.94.111::Unknown::No Referer::/NewForum/Forum.php::13.02.2005 @ 17:25:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.48::Unknown::No Referer::/NewForum/Forum.php::13.02.2005 @ 17:42:36
+Yandex/1.01.001 (compatible; Win16; I)::213.180.210.5::Unknown::No Referer::/NewForum/?show=3::13.02.2005 @ 18:39:31
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.54u1  [ru]::81.20.100.128::Unknown::http://www.yandex.ru/yandsearch?text=+StarForce+%EA%EE%ED%F4%EB%E8%EA%F2&stype=www::/NewForum/?show=2::13.02.2005 @ 18:50:52
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::13.02.2005 @ 20:10:28
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::13.02.2005 @ 20:28:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::http://www.keeperimage.h15.ru/forum_viewtopic.php?2.2::/NewForum/Forum.php::13.02.2005 @ 20:30:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::14.02.2005 @ 09:06:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::14.02.2005 @ 11:20:57
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::14.02.2005 @ 11:49:18
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::14.02.2005 @ 11:52:06
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::14.02.2005 @ 13:45:00
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::14.02.2005 @ 14:11:37
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::14.02.2005 @ 14:13:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::http://www.worldkr.fatal.ru/NewForum/reg.php::/NewForum/Forum.php::14.02.2005 @ 14:15:45
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::14.02.2005 @ 14:16:13
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::14.02.2005 @ 14:16:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::14.02.2005 @ 21:16:11
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.154.170.35::Unknown::http://yandex.ru/yandpage?q=1441517168&p=1&ag=d&qs=text%3Dstarforce%2B%25D2%25C5%25CA%25CE%25C4%25D6%25C5%25D2%25D9%26stype%3Dwww::/NewForum/?show=3::14.02.2005 @ 21:28:06
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Maxthon)::62.133.164.234::Unknown::http://www.yandex.ru/yandsearch?rpt=rad&text=SFREMOVE::/NewForum/?show=2::14.02.2005 @ 21:30:12
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::15.02.2005 @ 13:59:47
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)::195.46.177.27::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=14207&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::15.02.2005 @ 17:30:34
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::15.02.2005 @ 21:46:26
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::15.02.2005 @ 22:18:44
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::80.243.72.218::Unknown::http://www.yandex.ru/yandsearch?text=%E4%EE%EC%E8%ED%E0%F2%EE%F0%FB+starforce&stype=www::/NewForum/?show=3::16.02.2005 @ 06:16:14
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::80.243.72.218::Unknown::http://worldkr.fatal.ru/index.php?show=kr2.php::/NewForum/Forum.php::16.02.2005 @ 06:22:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::16.02.2005 @ 13:55:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::16.02.2005 @ 14:02:51
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::16.02.2005 @ 14:48:47
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::16.02.2005 @ 14:52:55
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::16.02.2005 @ 18:03:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::193.124.215.227::Unknown::http://www.yandex.ru/yandsearch?text=%CA%EE%F1%EC%E8%F7%E5%F1%EA%E8%E5+%F0%E5%E9%ED%E4%E6%E5%F0%FB+starforce&stype=www::/NewForum/?show=3::16.02.2005 @ 19:11:14
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::194.186.150.87::Unknown::http://www.yandex.ru/yandsearch?text=%EF%E0%F2%F7&holdreq=%E4%EE%EC%E8%ED%E0%F2%EE%F0%FB+&stype=www::/NewForum/?show=3::16.02.2005 @ 19:19:13
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::194.186.150.87::Unknown::http://www.yandex.ru/yandpage?q=504234416&p=3&ag=d&qs=text%3D%25C6%25CF%25D2%25D5%25CD%26holdreq%3D%2528%25C4%25CF%25CD%25C9%25CE%25C1%25D4%25CF%25D2%25D9%2B%2529%2526%2526%2528%25D0%25C1%25D4%25DE%2529%26stype%3Dwww::/NewForum/?show=3::16.02.2005 @ 19:27:12
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::193.124.215.227::Unknown::No Referer::/NewForum/?show=3::16.02.2005 @ 20:16:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::16.02.2005 @ 21:53:03
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::17.02.2005 @ 12:56:27
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::17.02.2005 @ 13:04:48
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::17.02.2005 @ 13:04:58
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::17.02.2005 @ 13:05:12
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705)::84.246.64.86::Unknown::No Referer::/NewForum/Forum.php::17.02.2005 @ 15:31:05
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705)::84.246.64.86::Unknown::No Referer::/NewForum/Forum.php::17.02.2005 @ 15:31:19
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705)::84.246.64.86::Unknown::No Referer::/NewForum/Forum.php::17.02.2005 @ 15:31:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)::217.25.80.210::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::17.02.2005 @ 16:31:01
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::17.02.2005 @ 20:55:08
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2; MRA 4.0 (build 00768))::194.186.186.77::Unknown::No Referer::/NewForum/Forum.php::17.02.2005 @ 23:41:28
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::18.02.2005 @ 14:25:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::18.02.2005 @ 14:26:22
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::80.73.71.2::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::18.02.2005 @ 14:38:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::18.02.2005 @ 14:53:34
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::18.02.2005 @ 20:07:20
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::18.02.2005 @ 20:08:26
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::18.02.2005 @ 21:13:00
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::18.02.2005 @ 21:59:15
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 12:00:53
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 12:39:36
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.25::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 15:50:17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.25::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 15:51:04
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.25::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 15:53:10
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.25::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 15:53:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.25::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 15:54:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.25::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 15:55:07
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.25::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 15:55:20
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.25::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 15:55:47
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.25::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 15:56:14
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 15:58:36
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 15:59:31
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.54  [ru]::212.154.233.47::Unknown::http://www.worldkr.fatal.ru/index.php?files.txt::/NewForum/Forum.php::19.02.2005 @ 16:58:50
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:07:14
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:07:33
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:09:06
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:10:14
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::82.208.94.30::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:13:15
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:13:31
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:13:47
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::19.02.2005 @ 17:14:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:14:32
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:14:39
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:14:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:15:17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:15:53
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:16:07
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:16:07
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:17:32
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:18:01
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:19:16
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:19:36
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:19:59
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/::19.02.2005 @ 17:20:13
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:20:37
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:20:51
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:21:07
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 17:21:18
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 18:47:21
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::http://www.worldkr.fatal.ru/NewForum/reg.php::/NewForum/Forum.php::19.02.2005 @ 18:48:35
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::http://www.worldkr.fatal.ru/NewForum/reg.php::/NewForum/Forum.php::19.02.2005 @ 18:48:39
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 18:49:13
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 20:08:51
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 20:09:37
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 20:09:57
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 20:10:13
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 20:11:50
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::http://www.worldkr.fatal.ru/NewForum/addn.php::/NewForum/Forum.php::19.02.2005 @ 20:12:45
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 20:13:02
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 20:13:46
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 20:14:03
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::80.227.56.42::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 20:18:15
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.227::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 20:18:33
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.227::Unknown::http://www.worldkr.fatal.ru/NewForum/addt.php::/NewForum/Forum.php::19.02.2005 @ 20:19:01
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.227::Unknown::http://www.worldkr.fatal.ru/NewForum/addt.php::/NewForum/Forum.php::19.02.2005 @ 20:19:09
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.227::Unknown::http://www.worldkr.fatal.ru/NewForum/addt.php::/NewForum/Forum.php::19.02.2005 @ 20:19:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.99.227::Unknown::No Referer::/NewForum/Forum.php::19.02.2005 @ 20:21:10
+Yandex/1.01.001 (compatible; Win16; I)::213.180.210.10::Unknown::No Referer::/NewForum/?show=1::20.02.2005 @ 08:19:53
+Yandex/1.01.001 (compatible; Win16; I)::213.180.210.10::Unknown::No Referer::/NewForum/?show=2::20.02.2005 @ 08:19:54
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.90::Unknown::http://worldkr.fatal.ru/::/NewForum/Forum.php::20.02.2005 @ 11:36:12
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.90::Unknown::No Referer::/NewForum/Forum.php::20.02.2005 @ 11:38:40
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.90::Unknown::No Referer::/NewForum/Forum.php::20.02.2005 @ 11:41:08
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.90::Unknown::No Referer::/NewForum/Forum.php::20.02.2005 @ 11:41:29
+Googlebot/2.1 (+http://www.google.com/bot.html)::66.249.64.38::Unknown::No Referer::/NewForum/Forum.php::20.02.2005 @ 21:33:13
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.138::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::20.02.2005 @ 21:49:49
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.96.70::Unknown::No Referer::/NewForum/Forum.php::21.02.2005 @ 15:58:19
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.96.70::Unknown::No Referer::/NewForum/Forum.php::21.02.2005 @ 15:58:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.96.70::Unknown::No Referer::/NewForum/Forum.php::21.02.2005 @ 15:58:48
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.96.70::Unknown::No Referer::/NewForum/Forum.php::21.02.2005 @ 15:59:24
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.96.70::Unknown::No Referer::/NewForum/Forum.php::21.02.2005 @ 15:59:38
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.96.9::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::21.02.2005 @ 18:10:24
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.96.9::Unknown::No Referer::/NewForum/Forum.php::21.02.2005 @ 18:14:41
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.96.9::Unknown::No Referer::/NewForum/Forum.php::21.02.2005 @ 18:14:55
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.96.18::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::21.02.2005 @ 18:20:47
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::http://www.worldkr.fatal.ru/index.php?show=onas/linc.html::/NewForum/Forum.php::21.02.2005 @ 18:25:18
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::21.02.2005 @ 18:25:43
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.136::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::22.02.2005 @ 08:10:49
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)::81.173.130.124::Unknown::No Referer::/NewForum/Forum.php::22.02.2005 @ 17:18:28
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)::81.173.130.124::Unknown::No Referer::/NewForum/Forum.php::22.02.2005 @ 17:18:47
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)::213.221.55.186::Unknown::http://yandex.ru/yandsearch?text=%F4%EE%F0%F3%EC+%F1%E2%F7&stype=www::/NewForum/?show=1::22.02.2005 @ 18:13:26
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.196::Unknown::No Referer::/NewForum/Forum.php::22.02.2005 @ 20:51:36
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.47::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::23.02.2005 @ 17:02:50
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::149.225.38.77::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::23.02.2005 @ 23:30:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::194.158.205.134::Unknown::http://www.worldkr.fatal.ru/index.php?show=quests2.txt::/NewForum/Forum.php::24.02.2005 @ 11:39:21
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; ru) Opera 8.00::194.158.205.134::Unknown::http://www.worldkr.fatal.ru/index.php?show=onas/linc.html::/NewForum/Forum.php::24.02.2005 @ 14:06:18
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; ru) Opera 8.00::194.158.205.134::Unknown::http://www.worldkr.fatal.ru/index.php?show=onas/linc.html::/NewForum/Forum.php::24.02.2005 @ 14:06:42
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)::217.79.57.131::Unknown::No Referer::/NewForum/Forum.php::24.02.2005 @ 14:15:13
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::82.208.96.3::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::25.02.2005 @ 14:04:20
+Mozilla/5.0 (Windows; U; Windows NT 5.0; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::84.53.201.186::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145::/NewForum/Forum.php::25.02.2005 @ 14:10:30
+Mozilla/5.0 (Windows; U; Windows NT 5.0; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::84.53.201.186::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 14:11:16
+Mozilla/5.0 (Windows; U; Windows NT 5.0; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::84.53.201.186::Unknown::http://www.worldkr.fatal.ru/NewForum/addt.php::/NewForum/Forum.php::25.02.2005 @ 14:12:08
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) Opera 7.23  [en]::195.161.248.150::Unknown::http://yandex.ru/yandsearch?stype=www&nl=0&text=%F4%EE%F0%F3%EC+%D1%C2%D7::/NewForum/?show=1::25.02.2005 @ 14:52:22
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.120.181.9::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145::/NewForum/Forum.php::25.02.2005 @ 15:15:15
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.120.181.9::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 15:15:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.45.96::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::25.02.2005 @ 16:41:12
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.39::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 17:18:04
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.39::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 17:21:19
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.39::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 17:21:38
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.39::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 17:21:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.39::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 17:23:48
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.45.96::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::25.02.2005 @ 17:25:28
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.45.96::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::25.02.2005 @ 17:33:09
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::82.208.94.93::Unknown::http://worldkr.fatal.ru/::/NewForum/Forum.php::25.02.2005 @ 18:13:02
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2; .NET CLR 1.0.3705)::84.204.117.124::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145::/NewForum/Forum.php::25.02.2005 @ 20:01:31
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2; MRA 4.0 (build 00768))::217.15.128.229::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145::/NewForum/Forum.php::25.02.2005 @ 20:56:44
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.78::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=1::/NewForum/Forum.php::25.02.2005 @ 21:37:50
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.78::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 21:40:47
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.78::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 21:41:12
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.78::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 21:44:55
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.78::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 21:46:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.78::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 21:52:10
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.78::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 22:25:55
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.75::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::25.02.2005 @ 22:58:06
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.75::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 22:59:11
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.75::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::25.02.2005 @ 23:05:42
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.75::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::25.02.2005 @ 23:05:55
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.75::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::25.02.2005 @ 23:10:24
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.75::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::25.02.2005 @ 23:11:44
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.75::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 23:12:01
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::83.174.212.93::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145::/NewForum/Forum.php::25.02.2005 @ 23:53:44
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::83.174.212.93::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 23:56:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::83.174.212.93::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 23:57:00
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::83.174.212.93::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 23:57:48
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::83.174.212.93::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 23:59:02
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::83.174.212.93::Unknown::No Referer::/NewForum/Forum.php::25.02.2005 @ 23:59:35
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) Opera 7.23  [ru]::212.92.132.92::Unknown::http://www.worldkr.fatal.ru/index.php?show=prikol.php::/NewForum/Forum.php::26.02.2005 @ 00:24:32
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.162.120.31::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::26.02.2005 @ 01:21:50
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.209.64.106::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::26.02.2005 @ 10:22:39
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15188&page=0&view=collapsed&sb=5&part=1&vc=1::/NewForum/Forum.php::26.02.2005 @ 12:57:40
+’уилла 0.1 (’уилла 0.1; ’уиндовс 0.1)::195.69.138.127::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=1::/NewForum/Forum.php::26.02.2005 @ 13:11:07
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::http://www.worldkr.fatal.ru/NewForum/reg.php::/NewForum/Forum.php::26.02.2005 @ 13:18:49
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::http://www.worldkr.fatal.ru/NewForum/reg.php::/NewForum/Forum.php::26.02.2005 @ 13:20:34
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 13:20:54
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 13:21:58
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 13:22:10
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 13:22:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 13:22:43
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 13:28:00
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 13:42:00
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 13:51:49
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 13:53:01
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 13:54:46
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::26.02.2005 @ 13:57:37
+Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)::212.16.206.233::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::26.02.2005 @ 14:05:26
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::26.02.2005 @ 14:10:34
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)::213.158.23.249::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145::/NewForum/Forum.php::26.02.2005 @ 14:12:46
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 14:12:57
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 14:13:17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 14:13:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 14:13:36
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 14:13:47
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 14:13:49
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 14:14:17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.63::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 14:15:24
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.104.245::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::26.02.2005 @ 14:19:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::213.177.104.245::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::26.02.2005 @ 14:21:28
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::212.96.106.52::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 14:21:48
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.96::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::26.02.2005 @ 14:36:43
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.96::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 14:39:54
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.96::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 14:47:27
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::194.85.247.225::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 16:16:01
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.72.251.38::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::26.02.2005 @ 19:40:28
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.72.251.38::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 19:41:30
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; ru) Opera 8.00::217.24.121.245::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145::/NewForum/Forum.php::26.02.2005 @ 19:44:37
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::212.110.247.201::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145::/NewForum/Forum.php::26.02.2005 @ 20:51:57
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::212.110.247.201::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145::/NewForum/Forum.php::26.02.2005 @ 20:55:50
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.6::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::26.02.2005 @ 21:27:36
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.6::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 21:29:54
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::213.177.121.227::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145::/NewForum/Forum.php::26.02.2005 @ 21:59:49
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.48::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::26.02.2005 @ 22:05:57
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.48::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 22:09:09
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.48::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 22:09:17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.48::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 22:09:59
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.48::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 22:12:06
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.48::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 22:12:24
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.48::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 22:18:02
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.48::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 22:18:20
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.45.82::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 22:36:40
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.45.82::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 22:44:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.45.82::Unknown::No Referer::/NewForum/Forum.php::26.02.2005 @ 22:44:53
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; ru) Opera 8.00::212.92.138.56::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::26.02.2005 @ 23:04:22
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.6) Gecko/20050223 Firefox/1.0.1::217.77.220.22::Unknown::http://www.worldkr.fatal.ru/index.php?show=kr1.php::/NewForum/Forum.php::27.02.2005 @ 02:57:21
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::195.34.228.79::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::27.02.2005 @ 03:07:39
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::195.34.228.79::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::27.02.2005 @ 03:08:33
+Mozilla/5.0 (Windows; U; Win98; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::212.92.132.213::Unknown::http://worldkr.fatal.ru/::/NewForum/Forum.php::27.02.2005 @ 07:46:50
+Mozilla/5.0 (Windows; U; Win98; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::212.92.132.213::Unknown::http://worldkr.fatal.ru/NewForum/index.php?show=1::/NewForum/Forum.php::27.02.2005 @ 07:47:56
+Mozilla/5.0 (Windows; U; Win98; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::212.92.132.213::Unknown::http://worldkr.fatal.ru/NewForum/index.php?show=0::/NewForum/Forum.php::27.02.2005 @ 07:48:27
+Mozilla/5.0 (Windows; U; Win98; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::212.92.132.213::Unknown::http://worldkr.fatal.ru/NewForum/index.php?show=3::/NewForum/Forum.php::27.02.2005 @ 07:48:45
+Mozilla/5.0 (Windows; U; Win98; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::212.92.132.213::Unknown::http://worldkr.fatal.ru/NewForum/index.php?show=6::/NewForum/Forum.php::27.02.2005 @ 07:49:26
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)::82.151.101.153::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145::/NewForum/Forum.php::27.02.2005 @ 12:28:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::213.59.74.86::Unknown::http://www.worldkr.fatal.ru/index.php?show=prikol.php::/NewForum/Forum.php::27.02.2005 @ 16:49:08
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.55::Unknown::No Referer::/NewForum/Forum.php::27.02.2005 @ 18:20:37
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.215::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::27.02.2005 @ 21:23:58
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.215::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::27.02.2005 @ 21:24:58
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.84::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::27.02.2005 @ 22:12:04
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.52::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::27.02.2005 @ 23:53:40
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.52::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::27.02.2005 @ 23:55:05
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.52::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::27.02.2005 @ 23:55:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.52::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::27.02.2005 @ 23:58:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.52::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::27.02.2005 @ 23:59:52
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.238::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 00:08:15
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.238::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 00:08:49
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.238::Unknown::http://www.worldkr.fatal.ru/NewForum/reg.php::/NewForum/Forum.php::28.02.2005 @ 00:09:40
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.238::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 00:09:51
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.202::Unknown::http://www.worldkr.fatal.ru/NewForum/reg.php::/NewForum/Forum.php::28.02.2005 @ 09:03:45
+Mozilla/4.0 (compatible; MSIE 5.0; Windows NT)::62.76.195.168::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 09:49:30
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2) Opera 7.54  [ru]::81.3.133.18::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 09:53:57
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2) Opera 7.54  [ru]::81.3.133.18::Unknown::http://www.worldkr.fatal.ru/NewForum/Forum.php::/NewForum/Forum.php::28.02.2005 @ 10:00:12
+Mozilla/4.0 (compatible; MSIE 5.0; Windows NT)::62.76.195.168::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 10:10:10
+Mozilla/4.0 (compatible; MSIE 5.0; Windows NT)::62.76.195.168::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 10:19:04
+Mozilla/4.0 (compatible; MSIE 5.0; Windows NT)::62.76.195.168::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 10:22:57
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Maxthon; .NET CLR 1.1.4322; .NET CLR 1.0.3705)::195.49.148.125::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 10:23:34
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.50  [ru]::81.2.23.66::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 10:25:48
+Mozilla/4.0 (compatible; MSIE 5.0; Windows NT)::62.76.195.168::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 10:26:10
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.22.90.2::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::28.02.2005 @ 10:40:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.143::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::28.02.2005 @ 13:28:09
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::83.219.11.132::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::28.02.2005 @ 14:31:13
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.240::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::28.02.2005 @ 16:33:37
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.5) Gecko/20031006::213.59.137.33::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15250&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::28.02.2005 @ 17:27:21
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::81.222.207.16::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 17:37:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::62.105.12.16::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15250&page=0&view=collapsed&sb=5&part=1::/NewForum/Forum.php::28.02.2005 @ 17:40:40
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.148::Unknown::http://www.worldkr.fatal.ru/index.php?show=Allscr.php::/NewForum/Forum.php::28.02.2005 @ 18:01:54
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.148::Unknown::http://www.worldkr.fatal.ru/index.php?show=Allscr.php::/NewForum/Forum.php::28.02.2005 @ 18:03:18
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.54  [ru]::195.46.187.2::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15250&page=0&view=collapsed&sb=5&part=1::/NewForum/Forum.php::28.02.2005 @ 20:43:18
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; ru) Opera 8.00::80.82.54.43::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15250::/NewForum/Forum.php::28.02.2005 @ 20:50:08
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.98::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15250&page=0&view=collapsed&sb=5&part=1::/NewForum/Forum.php::28.02.2005 @ 21:22:00
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.44.98::Unknown::No Referer::/NewForum/Forum.php::28.02.2005 @ 21:24:04
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.172::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::28.02.2005 @ 21:25:52
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::62.33.22.12::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15268&page=&view=&sb=&vc=1::/NewForum/Forum.php::28.02.2005 @ 22:15:09
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)::195.138.75.10::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::28.02.2005 @ 23:10:57
+Mozilla/4.0 (compatible; MSIE 5.0; Windows XP) Opera 6.05  [en]::213.132.65.32::Unknown::No Referer::/NewForum/Forum.php::01.03.2005 @ 00:43:28
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.162.120.62::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15250&page=0&view=collapsed&sb=5&part=1::/NewForum/Forum.php::01.03.2005 @ 02:07:55
+Mozilla/5.0 (Windows; U; Windows NT 5.0; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::84.53.201.204::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15250&page=0&view=collapsed&sb=5&part=1::/NewForum/Forum.php::01.03.2005 @ 11:56:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.60::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::01.03.2005 @ 14:46:48
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.177.99.60::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::01.03.2005 @ 14:47:28
+Googlebot/2.1 (+http://www.google.com/bot.html)::66.249.71.18::Unknown::No Referer::/NewForum/Forum.php::01.03.2005 @ 16:41:05
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; ru) Opera 8.00::213.85.45.45::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::01.03.2005 @ 18:43:55
+Opera/7.0 (Windows NT 5.1; U)  [en]::80.82.36.149::Unknown::No Referer::/NewForum/Forum.php::01.03.2005 @ 19:14:17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.25::Unknown::No Referer::/NewForum/Forum.php::01.03.2005 @ 20:29:11
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.208.94.25::Unknown::No Referer::/NewForum/Forum.php::01.03.2005 @ 20:33:30
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)::212.220.77.137::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=games&Number=13816&page=7&view=collapsed&sb=5&part=::/NewForum/Forum.php::02.03.2005 @ 03:54:35
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MRA 4.0 (build 00768))::82.162.121.91::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::02.03.2005 @ 06:25:09
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::195.222.87.19::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15250&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::02.03.2005 @ 09:43:05
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::195.222.87.19::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15250&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::02.03.2005 @ 09:43:27
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.244::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::02.03.2005 @ 15:19:36
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::82.207.37.139::Unknown::http://www.google.ru/search?hl=ru&q=%D0%9C%D0%B8%D1%80+%D0%9A%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85+%D1%80%D0%B5%D0%B9%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%BE%D0%B2&btnG=%D0%9F%D0%BE%D0%B8%D1%81%D0%BA&lr=::/NewForum/Forum.php::02.03.2005 @ 18:15:45
+Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)::213.169.65.123::Unknown::No Referer::/NewForum/Forum.php::02.03.2005 @ 19:32:59
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.230::Unknown::No Referer::/NewForum/Forum.php::02.03.2005 @ 19:56:21
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.230::Unknown::No Referer::/NewForum/Forum.php::02.03.2005 @ 20:06:19
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)::195.46.178.79::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15145&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::02.03.2005 @ 20:13:53
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)::195.46.178.79::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=other&Number=15250&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::02.03.2005 @ 20:20:30
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.230::Unknown::http://www.zgames.ru/modules.php?name=Forums&file=viewtopic&p=670::/NewForum/Forum.php::02.03.2005 @ 20:21:49
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)::83.149.0.113::Unknown::http://www.zgames.ru/modules.php?name=Forums&file=viewtopic&p=671::/NewForum/Forum.php::02.03.2005 @ 21:14:14
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322)::212.248.25.26::Unknown::No Referer::/NewForum/Forum.php::03.03.2005 @ 11:57:43
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.245::Unknown::No Referer::/NewForum/Forum.php::03.03.2005 @ 13:02:49
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.245::Unknown::No Referer::/NewForum/Forum.php::03.03.2005 @ 13:03:36
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.245::Unknown::No Referer::/NewForum/Forum.php::03.03.2005 @ 13:04:42
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.245::Unknown::http://www.hotcd.ru/forum/addpost.php::/NewForum/Forum.php::03.03.2005 @ 13:08:53
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.245::Unknown::No Referer::/NewForum/Forum.php::03.03.2005 @ 13:09:33
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.245::Unknown::No Referer::/NewForum/Forum.php::03.03.2005 @ 13:18:08
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::213.24.38.187::Unknown::http://jedi.var.ru/forum/topic_show.pl?id=23040::/NewForum/?show=1::03.03.2005 @ 14:13:59
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.24.45.57::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=www.hotcd.ru&Number=15388&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::03.03.2005 @ 16:34:48
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::62.105.12.33::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=www.hotcd.ru&Number=15388&page=0&view=collapsed&sb=5&part=::/NewForum/Forum.php::03.03.2005 @ 16:36:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.161.136.106::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=www.hotcd.ru&Number=15413&page=&view=&sb=&vc=1::/NewForum/Forum.php::03.03.2005 @ 17:34:06
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)::195.46.177.120::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=www.hotcd.ru&Number=15388&page=0&view=collapsed&sb=5&part=1::/NewForum/Forum.php::03.03.2005 @ 17:38:02
+Mozilla/5.0 (Windows; U; Windows NT 5.0; ru-RU; rv:1.7.4) Gecko/20040926::212.113.46.38::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::03.03.2005 @ 19:49:35
+Mozilla/5.0 (Windows; U; Windows NT 5.0; ru-RU; rv:1.7.4) Gecko/20040926::212.113.46.38::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::03.03.2005 @ 19:49:41
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.228::Unknown::No Referer::/NewForum/Forum.php::03.03.2005 @ 20:30:24
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.228::Unknown::No Referer::/NewForum/Forum.php::03.03.2005 @ 20:39:55
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)::83.237.117.204::Unknown::http://www.worldkr.fatal.ru/index.php?show=okr2/Giper.txt::/NewForum/Forum.php::03.03.2005 @ 21:12:28
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::195.46.189.89::Unknown::No Referer::/NewForum/?show=1::04.03.2005 @ 02:24:07
+StackRambler/2.0 (MSIE incompatible)::81.19.66.6::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 03:06:39
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20041107 Firefox/1.0::195.5.11.132::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::04.03.2005 @ 12:03:12
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.111::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 12:47:00
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.111::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 13:27:22
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.111::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 13:27:26
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.246::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 14:25:33
+Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)::81.26.133.66::Unknown::http://www.worldkr.fatal.ru/index.php?show=files.txt::/NewForum/Forum.php::04.03.2005 @ 14:40:42
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.239.101.230::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::04.03.2005 @ 14:43:20
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.00::81.30.204.43::Unknown::http://www.worldkr.fatal.ru/NewForum/Forum.php::/NewForum/Forum.php::04.03.2005 @ 16:22:39
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.243::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 16:28:52
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.235::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 17:38:03
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::83.174.209.221::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 17:41:19
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.235::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 18:00:35
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.235::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 18:00:45
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.235::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 18:12:38
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.113::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 18:44:44
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.113::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 18:45:11
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 18:46:02
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 18:49:21
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 18:52:51
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 19:00:17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.248::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 19:45:11
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.248::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 19:48:43
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.248::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 19:49:06
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.248::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 19:49:21
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.248::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 19:49:58
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.110::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 20:12:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.112::Unknown::No Referer::/NewForum/Forum.php::04.03.2005 @ 21:26:21
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MRA 4.0 (build 00768))::212.45.24.131::Unknown::http://www.worldkr.fatal.ru/index.php?show=kr0.php::/NewForum/Forum.php::04.03.2005 @ 21:36:14
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MRA 4.0 (build 00768))::212.45.24.131::Unknown::http://www.worldkr.fatal.ru/index.php?show=kr0.php::/NewForum/Forum.php::04.03.2005 @ 21:36:24
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MRA 4.0 (build 00768))::212.45.24.131::Unknown::http://www.worldkr.fatal.ru/index.php?show=onas/linc.html::/NewForum/Forum.php::04.03.2005 @ 21:38:01
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::213.177.121.202::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::04.03.2005 @ 21:49:16
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.217::Unknown::No Referer::/NewForum/Forum.php::05.03.2005 @ 11:37:01
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.217::Unknown::No Referer::/NewForum/Forum.php::05.03.2005 @ 11:39:22
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.217::Unknown::No Referer::/NewForum/Forum.php::05.03.2005 @ 11:46:08
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041217::195.5.55.17::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::05.03.2005 @ 14:01:04
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)::62.76.229.110::Unknown::http://hhm.ru/list.php?g=CD/DVD-rom::/NewForum/Forum.php::05.03.2005 @ 17:31:37
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.54  [ru]::212.94.117.147::Unknown::http://www.worldkr.fatal.ru/index.php?show=files.txt::/NewForum/Forum.php::05.03.2005 @ 17:57:39
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::82.208.71.82::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::05.03.2005 @ 20:23:45
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.23  [ru]::213.158.1.155::Unknown::http://www.worldkr.fatal.ru/index.php?show=prikol.php::/NewForum/Forum.php::05.03.2005 @ 22:06:17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::83.234.82.10::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::05.03.2005 @ 23:17:36
+Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)::80.80.111.129::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::06.03.2005 @ 01:22:05
+Mozilla/5.0 (Windows; U; Win98; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::212.92.132.214::Unknown::http://worldkr.fatal.ru/::/NewForum/Forum.php::06.03.2005 @ 04:30:32
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.50  [ru]::83.149.24.76::Unknown::http://worldkr.fatal.ru/index.php?okr/faq.txt::/NewForum/Forum.php::06.03.2005 @ 14:55:08
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.59.108.10::Unknown::http://www.worldkr.fatal.ru/index.php?show=okr2/Ras.txt::/NewForum/Forum.php::06.03.2005 @ 17:56:35
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.244::Unknown::http://www.worldkr.fatal.ru::/NewForum/Forum.php::06.03.2005 @ 18:01:15
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.244::Unknown::http://www.worldkr.fatal.ru::/NewForum/Forum.php::06.03.2005 @ 18:01:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.244::Unknown::http://www.worldkr.fatal.ru::/NewForum/Forum.php::06.03.2005 @ 18:04:17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.244::Unknown::http://www.worldkr.fatal.ru::/NewForum/Forum.php::06.03.2005 @ 18:05:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.244::Unknown::http://www.worldkr.fatal.ru::/NewForum/Forum.php::06.03.2005 @ 18:06:16
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.244::Unknown::No Referer::/NewForum/Forum.php::06.03.2005 @ 18:06:38
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.228.74::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::06.03.2005 @ 18:30:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::193.125.19.68::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::07.03.2005 @ 01:29:18
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.51  [ru]::81.211.123.12::Unknown::http://worldkr.fatal.ru/NewForum/other.php?show=patch2::/NewForum/Forum.php::07.03.2005 @ 01:45:48
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.216::Unknown::http://www.worldkr.fatal.ru::/NewForum/Forum.php::07.03.2005 @ 02:16:46
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.216::Unknown::No Referer::/NewForum/Forum.php::07.03.2005 @ 02:17:42
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.216::Unknown::No Referer::/NewForum/Forum.php::07.03.2005 @ 02:18:52
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.216::Unknown::No Referer::/NewForum/Forum.php::07.03.2005 @ 02:19:00
+Opera/7.10 (Windows NT 5.1; U)  [ru]::217.107.196.126::Unknown::http://www.hotcd.ru/forum/showflat.php?Cat=&Board=games&Number=13816&page=8&view=collapsed&sb=5&part=::/NewForum/Forum.php::07.03.2005 @ 07:00:12
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::81.176.149.223::Unknown::http://www.domcd.com.ru/::/NewForum/Forum.php::07.03.2005 @ 10:47:09
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.244::Unknown::http://www.worldkr.fatal.ru::/NewForum/Forum.php::07.03.2005 @ 12:46:52
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::193.110.100.178::Unknown::http://www.hotcd.ru/cgi-bin/index.pl?0==0==0==deniel::/NewForum/Forum.php::07.03.2005 @ 13:30:19
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::193.110.100.178::Unknown::No Referer::/NewForum/Forum.php::07.03.2005 @ 13:30:52
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::212.92.132.246::Unknown::No Referer::/NewForum/Forum.php::08.03.2005 @ 04:06:30
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::212.92.132.246::Unknown::No Referer::/NewForum/Forum.php::08.03.2005 @ 04:07:37
+ia_archiver::209.237.238.172::Unknown::No Referer::/NewForum/Forum.php::08.03.2005 @ 10:00:11
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::80.92.195.184::Unknown::http://www.worldkr.fatal.ru/index.php?show=onas/linc.html&what=link::/NewForum/Forum.php::08.03.2005 @ 11:03:27
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.226::Unknown::No Referer::/NewForum/Forum.php::08.03.2005 @ 12:37:30
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.101::Unknown::http://www.worldkr.fatal.ru::/NewForum/Forum.php::08.03.2005 @ 15:50:39
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.101::Unknown::No Referer::/NewForum/Forum.php::08.03.2005 @ 15:52:01
+Opera/7.54 (Windows NT 5.1; U)  [en]::194.158.194.109::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::08.03.2005 @ 16:58:10
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::http://localhost/::/NewForum/Forum.php::09.03.2005 @ 18:16:06
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::09.03.2005 @ 18:46:41
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::81.2.49.214::Unknown::http://www.yandex.ru/yandsearch?text=%CA%EE%F1%EC%E8%F7%E5%F1%EA%E8%E5+%F0%E5%E9%ED%E4%E6%E5%F0%FB+%F4%EE%F0%F3%EC&stype=www::/NewForum/?show=2::10.03.2005 @ 05:31:26
+Opera/7.10 (Windows NT 5.1; U)  [ru]::217.107.196.126::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::10.03.2005 @ 10:13:54
+Aport::194.67.18.66::Unknown::No Referer::/NewForum/?show=0::10.03.2005 @ 11:30:41
+Aport::194.67.18.66::Unknown::No Referer::/NewForum/?show=1::10.03.2005 @ 11:30:42
+Aport::194.67.18.66::Unknown::No Referer::/NewForum/?show=2::10.03.2005 @ 11:30:44
+Aport::194.67.18.66::Unknown::No Referer::/NewForum/?show=3::10.03.2005 @ 11:30:46
+Aport::194.67.18.66::Unknown::No Referer::/NewForum/Forum.php::10.03.2005 @ 11:30:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) Opera 7.23  [ru]::83.167.0.4::Unknown::http://worldkr.fatal.ru/index.php?show=Zna.txt::/NewForum/Forum.php::10.03.2005 @ 12:58:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.50  [en]::212.113.37.155::Unknown::http://www.yandex.ru/yandsearch?rpt=rad&text=%E4%EE%EC%E8%ED%E0%F2%EE%F0%FB+starforce::/NewForum/?show=2::10.03.2005 @ 13:49:58
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98) Opera 7.11  [ru]::82.207.60.211::Unknown::http://www.worldkr.fatal.ru/index.php?show=quests2.txt::/NewForum/Forum.php::10.03.2005 @ 14:49:52
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.120::Unknown::No Referer::/NewForum/Forum.php::10.03.2005 @ 20:38:35
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.120::Unknown::http://www.soft-pc.h15.ru/index.php?name=obo_mne.html::/NewForum/Forum.php::10.03.2005 @ 20:53:48
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::81.2.58.16::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::11.03.2005 @ 10:36:03
+Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.05  [ru]::213.24.137.114::Unknown::http://www.yandex.ru/yandsearch?stype=www&nl=0&text=%F4%EE%F0%F3%EC+%F1%E2%F7::/NewForum/?show=2::11.03.2005 @ 13:34:36
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; MyIE2; .NET CLR 1.1.4322)::80.254.116.18::Unknown::No Referer::/NewForum/?show=2::11.03.2005 @ 17:32:40
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.54  [en]::82.162.160.98::Unknown::http://www.yandex.ru/yandsearch?rpt=rad&text=%CA%EE%F1%EC%E8%F7%E5%F1%EA%E8%E5+%D0%E5%E9%ED%E4%E6%E5%F0%FB+starforce::/NewForum/?show=2::11.03.2005 @ 17:36:18
+Googlebot/2.1 (+http://www.google.com/bot.html)::66.249.64.33::Unknown::No Referer::/NewForum/Forum.php::11.03.2005 @ 18:58:46
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.104::Unknown::No Referer::/NewForum/Forum.php::12.03.2005 @ 07:22:27
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.242::Unknown::No Referer::/NewForum/Forum.php::12.03.2005 @ 10:58:58
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.54  [en]::83.170.254.170::Unknown::http://worldkr.fatal.ru/NewForum/index.php?show=1::/NewForum/Forum.php::12.03.2005 @ 13:07:54
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.231::Unknown::No Referer::/NewForum/Forum.php::12.03.2005 @ 18:54:44
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::82.162.121.60::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::13.03.2005 @ 03:32:29
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::82.162.121.60::Unknown::http://www.worldkr.fatal.ru/NewForum/index.php?show=6&door=mess::/NewForum/Forum.php::13.03.2005 @ 03:33:51
+msnbot/1.0 (+http://search.msn.com/msnbot.htm)::65.54.188.140::Unknown::No Referer::/NewForum/Forum.php::13.03.2005 @ 04:28:05
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)::195.190.121.82::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::13.03.2005 @ 09:48:20
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)::195.190.121.82::Unknown::http://www.worldkr.fatal.ru/index.php?show=okr/Ras.txt&what=kr::/NewForum/Forum.php::13.03.2005 @ 09:51:20
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)::195.190.121.82::Unknown::http://www.worldkr.fatal.ru/index.php?show=okr/Ras.txt&what=kr::/NewForum/Forum.php::13.03.2005 @ 09:51:22
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; MyIE2)::212.92.132.110::Unknown::No Referer::/NewForum/Forum.php::13.03.2005 @ 12:22:15
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::193.29.204.25::Unknown::http://www.worldkr.fatal.ru/index.php?show=okr/Key.txt&what=kr::/NewForum/Forum.php::13.03.2005 @ 16:55:01
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.106::Unknown::No Referer::/NewForum/Forum.php::13.03.2005 @ 20:35:05
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::13.03.2005 @ 20:54:30
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MyIE2)::212.26.224.202::Unknown::No Referer::/NewForum/Forum.php::13.03.2005 @ 20:55:48
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.5.11.162::Unknown::http://www.yandex.ru/yandsearch?text=%F4%EE%F0%F3%EC&holdreq=%CA%EE%F1%EC%E8%F7%E5%F1%EA%E8%E5+%F0%E5%E9%ED%E4%E6%E5%F0%FB+2&stype=www::/NewForum/?show=2::14.03.2005 @ 10:29:18
+Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)::217.116.143.254::Unknown::http://www.worldkr.fatal.ru/index.php?show=quests.txt&what=kr::/NewForum/Forum.php::14.03.2005 @ 17:25:29
+Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)::217.116.143.254::Unknown::http://www.worldkr.fatal.ru/NewForum/index.php?show=1&door=sforce::/NewForum/Forum.php::14.03.2005 @ 17:29:10
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.254::Unknown::No Referer::/NewForum/Forum.php::14.03.2005 @ 18:08:38
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.52  [ru]::217.116.143.254::Unknown::http://worldkr.fatal.ru/NewForum/index.php?show=1::/NewForum/Forum.php::14.03.2005 @ 21:20:05
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 1.0.3705)::212.176.18.193::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::15.03.2005 @ 12:12:24
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.253::Unknown::No Referer::/NewForum/Forum.php::15.03.2005 @ 21:18:09
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.253::Unknown::No Referer::/NewForum/Forum.php::15.03.2005 @ 21:18:55
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FunWebProducts; MRA 4.0 (build 00768))::213.179.227.204::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::15.03.2005 @ 22:59:03
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FunWebProducts; MRA 4.0 (build 00768))::213.179.227.204::Unknown::No Referer::/NewForum/Forum.php::15.03.2005 @ 23:14:28
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98) Opera 7.20  [en]::194.106.194.19::Unknown::http://www.worldkr.fatal.ru/index.php?okr/quest1.txt::/NewForum/Forum.php::16.03.2005 @ 10:57:34
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.214::Unknown::No Referer::/NewForum/Forum.php::16.03.2005 @ 13:52:02
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.214::Unknown::No Referer::/NewForum/Forum.php::16.03.2005 @ 13:54:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.214::Unknown::No Referer::/NewForum/Forum.php::16.03.2005 @ 13:57:48
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.214::Unknown::No Referer::/NewForum/Forum.php::16.03.2005 @ 13:58:14
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.236::Unknown::No Referer::/NewForum/Forum.php::16.03.2005 @ 18:50:40
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::62.105.0.142::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::16.03.2005 @ 19:12:38
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.122.24.110::Unknown::http://www.yandex.ru/yandpage?q=1800611968&p=1&ag=d&qs=text%3D%25F0%25C1%25D4%25DE%2B%2B%25C4%25CC%25D1%2B%25DE%25C9%25D4%25CF%25D7%2B%26stype%3Dwww::/NewForum/?show=2::16.03.2005 @ 20:19:07
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) Opera 7.50  [ru]::212.17.0.41::Unknown::http://www.google.ru/search?hl=ru&q=%D1%84%D0%BE%D1%80%D1%83%D0%BC+%D0%BF%D0%BE+%D0%BA%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC+%D1%80%D0%B5%D0%B9%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B0%D0%BC&btnG=%D0%9F%D0%BE%D0%B8%D1%81%D0%BA+%D0%B2+Google::/NewForum/Forum.php::17.03.2005 @ 06:09:42
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.243::Unknown::No Referer::/NewForum/Forum.php::17.03.2005 @ 18:06:09
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::193.109.80.220::Unknown::http://www.yandex.ru/yandsearch?text=%E4%EE%EC%E8%ED%E0%F2%EE%F0%FB+starforce&stype=www::/NewForum/?show=2::17.03.2005 @ 21:08:43
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.223::Unknown::No Referer::/NewForum/Forum.php::17.03.2005 @ 21:47:03
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)::84.204.115.175::Unknown::No Referer::/NewForum/Forum.php::18.03.2005 @ 01:58:44
+Mozilla/4.0 (compatible; MSIE 5.0; Windows 98) Opera 6.05 ~ [ru]::195.190.98.151::Unknown::No Referer::/NewForum/Forum.php::18.03.2005 @ 02:31:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.242::Unknown::No Referer::/NewForum/Forum.php::18.03.2005 @ 12:27:30
+Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)::212.86.251.242::Unknown::http://worldkr.fatal.ru/NewForum/Forum.php::/NewForum/Forum.php::18.03.2005 @ 18:33:54
+Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)::212.86.251.242::Unknown::http://worldkr.fatal.ru/NewForum/Forum.php::/NewForum/Forum.php::18.03.2005 @ 18:38:40
+Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)::212.86.251.242::Unknown::http://worldkr.fatal.ru/NewForum/Forum.php::/NewForum/Forum.php::18.03.2005 @ 18:46:19
+Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)::212.86.251.242::Unknown::http://worldkr.fatal.ru/NewForum/Forum.php::/NewForum/Forum.php::18.03.2005 @ 18:47:01
+Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)::212.86.251.242::Unknown::http://worldkr.fatal.ru/NewForum/Forum.php::/NewForum/Forum.php::18.03.2005 @ 18:47:48
+Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)::212.86.251.242::Unknown::http://worldkr.fatal.ru/NewForum/Forum.php::/NewForum/Forum.php::18.03.2005 @ 18:47:51
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98) Opera 7.11  [ru]::213.227.197.214::Unknown::No Referer::/NewForum/Forum.php::19.03.2005 @ 01:41:51
+Yandex/1.01.001 (compatible; Win16; I)::213.180.216.23::Unknown::No Referer::/NewForum/?show=6::19.03.2005 @ 02:51:00
+Yandex/1.01.001 (compatible; Win16; I)::213.180.216.23::Unknown::No Referer::/NewForum/?show=0::19.03.2005 @ 02:51:01
+Yandex/1.01.001 (compatible; Win16; I)::213.180.216.23::Unknown::No Referer::/NewForum/?show=1::19.03.2005 @ 02:51:02
+Yandex/1.01.001 (compatible; Win16; I)::213.180.216.23::Unknown::No Referer::/NewForum/?show=2::19.03.2005 @ 02:51:05
+Yandex/1.01.001 (compatible; Win16; I)::213.180.216.23::Unknown::No Referer::/NewForum/?show=3::19.03.2005 @ 02:51:07
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.117::Unknown::No Referer::/NewForum/Forum.php::19.03.2005 @ 18:18:00
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.108::Unknown::No Referer::/NewForum/Forum.php::19.03.2005 @ 20:01:12
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.242::Unknown::No Referer::/NewForum/Forum.php::19.03.2005 @ 21:34:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.227::Unknown::No Referer::/NewForum/Forum.php::20.03.2005 @ 10:57:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.179.239.113::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::20.03.2005 @ 16:23:42
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.179.239.113::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::20.03.2005 @ 16:24:51
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::213.179.239.113::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::20.03.2005 @ 16:25:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.250::Unknown::No Referer::/NewForum/Forum.php::20.03.2005 @ 18:08:24
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.234::Unknown::No Referer::/NewForum/Forum.php::20.03.2005 @ 19:37:15
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.58.240.14::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::20.03.2005 @ 21:39:21
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.58.240.14::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::20.03.2005 @ 21:42:28
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; ru) Opera 8.00::217.17.167.134::Unknown::http://www.worldkr.fatal.ru/index.php?show=Chiter.txt::/NewForum/Forum.php::21.03.2005 @ 08:18:50
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.235::Unknown::No Referer::/NewForum/Forum.php::21.03.2005 @ 10:22:07
+Googlebot/2.1 (+http://www.google.com/bot.html)::66.249.64.28::Unknown::No Referer::/NewForum/Forum.php::21.03.2005 @ 19:53:22
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.215::Unknown::No Referer::/NewForum/Forum.php::22.03.2005 @ 11:11:49
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.246::Unknown::No Referer::/NewForum/Forum.php::22.03.2005 @ 16:58:42
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.244::Unknown::No Referer::/NewForum/Forum.php::22.03.2005 @ 19:50:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.244::Unknown::No Referer::/NewForum/Forum.php::22.03.2005 @ 19:51:58
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::62.183.113.233::Unknown::http://www.worldkr.fatal.ru/index.php?show=okr2/Giper.txt&what=kr2::/NewForum/Forum.php::23.03.2005 @ 11:24:20
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::212.92.132.230::Unknown::No Referer::/NewForum/Forum.php::23.03.2005 @ 15:22:53
+Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; Win 9x 4.90)::213.228.80.97::Unknown::http://www.worldkr.fatal.ru/index.php?show=kr0.php&what=screen::/NewForum/Forum.php::24.03.2005 @ 16:38:00
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)::212.110.247.111::Unknown::http://www.worldkr.fatal.ru/index.php::/NewForum/Forum.php::25.03.2005 @ 08:26:47
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)::212.110.247.111::Unknown::No Referer::/NewForum/Forum.php::25.03.2005 @ 08:28:57
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.46.187.61::Unknown::http://www.yandex.ru/yandsearch?stype=www&nl=0&text=StarForce3+VS+%CA%EE%F1%EC%E8%F7%E5%F1%EA%E8%E5+%F0%E5%E9%ED%E4%E6%E5%F0%FB-2+%C4%EE%EC%E8%ED%E0%F2%EE%F0%FB::/NewForum/?show=1::25.03.2005 @ 22:08:17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.46.187.61::Unknown::http://www.yandex.ru/yandsearch?stype=www&nl=0&text=StarForce3+VS+%CA%EE%F1%EC%E8%F7%E5%F1%EA%E8%E5+%F0%E5%E9%ED%E4%E6%E5%F0%FB-2+%C4%EE%EC%E8%ED%E0%F2%EE%F0%FB::/NewForum/?show=1::25.03.2005 @ 22:11:34
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::195.46.187.61::Unknown::http://www.yandex.ru/yandsearch?stype=www&nl=0&text=StarForce3+VS+%CA%EE%F1%EC%E8%F7%E5%F1%EA%E8%E5+%F0%E5%E9%ED%E4%E6%E5%F0%FB-2+%C4%EE%EC%E8%ED%E0%F2%EE%F0%FB::/NewForum/?show=1::25.03.2005 @ 22:11:55
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)::217.9.147.47::Unknown::http://www.worldkr.fatal.ru/index.php?show=okr/Obj.txt&what=kr::/NewForum/Forum.php::25.03.2005 @ 22:39:41
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::82.162.122.15::Unknown::No Referer::/NewForum/Forum.php::26.03.2005 @ 09:05:14
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.7.5) Gecko/20041108 Firefox/1.0::82.207.92.9::Unknown::http://www.worldkr.fatal.ru/index.php?show=okr2/Weap.txt::/NewForum/Forum.php::26.03.2005 @ 22:35:06
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)::81.198.33.195::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::27.03.2005 @ 00:09:30
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)::81.198.33.195::Unknown::http://www.worldkr.fatal.ru/::/NewForum/Forum.php::27.03.2005 @ 00:10:22
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::http://www.w-sr.ru::/NewForum/::30.03.2005 @ 22:47:01
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::30.03.2005 @ 22:47:29
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::30.03.2005 @ 22:47:38
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::30.03.2005 @ 22:47:44
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::30.03.2005 @ 22:47:50
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::30.03.2005 @ 22:47:53
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::30.03.2005 @ 22:47:59
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::30.03.2005 @ 22:48:41
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::30.03.2005 @ 22:50:19
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::30.03.2005 @ 22:53:38
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::30.03.2005 @ 22:53:52
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::30.03.2005 @ 22:54:06
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::http://wsr.ru/?sh=okrfiles::/NewForum/::31.03.2005 @ 10:20:33
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::31.03.2005 @ 10:20:45
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::31.03.2005 @ 10:21:08
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::31.03.2005 @ 10:21:25
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::31.03.2005 @ 10:22:05
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::31.03.2005 @ 10:22:19
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::31.03.2005 @ 10:23:34
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::31.03.2005 @ 10:24:00
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::http://wsr.ru/?sh=okrfiles::/NewForum/::31.03.2005 @ 10:24:23
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::http://wsr.ru/?sh=okrfiles::/NewForum/::31.03.2005 @ 10:24:27
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU; rv:1.8a5) Gecko/20041122::127.0.0.1::Unknown::http://wsr.ru/?sh=search::/NewForum/::31.03.2005 @ 10:47:20
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::http://www.wsr.ru/?show=okr2/about.html::/NewForum/::01.04.2005 @ 20:28:53
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::http://www.wsr/?show=okr2/about.html::/NewForum/::02.04.2005 @ 16:32:05
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::http://www.wsr/::/NewForum/::04.04.2005 @ 20:53:28
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::http://www.wsr/::/NewForum/::04.04.2005 @ 20:53:38
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::04.04.2005 @ 20:54:56
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::04.04.2005 @ 20:55:07
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::127.0.0.1::Unknown::http://www.wsr/?show=okr/weapon.html::/NewForum/::20.05.2005 @ 23:44:44
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::20.05.2005 @ 23:46:02
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::127.0.0.1::Unknown::http://www.wsr/NewForum/reg.php::/NewForum/Forum.php::20.05.2005 @ 23:48:09
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::20.05.2005 @ 23:48:46
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::20.05.2005 @ 23:50:50
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::127.0.0.1::Unknown::http://www.wsr/?show=okr/about.html::/NewForum/::20.05.2005 @ 23:55:36
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::127.0.0.1::Unknown::http://www.wsr/::/NewForum/::20.05.2005 @ 23:55:41
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::127.0.0.1::Unknown::http://www.wsr/?show=okr/about.html::/NewForum/::20.05.2005 @ 23:56:03
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::127.0.0.1::Unknown::http://www.wsr/?show=okr/about.html::/NewForum/::20.05.2005 @ 23:56:09
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::127.0.0.1::Unknown::http://www.wsr/?show=okr/about.html::/NewForum/::20.05.2005 @ 23:58:53
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)::127.0.0.1::Unknown::http://www.wsr/?show=okr/weapon.html::/NewForum/::27.05.2004 @ 00:24:06
+Opera/8.0 (Windows NT 5.1; U; ru)::127.0.0.1::Unknown::http://worldkr.fatal.ru/?show=okr2/no-cd.html::/NewForum/::19.11.2005 @ 22:22:21
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/?show=okr/about.html::/NewForum/::19.08.2006 @ 16:41:54
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/::/NewForum/::24.11.2006 @ 22:38:55
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php?show=3&door=mess::/NewForum/Forum.php::24.11.2006 @ 22:41:26
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/::/NewForum/::05.12.2006 @ 16:53:18
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php?show=6&door=mess::/NewForum/Forum.php::05.12.2006 @ 16:54:38
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php?show=3&door=mess::/NewForum/Forum.php::05.12.2006 @ 16:55:33
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/reg.php::/NewForum/Forum.php::05.12.2006 @ 16:56:40
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/user.php?user=ILX::/NewForum/Forum.php::05.12.2006 @ 16:57:07
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/user.php?user=Fuzzy::/NewForum/Forum.php::05.12.2006 @ 16:57:40
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/user.php?user=ILX::/NewForum/Forum.php::05.12.2006 @ 17:48:23
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::05.12.2006 @ 17:48:27
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::05.12.2006 @ 17:48:29
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::05.12.2006 @ 17:48:30
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::05.12.2006 @ 17:48:33
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::05.12.2006 @ 17:48:35
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::05.12.2006 @ 17:48:37
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::05.12.2006 @ 17:48:38
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::05.12.2006 @ 17:48:40
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::05.12.2006 @ 17:48:45
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/reg.php::/NewForum/Forum.php::05.12.2006 @ 17:50:39
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::05.12.2006 @ 17:50:56
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/addt.php::/NewForum/Forum.php::05.12.2006 @ 17:53:59
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/addn.php?ra=mess::/NewForum/Forum.php::05.12.2006 @ 17:55:39
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:56:32
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:57:06
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:57:07
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:57:07
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:57:08
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:57:09
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:57:10
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:57:11
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:57:12
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:57:12
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:57:13
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/NewForum/index.php::/NewForum/Forum.php::05.12.2006 @ 17:58:14
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8) Gecko/20051111 Firefox/1.5::127.0.0.1::Unknown::http://wsr/?show=refer/refer.html::/NewForum/::06.12.2006 @ 01:45:06
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/::/NewForum/::07.12.2006 @ 20:35:36
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/::/NewForum/::15.12.2006 @ 16:55:06
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/index.php?show=0&door=mess::/NewForum/Forum.php::15.12.2006 @ 16:57:54
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/index.php?show=0&door=mess::/NewForum/Forum.php::15.12.2006 @ 16:58:32
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/index.php?show=0&door=mess::/NewForum/Forum.php::15.12.2006 @ 16:58:33
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/index.php?show=0&door=mess::/NewForum/Forum.php::15.12.2006 @ 16:58:34
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/index.php?show=0&door=mess::/NewForum/Forum.php::15.12.2006 @ 16:58:45
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::15.12.2006 @ 16:59:37
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/index.php?show=6&door=mess::/NewForum/Forum.php::15.12.2006 @ 16:59:41
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/reg.php::/NewForum/Forum.php::15.12.2006 @ 17:01:23
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/reg.php::/NewForum/Forum.php::15.12.2006 @ 17:01:52
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/reg.php::/NewForum/Forum.php::15.12.2006 @ 17:01:53
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/reg.php::/NewForum/Forum.php::15.12.2006 @ 17:01:54
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/::/NewForum/::22.12.2006 @ 18:34:36
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/reg.php::/NewForum/Forum.php::22.12.2006 @ 18:37:49
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::22.12.2006 @ 18:38:02
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/::/NewForum/::06.04.2007 @ 01:28:32
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::06.04.2007 @ 01:28:38
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/user.php?user=Fuzzy::/NewForum/Forum.php::06.04.2007 @ 01:28:41
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/user.php?user=ilx::/NewForum/Forum.php::06.04.2007 @ 01:28:46
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/index.php?show=6&door=mess::/NewForum/Forum.php::06.04.2007 @ 01:28:51
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/index.php?show=0&door=mess::/NewForum/Forum.php::06.04.2007 @ 01:28:57
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::06.04.2007 @ 01:29:01
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::06.04.2007 @ 01:29:13
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::06.04.2007 @ 01:29:20
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://wsr/NewForum/reg.php::/NewForum/Forum.php::06.04.2007 @ 01:31:08
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::No Referer::/NewForum/Forum.php::06.04.2007 @ 01:31:18
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://ilx_home/WSR/www/::/WSR/www/NewForum/::23.07.2007 @ 04:02:43
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.8.1) Gecko/20061010 Firefox/2.0::127.0.0.1::Unknown::http://ilx_home/WSR/www/::/WSR/www/NewForum/::23.07.2007 @ 15:39:35
